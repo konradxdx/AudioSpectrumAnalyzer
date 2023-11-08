@@ -18,6 +18,9 @@
 AudioSpectrumAnalyzer_BINARY_DIR:STATIC=C:/Users/Konrad/OneDrive/Dokumenty/STM32Projekty/AudioSpectrumAnalyzer/build/debug/build
 
 //Value Computed by CMake
+AudioSpectrumAnalyzer_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
 AudioSpectrumAnalyzer_SOURCE_DIR:STATIC=C:/Users/Konrad/OneDrive/Dokumenty/STM32Projekty/AudioSpectrumAnalyzer
 
 //Path to a program.
@@ -120,6 +123,9 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Enable/Disable output of compile commands during generation.
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
+//Value Computed by CMake.
+CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/Konrad/OneDrive/Dokumenty/STM32Projekty/AudioSpectrumAnalyzer/build/debug/build/CMakeFiles/pkgRedirects
+
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=C:/Users/Konrad/OneDrive/Dokumenty/STM32Projekty/AudioSpectrumAnalyzer/build/debug/install
 
@@ -220,6 +226,9 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/arm-none-eabi-strip.exe
 
+//Path to a program.
+CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
+
 //No help, variable specified on the command line.
 CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Users/Konrad/OneDrive/Dokumenty/STM32Projekty/AudioSpectrumAnalyzer/cmake/gcc-arm-none-eabi.cmake
 
@@ -300,6 +309,8 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
+//Path to cache edit program executable.
+CMAKE_EDIT_COMMAND:INTERNAL=C:/Program Files/CMake/bin/cmake-gui.exe
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -381,6 +392,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STRIP
 CMAKE_STRIP-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_TAPI
+CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 

@@ -73,7 +73,7 @@ void Error_Handler(void);
 #define CH_L_GPIO_Port GPIOB
 #define CH_R_Pin GPIO_PIN_1
 #define CH_R_GPIO_Port GPIOB
-#define CS0_Pin GPIO_PIN_2
+#define CS0_Pin GPIO_PIN_10
 #define CS0_GPIO_Port GPIOB
 #define LAT0_Pin GPIO_PIN_4
 #define LAT0_GPIO_Port GPIOB

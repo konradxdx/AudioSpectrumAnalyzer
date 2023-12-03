@@ -24,6 +24,36 @@
       },
       "preLaunchTask": "Build",
       "svdPath": "${command:vscode-embedded.st.svd}/STM32F411"
+    },
+    {
+      "showDevDebugOutput": "parsed",
+      "cwd": "${workspaceRoot}",
+      "executable": "./build/AudioSpectrumAnalyzer.elf",
+      "name": "Debug STM32",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "openocd",
+      "preLaunchTask": "Build STM",
+      "device": "stm32f411xe.s",
+      "configFiles": [
+        "openocd.cfg"
+      ],
+      "svdFile": "STM32F411.svd"
+    },
+    {
+      "showDevDebugOutput": "parsed",
+      "cwd": "${workspaceRoot}",
+      "executable": "./build/AudioSpectrumAnalyzer.elf",
+      "name": "Attach STM32",
+      "request": "attach",
+      "type": "cortex-debug",
+      "servertype": "openocd",
+      "preLaunchTask": "Build STM",
+      "device": "stm32f411xe.s",
+      "configFiles": [
+        "openocd.cfg"
+      ],
+      "svdFile": "STM32F411.svd"
     }
   ]
 }

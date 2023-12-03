@@ -14,7 +14,7 @@
 #include <stdbool.h>
 
 #include "enc_disp.h"
-#include "dac_driver.h"
+//#include "dac_driver.h"
 
 int16_t stan_enc = 20;
 uint8_t znak = 127;
@@ -41,7 +41,7 @@ void line(){
 				pasek[i] = ' ';
 		}
 
-		dprint("%s^Status",pasek);
+		dprint("%.20s^Status",pasek);
 		HAL_Delay(10);
 	}
 	HAL_Delay(200);
@@ -60,7 +60,7 @@ void change_char(){
 	clearDisp();
 	HAL_Delay(200);
 }
-
+/*
 void set_dac(){
 	int16_t dac_channel=0;
 	int16_t dac_value=0;
@@ -78,13 +78,13 @@ void set_dac(){
 		HAL_Delay(100);
 	}
 }
-
+*/
 void menu(){
 
 	struct menu_option options[] = {
 			{"Display bar",line},
 			{"Set bar character",change_char},
-			{"Drive DAC", set_dac}
+			//{"Drive DAC", set_dac}
 	};
 
 	int16_t position = 0;

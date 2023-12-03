@@ -22,18 +22,18 @@ void dprint(const char *fmt, ...) {
   for(int i = 0 ; i<40 ; i++){
 	 if(buffer[i]<32) buffer[i]=' ';
   }
-  HAL_UART_Transmit(&huart2, (uint8_t*)buffer, 40, -1);
+  HAL_UART_Transmit(&huart1, (uint8_t*)buffer, 40, -1);
 
 }
 
 void clearDisp(void) {
 	const uint8_t x =  19 ;
-	HAL_UART_Transmit(&huart2, &x, 1, -1);
+	HAL_UART_Transmit(&huart1, &x, 1, -1);
 }
 
 void UpdateEnc(uint8_t min, uint8_t max, int16_t* enc_state, bool stopAtBorder) {
 	static uint16_t LastTimerCounter = 0;
-	int TimerDif = htim1.Instance->CNT - LastTimerCounter;
+	int TimerDif = htim2.Instance->CNT - LastTimerCounter;
 	if (TimerDif >= 4 || TimerDif <= -4) {
 		TimerDif /= 4;
 		*enc_state += (int8_t) TimerDif;
@@ -43,7 +43,7 @@ void UpdateEnc(uint8_t min, uint8_t max, int16_t* enc_state, bool stopAtBorder) 
 		if (*enc_state < min){
 			if(stopAtBorder == true) *enc_state = min; else *enc_state = max;
 		}
-		LastTimerCounter = htim1.Instance->CNT;
+		LastTimerCounter = htim2.Instance->CNT;
 	}
 }
 

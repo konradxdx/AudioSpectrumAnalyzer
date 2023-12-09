@@ -1,5 +1,5 @@
 /*
- * my_main.c
+ * clean_main.c
  *
  *  Created on: 15 gru 2022
  *      Author: Konrad
@@ -8,6 +8,7 @@
 #include "main.h"
 #include "adc.h"
 #include "spi.h"
+#include "dma.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -19,6 +20,7 @@
 int16_t stan_enc = 20;
 uint8_t znak = 127;
 char pasek[20];
+volatile uint16_t samples[2];
 
 typedef struct menu_option{
 	char * prompt;
@@ -98,8 +100,11 @@ void menu(){
 	options[position].func();
 }
 
+
 void clean_main(){
 	HAL_TIM_Base_Start(&htim2);
+	//HAL_TIM_Base_Start(&htim3);
+	HAL_ADC_Start_DMA(&hadc1, samples, 2);
 }
 
 void clean_loop(){

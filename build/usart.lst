@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 1
   28:Core/Src/usart.c **** 
   29:Core/Src/usart.c **** /* USART1 init function */
   30:Core/Src/usart.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s 			page 2
 
 
   31:Core/Src/usart.c **** void MX_USART1_UART_Init(void)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 1
   65 001c C361     		str	r3, [r0, #28]
   49:Core/Src/usart.c ****   if (HAL_UART_Init(&huart1) != HAL_OK)
   66              		.loc 1 49 3 is_stmt 1 view .LVU17
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s 			page 3
 
 
   67              		.loc 1 49 7 is_stmt 0 view .LVU18
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 1
  109              		.loc 1 62 3 is_stmt 1 view .LVU25
  110              		.loc 1 62 20 is_stmt 0 view .LVU26
  111 0004 0023     		movs	r3, #0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s 			page 4
 
 
  112 0006 0393     		str	r3, [sp, #12]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 1
  139 0024 0021     		movs	r1, #0
  140 0026 0191     		str	r1, [sp, #4]
   69:Core/Src/usart.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s 			page 5
 
 
  141              		.loc 1 69 5 view .LVU33
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 1
   79:Core/Src/usart.c ****     GPIO_InitStruct.Alternate = GPIO_AF7_USART1;
  180              		.loc 1 79 27 is_stmt 0 view .LVU49
  181 005a 0323     		movs	r3, #3
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s 			page 6
 
 
  182 005c 0693     		str	r3, [sp, #24]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 1
  229              	.LVL8:
  230              	.L13:
   93:Core/Src/usart.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s 			page 7
 
 
   94:Core/Src/usart.c ****   /* USER CODE BEGIN USART1_MspDeInit 0 */
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 1
  264      00000000 
  265              		.text
  266              	.Letext0:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 8
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s 			page 8
 
 
  267              		.file 2 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
@@ -430,22 +430,22 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 1
  273              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h"
  274              		.file 9 "Core/Inc/usart.h"
  275              		.file 10 "Core/Inc/main.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s 			page 9
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usart.c
-C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s:21     .text.MX_USART1_UART_Init:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s:27     .text.MX_USART1_UART_Init:00000000 MX_USART1_UART_Init
-C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s:84     .text.MX_USART1_UART_Init:0000002c $d
-C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s:263    .bss.huart1:00000000 huart1
-C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s:90     .text.HAL_UART_MspInit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s:96     .text.HAL_UART_MspInit:00000000 HAL_UART_MspInit
-C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s:199    .text.HAL_UART_MspInit:0000006c $d
-C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s:204    .text.HAL_UART_MspDeInit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s:210    .text.HAL_UART_MspDeInit:00000000 HAL_UART_MspDeInit
-C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s:252    .text.HAL_UART_MspDeInit:00000020 $d
-C:\Users\Konrad\AppData\Local\Temp\ccFNdzaa.s:260    .bss.huart1:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s:21     .text.MX_USART1_UART_Init:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s:27     .text.MX_USART1_UART_Init:00000000 MX_USART1_UART_Init
+C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s:84     .text.MX_USART1_UART_Init:0000002c $d
+C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s:263    .bss.huart1:00000000 huart1
+C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s:90     .text.HAL_UART_MspInit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s:96     .text.HAL_UART_MspInit:00000000 HAL_UART_MspInit
+C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s:199    .text.HAL_UART_MspInit:0000006c $d
+C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s:204    .text.HAL_UART_MspDeInit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s:210    .text.HAL_UART_MspDeInit:00000000 HAL_UART_MspDeInit
+C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s:252    .text.HAL_UART_MspDeInit:00000020 $d
+C:\Users\Konrad\AppData\Local\Temp\cc6TSoaD.s:260    .bss.huart1:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_UART_Init

@@ -1,3 +1,0 @@
-C:/Users/Konrad/OneDrive/Dokumenty/STM32Projekty/AudioSpectrumAnalyzer/build/debug/build/CMakeFiles/AudioSpectrumAnalyzer.dir
-C:/Users/Konrad/OneDrive/Dokumenty/STM32Projekty/AudioSpectrumAnalyzer/build/debug/build/CMakeFiles/edit_cache.dir
-C:/Users/Konrad/OneDrive/Dokumenty/STM32Projekty/AudioSpectrumAnalyzer/build/debug/build/CMakeFiles/rebuild_cache.dir

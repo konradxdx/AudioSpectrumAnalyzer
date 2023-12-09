@@ -39,6 +39,7 @@ C_SOURCES =  \
 Core/Src/adc.c \
 Core/Src/clean_main.c \
 Core/Src/dac_driver.c \
+Core/Src/dma.c \
 Core/Src/enc_disp.c \
 Core/Src/gpio.c \
 Core/Src/main.c \

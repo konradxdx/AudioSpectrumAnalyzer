@@ -81,11 +81,31 @@ void set_dac(){
 	}
 }
 */
+
+void switchTube(bool state){
+	HAL_GPIO_WritePin(EN_TUBE_GPIO_Port,EN_TUBE_Pin,state);
+}
+
+void testOutput(void){
+	clearDisp();
+	while(button() == 1);
+	while(button() == 0){
+		HAL_Delay(1000);
+		switchTube(1);
+		dprint("Out:1");
+		HAL_Delay(1000);
+		switchTube(0);
+		dprint("Out:0");
+	}
+	while(button() == 1);
+}
+
 void menu(){
 
 	struct menu_option options[] = {
 			{"Display bar",line},
 			{"Set bar character",change_char},
+			{"Test wyjscia",testOutput}
 			//{"Drive DAC", set_dac}
 	};
 
@@ -99,7 +119,6 @@ void menu(){
 	}
 	options[position].func();
 }
-
 
 void clean_main(){
 	HAL_TIM_Base_Start(&htim2);

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -22,7 +22,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 1
   19              		.file 1 "Core/Src/clean_main.c"
   20              		.section	.rodata.line.str1.4,"aMS",%progbits,1
   21              		.align	2
-  22              	.LC3:
+  22              	.LC4:
   23 0000 252E3230 		.ascii	"%.20s^Status\000"
   23      735E5374 
   23      61747573 
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 1
   21:Core/Src/clean_main.c **** uint8_t znak = 127;
   22:Core/Src/clean_main.c **** char pasek[20];
   23:Core/Src/clean_main.c **** volatile uint16_t samples[2];
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 2
 
 
   24:Core/Src/clean_main.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 1
   63              		.loc 1 36 7 view .LVU9
   64 0018 9A42     		cmp	r2, r3
   65 001a 03DD     		ble	.L4
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 3
 
 
   37:Core/Src/clean_main.c **** 			}
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 1
  104 0046 084A     		ldr	r2, .L11
  105 0048 1421     		movs	r1, #20
  106 004a 0020     		movs	r0, #0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 4
 
 
  107 004c FFF7FEFF 		bl	UpdateEnc
@@ -225,12 +225,12 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 1
  138 0068 00000000 		.word	stan_enc
  139 006c 00000000 		.word	znak
  140 0070 00000000 		.word	pasek
- 141 0074 00000000 		.word	.LC3
+ 141 0074 00000000 		.word	.LC4
  142              		.cfi_endproc
  143              	.LFE216:
  145              		.section	.rodata.change_char.str1.4,"aMS",%progbits,1
  146              		.align	2
- 147              	.LC4:
+ 147              	.LC5:
  148 0000 4B6F643A 		.ascii	"Kod: %03d = '%c'\000"
  148      20253033 
  148      64203D20 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 1
  148      00
  149              		.section	.text.change_char,"ax",%progbits
  150              		.align	1
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 5
 
 
  151              		.global	change_char
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 1
   56:Core/Src/clean_main.c **** 		znak = stan_enc;
  198              		.loc 1 56 17 view .LVU42
   56:Core/Src/clean_main.c **** 		znak = stan_enc;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 6
 
 
  199              		.loc 1 56 9 is_stmt 0 view .LVU43
@@ -326,22 +326,18 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 1
  216              	.L17:
  217 0048 00000000 		.word	stan_enc
  218 004c 00000000 		.word	znak
- 219 0050 00000000 		.word	.LC4
+ 219 0050 00000000 		.word	.LC5
  220              		.cfi_endproc
  221              	.LFE217:
- 223              		.section	.rodata.menu.str1.4,"aMS",%progbits,1
- 224              		.align	2
- 225              	.LC6:
- 226 0000 25642E25 		.ascii	"%d.%s\000"
- 226      7300
- 227              		.section	.text.menu,"ax",%progbits
- 228              		.align	1
- 229              		.global	menu
- 230              		.syntax unified
- 231              		.thumb
- 232              		.thumb_func
- 234              	menu:
- 235              	.LFB218:
+ 223              		.section	.text.switchTube,"ax",%progbits
+ 224              		.align	1
+ 225              		.global	switchTube
+ 226              		.syntax unified
+ 227              		.thumb
+ 228              		.thumb_func
+ 230              	switchTube:
+ 231              	.LVL17:
+ 232              	.LFB218:
   65:Core/Src/clean_main.c **** /*
   66:Core/Src/clean_main.c **** void set_dac(){
   67:Core/Src/clean_main.c **** 	int16_t dac_channel=0;
@@ -358,281 +354,455 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 1
   78:Core/Src/clean_main.c **** 		dprint("Wartosc ADC: \"%d\"",dac_value);
   79:Core/Src/clean_main.c **** 		dac_write(dac_channel, dac_value, 0);
   80:Core/Src/clean_main.c **** 		HAL_Delay(100);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 7
-
-
   81:Core/Src/clean_main.c **** 	}
   82:Core/Src/clean_main.c **** }
   83:Core/Src/clean_main.c **** */
-  84:Core/Src/clean_main.c **** void menu(){
- 236              		.loc 1 84 12 is_stmt 1 view -0
- 237              		.cfi_startproc
- 238              		@ args = 0, pretend = 0, frame = 24
- 239              		@ frame_needed = 0, uses_anonymous_args = 0
- 240 0000 00B5     		push	{lr}
- 241              		.cfi_def_cfa_offset 4
- 242              		.cfi_offset 14, -4
- 243 0002 87B0     		sub	sp, sp, #28
- 244              		.cfi_def_cfa_offset 32
-  85:Core/Src/clean_main.c **** 
-  86:Core/Src/clean_main.c **** 	struct menu_option options[] = {
- 245              		.loc 1 86 2 view .LVU49
- 246              		.loc 1 86 21 is_stmt 0 view .LVU50
- 247 0004 164B     		ldr	r3, .L23
- 248 0006 0FCB     		ldm	r3, {r0, r1, r2, r3}
- 249 0008 0DF1180C 		add	ip, sp, #24
- 250 000c 0CE90F00 		stmdb	ip, {r0, r1, r2, r3}
-  87:Core/Src/clean_main.c **** 			{"Display bar",line},
-  88:Core/Src/clean_main.c **** 			{"Set bar character",change_char},
-  89:Core/Src/clean_main.c **** 			//{"Drive DAC", set_dac}
-  90:Core/Src/clean_main.c **** 	};
-  91:Core/Src/clean_main.c **** 
-  92:Core/Src/clean_main.c **** 	int16_t position = 0;
- 251              		.loc 1 92 2 is_stmt 1 view .LVU51
- 252              		.loc 1 92 10 is_stmt 0 view .LVU52
- 253 0010 0023     		movs	r3, #0
- 254 0012 ADF80630 		strh	r3, [sp, #6]	@ movhi
-  93:Core/Src/clean_main.c **** 	uint8_t options_count = sizeof(options)/sizeof(options[0]);
- 255              		.loc 1 93 2 is_stmt 1 view .LVU53
- 256              	.LVL17:
-  94:Core/Src/clean_main.c **** 
-  95:Core/Src/clean_main.c **** 	while(button()==0){
- 257              		.loc 1 95 2 view .LVU54
- 258              		.loc 1 95 7 is_stmt 0 view .LVU55
- 259 0016 14E0     		b	.L20
- 260              	.L21:
-  96:Core/Src/clean_main.c **** 		UpdateEnc(0,options_count-1, &position, false);
- 261              		.loc 1 96 3 is_stmt 1 view .LVU56
- 262 0018 0023     		movs	r3, #0
- 263 001a 0DF10602 		add	r2, sp, #6
- 264 001e 0121     		movs	r1, #1
- 265 0020 1846     		mov	r0, r3
- 266 0022 FFF7FEFF 		bl	UpdateEnc
- 267              	.LVL18:
-  97:Core/Src/clean_main.c **** 		dprint("%d.%s",position+1, options[position].prompt);
- 268              		.loc 1 97 3 view .LVU57
- 269 0026 BDF90610 		ldrsh	r1, [sp, #6]
- 270 002a 06AB     		add	r3, sp, #24
- 271 002c 03EBC103 		add	r3, r3, r1, lsl #3
- 272 0030 53F8102C 		ldr	r2, [r3, #-16]
- 273 0034 0131     		adds	r1, r1, #1
- 274 0036 0B48     		ldr	r0, .L23+4
- 275 0038 FFF7FEFF 		bl	dprint
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 8
+  84:Core/Src/clean_main.c **** 
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 7
 
 
- 276              	.LVL19:
-  98:Core/Src/clean_main.c **** 		HAL_Delay(50);
- 277              		.loc 1 98 3 view .LVU58
- 278 003c 3220     		movs	r0, #50
- 279 003e FFF7FEFF 		bl	HAL_Delay
- 280              	.LVL20:
- 281              	.L20:
-  95:Core/Src/clean_main.c **** 		UpdateEnc(0,options_count-1, &position, false);
- 282              		.loc 1 95 16 view .LVU59
-  95:Core/Src/clean_main.c **** 		UpdateEnc(0,options_count-1, &position, false);
- 283              		.loc 1 95 8 is_stmt 0 view .LVU60
- 284 0042 FFF7FEFF 		bl	button
- 285              	.LVL21:
-  95:Core/Src/clean_main.c **** 		UpdateEnc(0,options_count-1, &position, false);
- 286              		.loc 1 95 16 discriminator 1 view .LVU61
- 287 0046 0028     		cmp	r0, #0
- 288 0048 E6D0     		beq	.L21
+  85:Core/Src/clean_main.c **** void switchTube(bool state){
+ 233              		.loc 1 85 28 is_stmt 1 view -0
+ 234              		.cfi_startproc
+ 235              		@ args = 0, pretend = 0, frame = 0
+ 236              		@ frame_needed = 0, uses_anonymous_args = 0
+ 237              		.loc 1 85 28 is_stmt 0 view .LVU49
+ 238 0000 08B5     		push	{r3, lr}
+ 239              		.cfi_def_cfa_offset 8
+ 240              		.cfi_offset 3, -8
+ 241              		.cfi_offset 14, -4
+ 242 0002 0246     		mov	r2, r0
+  86:Core/Src/clean_main.c **** 	HAL_GPIO_WritePin(EN_TUBE_GPIO_Port,EN_TUBE_Pin,state);
+ 243              		.loc 1 86 2 is_stmt 1 view .LVU50
+ 244 0004 4FF40071 		mov	r1, #512
+ 245 0008 0148     		ldr	r0, .L21
+ 246              	.LVL18:
+ 247              		.loc 1 86 2 is_stmt 0 view .LVU51
+ 248 000a FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 249              	.LVL19:
+  87:Core/Src/clean_main.c **** }
+ 250              		.loc 1 87 1 view .LVU52
+ 251 000e 08BD     		pop	{r3, pc}
+ 252              	.L22:
+ 253              		.align	2
+ 254              	.L21:
+ 255 0010 00040240 		.word	1073873920
+ 256              		.cfi_endproc
+ 257              	.LFE218:
+ 259              		.section	.rodata.testOutput.str1.4,"aMS",%progbits,1
+ 260              		.align	2
+ 261              	.LC6:
+ 262 0000 4F75743A 		.ascii	"Out:1\000"
+ 262      3100
+ 263 0006 0000     		.align	2
+ 264              	.LC7:
+ 265 0008 4F75743A 		.ascii	"Out:0\000"
+ 265      3000
+ 266              		.section	.text.testOutput,"ax",%progbits
+ 267              		.align	1
+ 268              		.global	testOutput
+ 269              		.syntax unified
+ 270              		.thumb
+ 271              		.thumb_func
+ 273              	testOutput:
+ 274              	.LFB219:
+  88:Core/Src/clean_main.c **** 
+  89:Core/Src/clean_main.c **** void testOutput(void){
+ 275              		.loc 1 89 22 is_stmt 1 view -0
+ 276              		.cfi_startproc
+ 277              		@ args = 0, pretend = 0, frame = 0
+ 278              		@ frame_needed = 0, uses_anonymous_args = 0
+ 279 0000 08B5     		push	{r3, lr}
+ 280              		.cfi_def_cfa_offset 8
+ 281              		.cfi_offset 3, -8
+ 282              		.cfi_offset 14, -4
+  90:Core/Src/clean_main.c **** 	clearDisp();
+ 283              		.loc 1 90 2 view .LVU54
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 8
+
+
+ 284 0002 FFF7FEFF 		bl	clearDisp
+ 285              	.LVL20:
+  91:Core/Src/clean_main.c **** 	while(button() == 1);
+ 286              		.loc 1 91 2 view .LVU55
+ 287              	.L24:
+ 288              		.loc 1 91 17 discriminator 1 view .LVU56
+ 289              		.loc 1 91 8 is_stmt 0 discriminator 1 view .LVU57
+ 290 0006 FFF7FEFF 		bl	button
+ 291              	.LVL21:
+ 292              		.loc 1 91 17 discriminator 1 view .LVU58
+ 293 000a 0028     		cmp	r0, #0
+ 294 000c FBD1     		bne	.L24
+ 295 000e 13E0     		b	.L25
+ 296              	.L26:
+  92:Core/Src/clean_main.c **** 	while(button() == 0){
+  93:Core/Src/clean_main.c **** 		HAL_Delay(1000);
+ 297              		.loc 1 93 3 is_stmt 1 view .LVU59
+ 298 0010 4FF47A70 		mov	r0, #1000
+ 299 0014 FFF7FEFF 		bl	HAL_Delay
+ 300              	.LVL22:
+  94:Core/Src/clean_main.c **** 		switchTube(1);
+ 301              		.loc 1 94 3 view .LVU60
+ 302 0018 0120     		movs	r0, #1
+ 303 001a FFF7FEFF 		bl	switchTube
+ 304              	.LVL23:
+  95:Core/Src/clean_main.c **** 		dprint("Out:1");
+ 305              		.loc 1 95 3 view .LVU61
+ 306 001e 0B48     		ldr	r0, .L29
+ 307 0020 FFF7FEFF 		bl	dprint
+ 308              	.LVL24:
+  96:Core/Src/clean_main.c **** 		HAL_Delay(1000);
+ 309              		.loc 1 96 3 view .LVU62
+ 310 0024 4FF47A70 		mov	r0, #1000
+ 311 0028 FFF7FEFF 		bl	HAL_Delay
+ 312              	.LVL25:
+  97:Core/Src/clean_main.c **** 		switchTube(0);
+ 313              		.loc 1 97 3 view .LVU63
+ 314 002c 0020     		movs	r0, #0
+ 315 002e FFF7FEFF 		bl	switchTube
+ 316              	.LVL26:
+  98:Core/Src/clean_main.c **** 		dprint("Out:0");
+ 317              		.loc 1 98 3 view .LVU64
+ 318 0032 0748     		ldr	r0, .L29+4
+ 319 0034 FFF7FEFF 		bl	dprint
+ 320              	.LVL27:
+ 321              	.L25:
+  92:Core/Src/clean_main.c **** 		HAL_Delay(1000);
+ 322              		.loc 1 92 17 view .LVU65
+  92:Core/Src/clean_main.c **** 		HAL_Delay(1000);
+ 323              		.loc 1 92 8 is_stmt 0 view .LVU66
+ 324 0038 FFF7FEFF 		bl	button
+ 325              	.LVL28:
+  92:Core/Src/clean_main.c **** 		HAL_Delay(1000);
+ 326              		.loc 1 92 17 discriminator 1 view .LVU67
+ 327 003c 0028     		cmp	r0, #0
+ 328 003e E7D0     		beq	.L26
+ 329              	.L27:
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 9
+
+
   99:Core/Src/clean_main.c **** 	}
- 100:Core/Src/clean_main.c **** 	options[position].func();
- 289              		.loc 1 100 2 is_stmt 1 view .LVU62
- 290              		.loc 1 100 19 is_stmt 0 view .LVU63
- 291 004a BDF90630 		ldrsh	r3, [sp, #6]
- 292 004e 06AA     		add	r2, sp, #24
- 293 0050 02EBC303 		add	r3, r2, r3, lsl #3
- 294 0054 53F80C3C 		ldr	r3, [r3, #-12]
- 295              		.loc 1 100 2 view .LVU64
- 296 0058 9847     		blx	r3
- 297              	.LVL22:
+ 100:Core/Src/clean_main.c **** 	while(button() == 1);
+ 330              		.loc 1 100 17 is_stmt 1 discriminator 1 view .LVU68
+ 331              		.loc 1 100 8 is_stmt 0 discriminator 1 view .LVU69
+ 332 0040 FFF7FEFF 		bl	button
+ 333              	.LVL29:
+ 334              		.loc 1 100 17 discriminator 1 view .LVU70
+ 335 0044 0028     		cmp	r0, #0
+ 336 0046 FBD1     		bne	.L27
  101:Core/Src/clean_main.c **** }
- 298              		.loc 1 101 1 view .LVU65
- 299 005a 07B0     		add	sp, sp, #28
- 300              		.cfi_def_cfa_offset 4
- 301              		@ sp needed
- 302 005c 5DF804FB 		ldr	pc, [sp], #4
- 303              	.L24:
- 304              		.align	2
- 305              	.L23:
- 306 0060 00000000 		.word	.LANCHOR0
- 307 0064 00000000 		.word	.LC6
- 308              		.cfi_endproc
- 309              	.LFE218:
- 311              		.section	.text.clean_main,"ax",%progbits
- 312              		.align	1
- 313              		.global	clean_main
- 314              		.syntax unified
- 315              		.thumb
- 316              		.thumb_func
- 318              	clean_main:
- 319              	.LFB219:
+ 337              		.loc 1 101 1 view .LVU71
+ 338 0048 08BD     		pop	{r3, pc}
+ 339              	.L30:
+ 340 004a 00BF     		.align	2
+ 341              	.L29:
+ 342 004c 00000000 		.word	.LC6
+ 343 0050 08000000 		.word	.LC7
+ 344              		.cfi_endproc
+ 345              	.LFE219:
+ 347              		.section	.rodata.menu.str1.4,"aMS",%progbits,1
+ 348              		.align	2
+ 349              	.LC9:
+ 350 0000 25642E25 		.ascii	"%d.%s\000"
+ 350      7300
+ 351              		.section	.text.menu,"ax",%progbits
+ 352              		.align	1
+ 353              		.global	menu
+ 354              		.syntax unified
+ 355              		.thumb
+ 356              		.thumb_func
+ 358              	menu:
+ 359              	.LFB220:
  102:Core/Src/clean_main.c **** 
- 103:Core/Src/clean_main.c **** void clean_main(){
- 320              		.loc 1 103 18 is_stmt 1 view -0
- 321              		.cfi_startproc
- 322              		@ args = 0, pretend = 0, frame = 0
- 323              		@ frame_needed = 0, uses_anonymous_args = 0
- 324 0000 08B5     		push	{r3, lr}
- 325              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 9
+ 103:Core/Src/clean_main.c **** void menu(){
+ 360              		.loc 1 103 12 is_stmt 1 view -0
+ 361              		.cfi_startproc
+ 362              		@ args = 0, pretend = 0, frame = 32
+ 363              		@ frame_needed = 0, uses_anonymous_args = 0
+ 364 0000 10B5     		push	{r4, lr}
+ 365              		.cfi_def_cfa_offset 8
+ 366              		.cfi_offset 4, -8
+ 367              		.cfi_offset 14, -4
+ 368 0002 88B0     		sub	sp, sp, #32
+ 369              		.cfi_def_cfa_offset 40
+ 104:Core/Src/clean_main.c **** 
+ 105:Core/Src/clean_main.c **** 	struct menu_option options[] = {
+ 370              		.loc 1 105 2 view .LVU73
+ 371              		.loc 1 105 21 is_stmt 0 view .LVU74
+ 372 0004 0DF1080C 		add	ip, sp, #8
+ 373 0008 174C     		ldr	r4, .L35
+ 374 000a 0FCC     		ldmia	r4!, {r0, r1, r2, r3}
+ 375 000c ACE80F00 		stmia	ip!, {r0, r1, r2, r3}
+ 376 0010 94E80300 		ldm	r4, {r0, r1}
+ 377 0014 8CE80300 		stm	ip, {r0, r1}
+ 106:Core/Src/clean_main.c **** 			{"Display bar",line},
+ 107:Core/Src/clean_main.c **** 			{"Set bar character",change_char},
+ 108:Core/Src/clean_main.c **** 			{"Test wyjscia",testOutput}
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 10
 
 
- 326              		.cfi_offset 3, -8
- 327              		.cfi_offset 14, -4
- 104:Core/Src/clean_main.c **** 	HAL_TIM_Base_Start(&htim2);
- 328              		.loc 1 104 2 view .LVU67
- 329 0002 0448     		ldr	r0, .L27
- 330 0004 FFF7FEFF 		bl	HAL_TIM_Base_Start
- 331              	.LVL23:
- 105:Core/Src/clean_main.c **** 	//HAL_TIM_Base_Start(&htim3);
- 106:Core/Src/clean_main.c **** 	HAL_ADC_Start_DMA(&hadc1, samples, 2);
- 332              		.loc 1 106 2 view .LVU68
- 333 0008 0222     		movs	r2, #2
- 334 000a 0349     		ldr	r1, .L27+4
- 335 000c 0348     		ldr	r0, .L27+8
- 336 000e FFF7FEFF 		bl	HAL_ADC_Start_DMA
- 337              	.LVL24:
- 107:Core/Src/clean_main.c **** }
- 338              		.loc 1 107 1 is_stmt 0 view .LVU69
- 339 0012 08BD     		pop	{r3, pc}
- 340              	.L28:
- 341              		.align	2
- 342              	.L27:
- 343 0014 00000000 		.word	htim2
- 344 0018 00000000 		.word	samples
- 345 001c 00000000 		.word	hadc1
- 346              		.cfi_endproc
- 347              	.LFE219:
- 349              		.section	.text.clean_loop,"ax",%progbits
- 350              		.align	1
- 351              		.global	clean_loop
- 352              		.syntax unified
- 353              		.thumb
- 354              		.thumb_func
- 356              	clean_loop:
- 357              	.LFB220:
- 108:Core/Src/clean_main.c **** 
- 109:Core/Src/clean_main.c **** void clean_loop(){
- 358              		.loc 1 109 18 is_stmt 1 view -0
- 359              		.cfi_startproc
- 360              		@ args = 0, pretend = 0, frame = 0
- 361              		@ frame_needed = 0, uses_anonymous_args = 0
- 362 0000 08B5     		push	{r3, lr}
- 363              		.cfi_def_cfa_offset 8
- 364              		.cfi_offset 3, -8
- 365              		.cfi_offset 14, -4
- 110:Core/Src/clean_main.c **** 	clearDisp();
- 366              		.loc 1 110 2 view .LVU71
- 367 0002 FFF7FEFF 		bl	clearDisp
- 368              	.LVL25:
- 111:Core/Src/clean_main.c **** 	menu();
- 369              		.loc 1 111 2 view .LVU72
- 370 0006 FFF7FEFF 		bl	menu
- 371              	.LVL26:
- 112:Core/Src/clean_main.c **** }
- 372              		.loc 1 112 1 is_stmt 0 view .LVU73
- 373 000a 08BD     		pop	{r3, pc}
- 374              		.cfi_endproc
- 375              	.LFE220:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 10
+ 109:Core/Src/clean_main.c **** 			//{"Drive DAC", set_dac}
+ 110:Core/Src/clean_main.c **** 	};
+ 111:Core/Src/clean_main.c **** 
+ 112:Core/Src/clean_main.c **** 	int16_t position = 0;
+ 378              		.loc 1 112 2 is_stmt 1 view .LVU75
+ 379              		.loc 1 112 10 is_stmt 0 view .LVU76
+ 380 0018 0023     		movs	r3, #0
+ 381 001a ADF80630 		strh	r3, [sp, #6]	@ movhi
+ 113:Core/Src/clean_main.c **** 	uint8_t options_count = sizeof(options)/sizeof(options[0]);
+ 382              		.loc 1 113 2 is_stmt 1 view .LVU77
+ 383              	.LVL30:
+ 114:Core/Src/clean_main.c **** 
+ 115:Core/Src/clean_main.c **** 	while(button()==0){
+ 384              		.loc 1 115 2 view .LVU78
+ 385              		.loc 1 115 7 is_stmt 0 view .LVU79
+ 386 001e 14E0     		b	.L32
+ 387              	.L33:
+ 116:Core/Src/clean_main.c **** 		UpdateEnc(0,options_count-1, &position, false);
+ 388              		.loc 1 116 3 is_stmt 1 view .LVU80
+ 389 0020 0023     		movs	r3, #0
+ 390 0022 0DF10602 		add	r2, sp, #6
+ 391 0026 0221     		movs	r1, #2
+ 392 0028 1846     		mov	r0, r3
+ 393 002a FFF7FEFF 		bl	UpdateEnc
+ 394              	.LVL31:
+ 117:Core/Src/clean_main.c **** 		dprint("%d.%s",position+1, options[position].prompt);
+ 395              		.loc 1 117 3 view .LVU81
+ 396 002e BDF90610 		ldrsh	r1, [sp, #6]
+ 397 0032 08AB     		add	r3, sp, #32
+ 398 0034 03EBC103 		add	r3, r3, r1, lsl #3
+ 399 0038 53F8182C 		ldr	r2, [r3, #-24]
+ 400 003c 0131     		adds	r1, r1, #1
+ 401 003e 0B48     		ldr	r0, .L35+4
+ 402 0040 FFF7FEFF 		bl	dprint
+ 403              	.LVL32:
+ 118:Core/Src/clean_main.c **** 		HAL_Delay(50);
+ 404              		.loc 1 118 3 view .LVU82
+ 405 0044 3220     		movs	r0, #50
+ 406 0046 FFF7FEFF 		bl	HAL_Delay
+ 407              	.LVL33:
+ 408              	.L32:
+ 115:Core/Src/clean_main.c **** 		UpdateEnc(0,options_count-1, &position, false);
+ 409              		.loc 1 115 16 view .LVU83
+ 115:Core/Src/clean_main.c **** 		UpdateEnc(0,options_count-1, &position, false);
+ 410              		.loc 1 115 8 is_stmt 0 view .LVU84
+ 411 004a FFF7FEFF 		bl	button
+ 412              	.LVL34:
+ 115:Core/Src/clean_main.c **** 		UpdateEnc(0,options_count-1, &position, false);
+ 413              		.loc 1 115 16 discriminator 1 view .LVU85
+ 414 004e 0028     		cmp	r0, #0
+ 415 0050 E6D0     		beq	.L33
+ 119:Core/Src/clean_main.c **** 	}
+ 120:Core/Src/clean_main.c **** 	options[position].func();
+ 416              		.loc 1 120 2 is_stmt 1 view .LVU86
+ 417              		.loc 1 120 19 is_stmt 0 view .LVU87
+ 418 0052 BDF90630 		ldrsh	r3, [sp, #6]
+ 419 0056 08AA     		add	r2, sp, #32
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 11
 
 
- 377              		.section	.rodata.str1.4,"aMS",%progbits,1
- 378              		.align	2
- 379              	.LC0:
- 380 0000 44697370 		.ascii	"Display bar\000"
- 380      6C617920 
- 380      62617200 
- 381              		.align	2
- 382              	.LC1:
- 383 000c 53657420 		.ascii	"Set bar character\000"
- 383      62617220 
- 383      63686172 
- 383      61637465 
- 383      7200
- 384              		.global	samples
- 385              		.section	.bss.samples,"aw",%nobits
- 386              		.align	2
- 389              	samples:
- 390 0000 00000000 		.space	4
- 391              		.global	pasek
- 392              		.section	.bss.pasek,"aw",%nobits
- 393              		.align	2
- 396              	pasek:
- 397 0000 00000000 		.space	20
- 397      00000000 
- 397      00000000 
- 397      00000000 
- 397      00000000 
- 398              		.global	znak
- 399              		.section	.data.znak,"aw"
- 402              	znak:
- 403 0000 7F       		.byte	127
- 404              		.global	stan_enc
- 405              		.section	.data.stan_enc,"aw"
- 406              		.align	1
- 409              	stan_enc:
- 410 0000 1400     		.short	20
- 411              		.section	.rodata
- 412              		.align	2
- 413              		.set	.LANCHOR0,. + 0
- 414              	.LC5:
- 415 0000 00000000 		.word	.LC0
- 416 0004 00000000 		.word	line
- 417 0008 0C000000 		.word	.LC1
- 418 000c 00000000 		.word	change_char
- 419              		.text
- 420              	.Letext0:
- 421              		.file 2 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
- 422              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
- 423              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
- 424              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
- 425              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
- 426              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
- 427              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h"
- 428              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h"
- 429              		.file 10 "Core/Inc/adc.h"
- 430              		.file 11 "Core/Inc/tim.h"
- 431              		.file 12 "Core/Inc/enc_disp.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 11
+ 420 0058 02EBC303 		add	r3, r2, r3, lsl #3
+ 421 005c 53F8143C 		ldr	r3, [r3, #-20]
+ 422              		.loc 1 120 2 view .LVU88
+ 423 0060 9847     		blx	r3
+ 424              	.LVL35:
+ 121:Core/Src/clean_main.c **** }
+ 425              		.loc 1 121 1 view .LVU89
+ 426 0062 08B0     		add	sp, sp, #32
+ 427              		.cfi_def_cfa_offset 8
+ 428              		@ sp needed
+ 429 0064 10BD     		pop	{r4, pc}
+ 430              	.L36:
+ 431 0066 00BF     		.align	2
+ 432              	.L35:
+ 433 0068 00000000 		.word	.LANCHOR0
+ 434 006c 00000000 		.word	.LC9
+ 435              		.cfi_endproc
+ 436              	.LFE220:
+ 438              		.section	.text.clean_main,"ax",%progbits
+ 439              		.align	1
+ 440              		.global	clean_main
+ 441              		.syntax unified
+ 442              		.thumb
+ 443              		.thumb_func
+ 445              	clean_main:
+ 446              	.LFB221:
+ 122:Core/Src/clean_main.c **** 
+ 123:Core/Src/clean_main.c **** void clean_main(){
+ 447              		.loc 1 123 18 is_stmt 1 view -0
+ 448              		.cfi_startproc
+ 449              		@ args = 0, pretend = 0, frame = 0
+ 450              		@ frame_needed = 0, uses_anonymous_args = 0
+ 451 0000 08B5     		push	{r3, lr}
+ 452              		.cfi_def_cfa_offset 8
+ 453              		.cfi_offset 3, -8
+ 454              		.cfi_offset 14, -4
+ 124:Core/Src/clean_main.c **** 	HAL_TIM_Base_Start(&htim2);
+ 455              		.loc 1 124 2 view .LVU91
+ 456 0002 0448     		ldr	r0, .L39
+ 457 0004 FFF7FEFF 		bl	HAL_TIM_Base_Start
+ 458              	.LVL36:
+ 125:Core/Src/clean_main.c **** 	//HAL_TIM_Base_Start(&htim3);
+ 126:Core/Src/clean_main.c **** 	HAL_ADC_Start_DMA(&hadc1, samples, 2);
+ 459              		.loc 1 126 2 view .LVU92
+ 460 0008 0222     		movs	r2, #2
+ 461 000a 0349     		ldr	r1, .L39+4
+ 462 000c 0348     		ldr	r0, .L39+8
+ 463 000e FFF7FEFF 		bl	HAL_ADC_Start_DMA
+ 464              	.LVL37:
+ 127:Core/Src/clean_main.c **** }
+ 465              		.loc 1 127 1 is_stmt 0 view .LVU93
+ 466 0012 08BD     		pop	{r3, pc}
+ 467              	.L40:
+ 468              		.align	2
+ 469              	.L39:
+ 470 0014 00000000 		.word	htim2
+ 471 0018 00000000 		.word	samples
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 12
 
 
- 432              		.file 13 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s 			page 12
+ 472 001c 00000000 		.word	hadc1
+ 473              		.cfi_endproc
+ 474              	.LFE221:
+ 476              		.section	.text.clean_loop,"ax",%progbits
+ 477              		.align	1
+ 478              		.global	clean_loop
+ 479              		.syntax unified
+ 480              		.thumb
+ 481              		.thumb_func
+ 483              	clean_loop:
+ 484              	.LFB222:
+ 128:Core/Src/clean_main.c **** 
+ 129:Core/Src/clean_main.c **** void clean_loop(){
+ 485              		.loc 1 129 18 is_stmt 1 view -0
+ 486              		.cfi_startproc
+ 487              		@ args = 0, pretend = 0, frame = 0
+ 488              		@ frame_needed = 0, uses_anonymous_args = 0
+ 489 0000 08B5     		push	{r3, lr}
+ 490              		.cfi_def_cfa_offset 8
+ 491              		.cfi_offset 3, -8
+ 492              		.cfi_offset 14, -4
+ 130:Core/Src/clean_main.c **** 	clearDisp();
+ 493              		.loc 1 130 2 view .LVU95
+ 494 0002 FFF7FEFF 		bl	clearDisp
+ 495              	.LVL38:
+ 131:Core/Src/clean_main.c **** 	menu();
+ 496              		.loc 1 131 2 view .LVU96
+ 497 0006 FFF7FEFF 		bl	menu
+ 498              	.LVL39:
+ 132:Core/Src/clean_main.c **** }
+ 499              		.loc 1 132 1 is_stmt 0 view .LVU97
+ 500 000a 08BD     		pop	{r3, pc}
+ 501              		.cfi_endproc
+ 502              	.LFE222:
+ 504              		.section	.rodata.str1.4,"aMS",%progbits,1
+ 505              		.align	2
+ 506              	.LC0:
+ 507 0000 44697370 		.ascii	"Display bar\000"
+ 507      6C617920 
+ 507      62617200 
+ 508              		.align	2
+ 509              	.LC1:
+ 510 000c 53657420 		.ascii	"Set bar character\000"
+ 510      62617220 
+ 510      63686172 
+ 510      61637465 
+ 510      7200
+ 511 001e 0000     		.align	2
+ 512              	.LC2:
+ 513 0020 54657374 		.ascii	"Test wyjscia\000"
+ 513      2077796A 
+ 513      73636961 
+ 513      00
+ 514              		.global	samples
+ 515              		.section	.bss.samples,"aw",%nobits
+ 516              		.align	2
+ 519              	samples:
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 13
+
+
+ 520 0000 00000000 		.space	4
+ 521              		.global	pasek
+ 522              		.section	.bss.pasek,"aw",%nobits
+ 523              		.align	2
+ 526              	pasek:
+ 527 0000 00000000 		.space	20
+ 527      00000000 
+ 527      00000000 
+ 527      00000000 
+ 527      00000000 
+ 528              		.global	znak
+ 529              		.section	.data.znak,"aw"
+ 532              	znak:
+ 533 0000 7F       		.byte	127
+ 534              		.global	stan_enc
+ 535              		.section	.data.stan_enc,"aw"
+ 536              		.align	1
+ 539              	stan_enc:
+ 540 0000 1400     		.short	20
+ 541              		.section	.rodata
+ 542              		.align	2
+ 543              		.set	.LANCHOR0,. + 0
+ 544              	.LC8:
+ 545 0000 00000000 		.word	.LC0
+ 546 0004 00000000 		.word	line
+ 547 0008 0C000000 		.word	.LC1
+ 548 000c 00000000 		.word	change_char
+ 549 0010 20000000 		.word	.LC2
+ 550 0014 00000000 		.word	testOutput
+ 551              		.text
+ 552              	.Letext0:
+ 553              		.file 2 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
+ 554              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
+ 555              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
+ 556              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
+ 557              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
+ 558              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
+ 559              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
+ 560              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h"
+ 561              		.file 10 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h"
+ 562              		.file 11 "Core/Inc/adc.h"
+ 563              		.file 12 "Core/Inc/tim.h"
+ 564              		.file 13 "Core/Inc/enc_disp.h"
+ 565              		.file 14 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 clean_main.c
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:21     .rodata.line.str1.4:00000000 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:25     .text.line:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:31     .text.line:00000000 line
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:138    .text.line:00000068 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:409    .data.stan_enc:00000000 stan_enc
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:402    .data.znak:00000000 znak
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:396    .bss.pasek:00000000 pasek
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:146    .rodata.change_char.str1.4:00000000 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:150    .text.change_char:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:156    .text.change_char:00000000 change_char
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:217    .text.change_char:00000048 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:224    .rodata.menu.str1.4:00000000 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:228    .text.menu:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:234    .text.menu:00000000 menu
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:306    .text.menu:00000060 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:312    .text.clean_main:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:318    .text.clean_main:00000000 clean_main
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:343    .text.clean_main:00000014 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:389    .bss.samples:00000000 samples
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:350    .text.clean_loop:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:356    .text.clean_loop:00000000 clean_loop
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:378    .rodata.str1.4:00000000 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:386    .bss.samples:00000000 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:393    .bss.pasek:00000000 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:406    .data.stan_enc:00000000 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuo2O9f.s:412    .rodata:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:21     .rodata.line.str1.4:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:25     .text.line:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:31     .text.line:00000000 line
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:138    .text.line:00000068 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:539    .data.stan_enc:00000000 stan_enc
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:532    .data.znak:00000000 znak
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:526    .bss.pasek:00000000 pasek
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:146    .rodata.change_char.str1.4:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:150    .text.change_char:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:156    .text.change_char:00000000 change_char
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:217    .text.change_char:00000048 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:224    .text.switchTube:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:230    .text.switchTube:00000000 switchTube
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:255    .text.switchTube:00000010 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:260    .rodata.testOutput.str1.4:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:267    .text.testOutput:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:273    .text.testOutput:00000000 testOutput
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:342    .text.testOutput:0000004c $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:348    .rodata.menu.str1.4:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:352    .text.menu:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:358    .text.menu:00000000 menu
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:433    .text.menu:00000068 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:439    .text.clean_main:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:445    .text.clean_main:00000000 clean_main
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:470    .text.clean_main:00000014 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:519    .bss.samples:00000000 samples
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:477    .text.clean_loop:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:483    .text.clean_loop:00000000 clean_loop
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:505    .rodata.str1.4:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:516    .bss.samples:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:523    .bss.pasek:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:536    .data.stan_enc:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxc8AC9.s:542    .rodata:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_Delay
@@ -640,6 +810,7 @@ dprint
 button
 UpdateEnc
 clearDisp
+HAL_GPIO_WritePin
 HAL_TIM_Base_Start
 HAL_ADC_Start_DMA
 htim2

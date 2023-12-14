@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 1
   41 0002 70B5     		push	{r4, r5, r6, lr}
   42              		.cfi_def_cfa_offset 32
   43              		.cfi_offset 4, -32
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s 			page 2
 
 
   44              		.cfi_offset 5, -28
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 1
   90 0036 12F8282C 		ldrb	r2, [r2, #-40]	@ zero_extendqisi2
   91              		.loc 1 23 5 view .LVU16
   92 003a 1F2A     		cmp	r2, #31
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s 			page 3
 
 
   93 003c F5D8     		bhi	.L3
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 1
   28:Core/Src/enc_disp.c **** 
   29:Core/Src/enc_disp.c **** void clearDisp(void) {
  145              		.loc 1 29 22 is_stmt 1 view -0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s 			page 4
 
 
  146              		.cfi_startproc
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 1
   35:Core/Src/enc_disp.c **** 	static uint16_t LastTimerCounter = 0;
  197              		.loc 1 35 2 is_stmt 1 view .LVU29
   36:Core/Src/enc_disp.c **** 	int TimerDif = htim2.Instance->CNT - LastTimerCounter;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s 			page 5
 
 
  198              		.loc 1 36 2 view .LVU30
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 1
  245              		.loc 1 43 6 view .LVU50
  246 003c 8442     		cmp	r4, r0
  247 003e 01DA     		bge	.L18
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s 			page 6
 
 
   44:Core/Src/enc_disp.c **** 			if(stopAtBorder == true) *enc_state = min; else *enc_state = max;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 1
   44:Core/Src/enc_disp.c **** 		}
  292              		.loc 1 44 63 is_stmt 0 discriminator 2 view .LVU66
  293 005c 1180     		strh	r1, [r2]	@ movhi
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s 			page 7
 
 
  294 005e F1E7     		b	.L18
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 1
  346              		.align	1
  349              	LastTimerCounter.0:
  350 0000 0000     		.space	2
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 8
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s 			page 8
 
 
  351              		.text
@@ -437,25 +437,25 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 1
  364              		.file 13 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-
  365              		.file 14 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-
  366              		.file 15 "<built-in>"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s 			page 9
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 enc_disp.c
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:21     .text.dprint:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:27     .text.dprint:00000000 dprint
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:132    .text.dprint:00000064 $d
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:137    .text.clearDisp:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:143    .text.clearDisp:00000000 clearDisp
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:173    .text.clearDisp:00000020 $d
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:178    .text.UpdateEnc:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:184    .text.UpdateEnc:00000000 UpdateEnc
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:298    .text.UpdateEnc:00000060 $d
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:349    .bss.LastTimerCounter.0:00000000 LastTimerCounter.0
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:304    .text.button:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:310    .text.button:00000000 button
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:341    .text.button:00000018 $d
-C:\Users\Konrad\AppData\Local\Temp\cce62Bkh.s:346    .bss.LastTimerCounter.0:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:21     .text.dprint:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:27     .text.dprint:00000000 dprint
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:132    .text.dprint:00000064 $d
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:137    .text.clearDisp:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:143    .text.clearDisp:00000000 clearDisp
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:173    .text.clearDisp:00000020 $d
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:178    .text.UpdateEnc:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:184    .text.UpdateEnc:00000000 UpdateEnc
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:298    .text.UpdateEnc:00000060 $d
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:349    .bss.LastTimerCounter.0:00000000 LastTimerCounter.0
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:304    .text.button:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:310    .text.button:00000000 button
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:341    .text.button:00000018 $d
+C:\Users\Konrad\AppData\Local\Temp\ccntf8ac.s:346    .bss.LastTimerCounter.0:00000000 $d
 
 UNDEFINED SYMBOLS
 memset

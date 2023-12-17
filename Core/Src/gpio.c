@@ -51,10 +51,13 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, CS3_Pin|CS2_Pin|CS1_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, CS3_Pin|CS2_Pin|CS1_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, CS0_Pin|LAT0_Pin|LAT1_Pin|EN_TUBE_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, CS0_Pin|LAT0_Pin|LAT1_Pin, GPIO_PIN_SET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(EN_TUBE_GPIO_Port, EN_TUBE_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : PtPin */
   GPIO_InitStruct.Pin = SW_Pin;

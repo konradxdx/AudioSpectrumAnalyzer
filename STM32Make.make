@@ -178,8 +178,9 @@ CXXFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
 LDSCRIPT = STM32F411CEUx_FLASH.ld
 
 # libraries
-LIBS = -lc -lm -lnosys 
+LIBS = -larm_cortexM4lf_math -lc -lm -lnosys 
 LIBDIR = \
+-LCore/Lib/
 
 
 # Additional LD Flags from config file

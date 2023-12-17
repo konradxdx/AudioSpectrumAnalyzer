@@ -5,6 +5,8 @@
  *      Author: Konrad
  */
 
+#define ARM_MATH_CM4
+
 #include "main.h"
 #include "adc.h"
 #include "spi.h"
@@ -13,14 +15,18 @@
 #include "usart.h"
 #include "gpio.h"
 #include <stdbool.h>
-
+#include "arm_math.h"
 #include "enc_disp.h"
-//#include "dac_driver.h"
+#include "dac_driver.h"
+
+float32_t fft_in_buf[512];
+float32_t fft_out_buf[512];
+arm_rfft_fast_instance_f32 fft_handler;
 
 int16_t stan_enc = 20;
 uint8_t znak = 127;
 char pasek[20];
-volatile uint16_t samples[2];
+uint32_t samples[2];
 
 typedef struct menu_option{
 	char * prompt;
@@ -62,25 +68,6 @@ void change_char(){
 	clearDisp();
 	HAL_Delay(200);
 }
-/*
-void set_dac(){
-	int16_t dac_channel=0;
-	int16_t dac_value=0;
-	HAL_Delay(100);
-	while(button()==0){
-		UpdateEnc(0,3,&dac_channel,0);
-		dprint("Kanal ADC: \"%d\"",dac_channel);
-		HAL_Delay(100);
-	}
-	HAL_Delay(100);
-	while(button()==0){
-		UpdateEnc(0,127,&dac_value,1);
-		dprint("Wartosc ADC: \"%d\"",dac_value);
-		dac_write(dac_channel, dac_value, 0);
-		HAL_Delay(100);
-	}
-}
-*/
 
 void switchTube(bool state){
 	HAL_GPIO_WritePin(EN_TUBE_GPIO_Port,EN_TUBE_Pin,state);
@@ -100,13 +87,45 @@ void testOutput(void){
 	while(button() == 1);
 }
 
+void testDAC(){
+	HAL_Delay(500);
+	clearDisp();
+	stan_enc = 0;
+	while(button() == 0){
+		UpdateEnc(0, 3, &stan_enc, false);
+		dprint("DAC Channel:%1d",stan_enc);
+		HAL_Delay(50);
+	}
+	int channel = stan_enc;
+	while(button() == 1);
+	stan_enc = 0;
+	while(button() == 0){
+		UpdateEnc(0, 3, &stan_enc, false);
+		dprint("Number of DAC:%1d",stan_enc);
+		HAL_Delay(50);
+	}
+	int dac_number = stan_enc;
+	while(button() == 1);
+	stan_enc = 0;
+	HAL_GPIO_WritePin(EN_TUBE_GPIO_Port,EN_TUBE_Pin,1);
+	while(button() == 0){
+		UpdateEnc(0, 220, &stan_enc, true);
+		dprint("DAC output:%3d",stan_enc);
+		dac_write(channel,stan_enc,dac_number);
+		HAL_Delay(50);	
+	}
+	while(button() == 1);
+	HAL_GPIO_WritePin(EN_TUBE_GPIO_Port,EN_TUBE_Pin,0);
+
+}
+
 void menu(){
 
 	struct menu_option options[] = {
 			{"Display bar",line},
 			{"Set bar character",change_char},
-			{"Test wyjscia",testOutput}
-			//{"Drive DAC", set_dac}
+			{"Test tube power",testOutput},
+			{"Test DAC", testDAC}
 	};
 
 	int16_t position = 0;
@@ -122,8 +141,14 @@ void menu(){
 
 void clean_main(){
 	HAL_TIM_Base_Start(&htim2);
-	//HAL_TIM_Base_Start(&htim3);
 	HAL_ADC_Start_DMA(&hadc1, samples, 2);
+	//Set All DACs to 0 !!!
+	for(uint8_t i = 0;i<4;i++){
+		for(uint8_t j = 0;j<4;j++) dac_write(i,0,j);
+	}
+	//arm_rfft_fast_init_f32(&fft_handler,512);
+	//arm_rfft_fast_f32(&fft_handler, fft_in_buf ,fft_out_buf,0);
+	HAL_Delay(1000);
 }
 
 void clean_loop(){

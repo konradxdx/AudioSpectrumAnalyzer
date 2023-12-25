@@ -10,6 +10,9 @@
 
 
 uint8_t dac_write(uint8_t channel, uint8_t value, uint8_t dac){
+	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(LAT1_GPIO_Port, LAT1_Pin, GPIO_PIN_RESET);
+	
 	if(dac == 0)
 		HAL_GPIO_WritePin(CS0_GPIO_Port, CS0_Pin, GPIO_PIN_RESET);
 	else if(dac == 1)
@@ -56,9 +59,6 @@ uint8_t dac_write(uint8_t channel, uint8_t value, uint8_t dac){
 	else
 		return 0;
 
-	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_RESET);
-	HAL_GPIO_WritePin(LAT1_GPIO_Port, LAT1_Pin, GPIO_PIN_RESET);
-	HAL_Delay(1);
 	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_SET);
 	HAL_GPIO_WritePin(LAT1_GPIO_Port, LAT1_Pin, GPIO_PIN_SET);
 

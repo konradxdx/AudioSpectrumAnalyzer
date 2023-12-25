@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -6,28 +6,27 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 1
    3              		.fpu fpv4-sp-d16
    4              		.eabi_attribute 27, 1
    5              		.eabi_attribute 28, 1
-   6              		.eabi_attribute 20, 1
-   7              		.eabi_attribute 21, 1
-   8              		.eabi_attribute 23, 3
-   9              		.eabi_attribute 24, 1
-  10              		.eabi_attribute 25, 1
-  11              		.eabi_attribute 26, 1
-  12              		.eabi_attribute 30, 1
-  13              		.eabi_attribute 34, 1
-  14              		.eabi_attribute 18, 4
-  15              		.file	"system_stm32f4xx.c"
-  16              		.text
-  17              	.Ltext0:
-  18              		.cfi_sections	.debug_frame
-  19              		.file 1 "Core/Src/system_stm32f4xx.c"
-  20              		.section	.text.SystemInit,"ax",%progbits
-  21              		.align	1
-  22              		.global	SystemInit
-  23              		.syntax unified
-  24              		.thumb
-  25              		.thumb_func
-  27              	SystemInit:
-  28              	.LFB216:
+   6              		.eabi_attribute 23, 1
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 2
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"system_stm32f4xx.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.file 1 "Core/Src/system_stm32f4xx.c"
+  18              		.section	.text.SystemInit,"ax",%progbits
+  19              		.align	1
+  20              		.p2align 2,,3
+  21              		.global	SystemInit
+  22              		.syntax unified
+  23              		.thumb
+  24              		.thumb_func
+  26              	SystemInit:
+  27              	.LFB216:
    1:Core/Src/system_stm32f4xx.c **** /**
    2:Core/Src/system_stm32f4xx.c ****   ******************************************************************************
    3:Core/Src/system_stm32f4xx.c ****   * @file    system_stm32f4xx.c
@@ -58,10 +57,10 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 1
   28:Core/Src/system_stm32f4xx.c ****   * This software is licensed under terms that can be found in the LICENSE file
   29:Core/Src/system_stm32f4xx.c ****   * in the root directory of this software component.
   30:Core/Src/system_stm32f4xx.c ****   * If no LICENSE file comes with this software, it is provided AS-IS.
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 2
-
-
   31:Core/Src/system_stm32f4xx.c ****   *
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s 			page 2
+
+
   32:Core/Src/system_stm32f4xx.c ****   ******************************************************************************
   33:Core/Src/system_stm32f4xx.c ****   */
   34:Core/Src/system_stm32f4xx.c **** 
@@ -118,10 +117,10 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 1
   85:Core/Src/system_stm32f4xx.c **** /* #define DATA_IN_ExtSDRAM */
   86:Core/Src/system_stm32f4xx.c **** #endif /* STM32F427xx || STM32F437xx || STM32F429xx || STM32F439xx || STM32F446xx || STM32F469xx ||
   87:Core/Src/system_stm32f4xx.c ****           STM32F479xx */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 3
-
-
   88:Core/Src/system_stm32f4xx.c **** 
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s 			page 3
+
+
   89:Core/Src/system_stm32f4xx.c **** /* Note: Following vector table addresses must be defined in line with linker
   90:Core/Src/system_stm32f4xx.c ****          configuration. */
   91:Core/Src/system_stm32f4xx.c **** /*!< Uncomment the following line if you need to relocate the vector table
@@ -178,10 +177,10 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 1
  142:Core/Src/system_stm32f4xx.c ****   */
  143:Core/Src/system_stm32f4xx.c **** 
  144:Core/Src/system_stm32f4xx.c **** /** @addtogroup STM32F4xx_System_Private_FunctionPrototypes
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 4
-
-
  145:Core/Src/system_stm32f4xx.c ****   * @{
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s 			page 4
+
+
  146:Core/Src/system_stm32f4xx.c ****   */
  147:Core/Src/system_stm32f4xx.c **** 
  148:Core/Src/system_stm32f4xx.c **** #if defined (DATA_IN_ExtSRAM) || defined (DATA_IN_ExtSDRAM)
@@ -205,21 +204,21 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 1
  166:Core/Src/system_stm32f4xx.c ****   */
  167:Core/Src/system_stm32f4xx.c **** void SystemInit(void)
  168:Core/Src/system_stm32f4xx.c **** {
-  29              		.loc 1 168 1 view -0
-  30              		.cfi_startproc
-  31              		@ args = 0, pretend = 0, frame = 0
-  32              		@ frame_needed = 0, uses_anonymous_args = 0
-  33              		@ link register save eliminated.
+  28              		.loc 1 168 1 view -0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
  169:Core/Src/system_stm32f4xx.c ****   /* FPU settings ------------------------------------------------------------*/
  170:Core/Src/system_stm32f4xx.c ****   #if (__FPU_PRESENT == 1) && (__FPU_USED == 1)
  171:Core/Src/system_stm32f4xx.c ****     SCB->CPACR |= ((3UL << 10*2)|(3UL << 11*2));  /* set CP10 and CP11 Full Access */
-  34              		.loc 1 171 5 view .LVU1
-  35              		.loc 1 171 8 is_stmt 0 view .LVU2
-  36 0000 034A     		ldr	r2, .L2
-  37 0002 D2F88830 		ldr	r3, [r2, #136]
-  38              		.loc 1 171 16 view .LVU3
-  39 0006 43F47003 		orr	r3, r3, #15728640
-  40 000a C2F88830 		str	r3, [r2, #136]
+  33              		.loc 1 171 5 view .LVU1
+  34              		.loc 1 171 8 is_stmt 0 view .LVU2
+  35 0000 034A     		ldr	r2, .L3
+  36 0002 D2F88830 		ldr	r3, [r2, #136]
+  37              		.loc 1 171 16 view .LVU3
+  38 0006 43F47003 		orr	r3, r3, #15728640
+  39 000a C2F88830 		str	r3, [r2, #136]
  172:Core/Src/system_stm32f4xx.c ****   #endif
  173:Core/Src/system_stm32f4xx.c **** 
  174:Core/Src/system_stm32f4xx.c **** #if defined (DATA_IN_ExtSRAM) || defined (DATA_IN_ExtSDRAM)
@@ -231,19 +230,20 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 1
  180:Core/Src/system_stm32f4xx.c ****   SCB->VTOR = VECT_TAB_BASE_ADDRESS | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal SRAM 
  181:Core/Src/system_stm32f4xx.c **** #endif /* USER_VECT_TAB_ADDRESS */
  182:Core/Src/system_stm32f4xx.c **** }
-  41              		.loc 1 182 1 view .LVU4
-  42 000e 7047     		bx	lr
-  43              	.L3:
-  44              		.align	2
-  45              	.L2:
-  46 0010 00ED00E0 		.word	-536810240
-  47              		.cfi_endproc
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 5
+  40              		.loc 1 182 1 view .LVU4
+  41 000e 7047     		bx	lr
+  42              	.L4:
+  43              		.align	2
+  44              	.L3:
+  45 0010 00ED00E0 		.word	-536810240
+  46              		.cfi_endproc
+  47              	.LFE216:
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s 			page 5
 
 
-  48              	.LFE216:
-  50              		.section	.text.SystemCoreClockUpdate,"ax",%progbits
-  51              		.align	1
+  49              		.section	.text.SystemCoreClockUpdate,"ax",%progbits
+  50              		.align	1
+  51              		.p2align 2,,3
   52              		.global	SystemCoreClockUpdate
   53              		.syntax unified
   54              		.thumb
@@ -298,15 +298,15 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 1
   64              		.loc 1 222 3 view .LVU6
   65              	.LVL0:
  223:Core/Src/system_stm32f4xx.c ****   
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s 			page 6
 
 
  224:Core/Src/system_stm32f4xx.c ****   /* Get SYSCLK source -------------------------------------------------------*/
  225:Core/Src/system_stm32f4xx.c ****   tmp = RCC->CFGR & RCC_CFGR_SWS;
   66              		.loc 1 225 3 view .LVU7
   67              		.loc 1 225 12 is_stmt 0 view .LVU8
-  68 0000 224B     		ldr	r3, .L11
-  69 0002 9B68     		ldr	r3, [r3, #8]
+  68 0000 164A     		ldr	r2, .L12
+  69 0002 9368     		ldr	r3, [r2, #8]
   70              		.loc 1 225 7 view .LVU9
   71 0004 03F00C03 		and	r3, r3, #12
   72              	.LVL1:
@@ -314,25 +314,16 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 1
  227:Core/Src/system_stm32f4xx.c ****   switch (tmp)
   73              		.loc 1 227 3 is_stmt 1 view .LVU10
   74 0008 042B     		cmp	r3, #4
-  75 000a 11D0     		beq	.L5
+  75 000a 25D0     		beq	.L9
   76 000c 082B     		cmp	r3, #8
-  77 000e 13D0     		beq	.L6
-  78 0010 002B     		cmp	r3, #0
-  79 0012 37D1     		bne	.L7
+  77 000e 0AD0     		beq	.L11
+  78 0010 134B     		ldr	r3, .L12+4
+  79              	.LVL2:
+  80              	.L6:
  228:Core/Src/system_stm32f4xx.c ****   {
  229:Core/Src/system_stm32f4xx.c ****     case 0x00:  /* HSI used as system clock source */
  230:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = HSI_VALUE;
-  80              		.loc 1 230 7 view .LVU11
-  81              		.loc 1 230 23 is_stmt 0 view .LVU12
-  82 0014 1E4B     		ldr	r3, .L11+4
-  83              	.LVL2:
-  84              		.loc 1 230 23 view .LVU13
-  85 0016 1F4A     		ldr	r2, .L11+8
-  86 0018 1A60     		str	r2, [r3]
  231:Core/Src/system_stm32f4xx.c ****       break;
-  87              		.loc 1 231 7 is_stmt 1 view .LVU14
-  88              	.LVL3:
-  89              	.L8:
  232:Core/Src/system_stm32f4xx.c ****     case 0x04:  /* HSE used as system clock source */
  233:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = HSE_VALUE;
  234:Core/Src/system_stm32f4xx.c ****       break;
@@ -358,9 +349,6 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 1
  254:Core/Src/system_stm32f4xx.c ****       pllp = (((RCC->PLLCFGR & RCC_PLLCFGR_PLLP) >>16) + 1 ) *2;
  255:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = pllvco/pllp;
  256:Core/Src/system_stm32f4xx.c ****       break;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 7
-
-
  257:Core/Src/system_stm32f4xx.c ****     default:
  258:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = HSI_VALUE;
  259:Core/Src/system_stm32f4xx.c ****       break;
@@ -368,224 +356,176 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 1
  261:Core/Src/system_stm32f4xx.c ****   /* Compute HCLK frequency --------------------------------------------------*/
  262:Core/Src/system_stm32f4xx.c ****   /* Get HCLK prescaler */
  263:Core/Src/system_stm32f4xx.c ****   tmp = AHBPrescTable[((RCC->CFGR & RCC_CFGR_HPRE) >> 4)];
-  90              		.loc 1 263 3 view .LVU15
-  91              		.loc 1 263 28 is_stmt 0 view .LVU16
-  92 001a 1C4B     		ldr	r3, .L11
-  93 001c 9B68     		ldr	r3, [r3, #8]
-  94              		.loc 1 263 52 view .LVU17
-  95 001e C3F30313 		ubfx	r3, r3, #4, #4
-  96              		.loc 1 263 22 view .LVU18
-  97 0022 1D4A     		ldr	r2, .L11+12
-  98 0024 D15C     		ldrb	r1, [r2, r3]	@ zero_extendqisi2
-  99              	.LVL4:
+  81              		.loc 1 263 3 view .LVU11
+  82              		.loc 1 263 28 is_stmt 0 view .LVU12
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s 			page 7
+
+
+  83 0012 124A     		ldr	r2, .L12
+  84              		.loc 1 263 22 view .LVU13
+  85 0014 1348     		ldr	r0, .L12+8
+  86              		.loc 1 263 28 view .LVU14
+  87 0016 9268     		ldr	r2, [r2, #8]
+  88              	.LVL3:
  264:Core/Src/system_stm32f4xx.c ****   /* HCLK frequency */
  265:Core/Src/system_stm32f4xx.c ****   SystemCoreClock >>= tmp;
- 100              		.loc 1 265 3 is_stmt 1 view .LVU19
- 101              		.loc 1 265 19 is_stmt 0 view .LVU20
- 102 0026 1A4A     		ldr	r2, .L11+4
- 103 0028 1368     		ldr	r3, [r2]
- 104 002a CB40     		lsrs	r3, r3, r1
- 105 002c 1360     		str	r3, [r2]
+  89              		.loc 1 265 3 is_stmt 1 view .LVU15
+  90              		.loc 1 265 19 is_stmt 0 view .LVU16
+  91 0018 1349     		ldr	r1, .L12+12
+ 263:Core/Src/system_stm32f4xx.c ****   /* HCLK frequency */
+  92              		.loc 1 263 52 view .LVU17
+  93 001a C2F30312 		ubfx	r2, r2, #4, #4
+  94              	.LVL4:
+ 263:Core/Src/system_stm32f4xx.c ****   /* HCLK frequency */
+  95              		.loc 1 263 7 view .LVU18
+  96 001e 825C     		ldrb	r2, [r0, r2]	@ zero_extendqisi2
+  97              		.loc 1 265 19 view .LVU19
+  98 0020 D340     		lsrs	r3, r3, r2
+  99 0022 0B60     		str	r3, [r1]
  266:Core/Src/system_stm32f4xx.c **** }
- 106              		.loc 1 266 1 view .LVU21
- 107 002e 7047     		bx	lr
- 108              	.LVL5:
- 109              	.L5:
- 233:Core/Src/system_stm32f4xx.c ****       break;
- 110              		.loc 1 233 7 is_stmt 1 view .LVU22
- 233:Core/Src/system_stm32f4xx.c ****       break;
- 111              		.loc 1 233 23 is_stmt 0 view .LVU23
- 112 0030 174B     		ldr	r3, .L11+4
- 113              	.LVL6:
- 233:Core/Src/system_stm32f4xx.c ****       break;
- 114              		.loc 1 233 23 view .LVU24
- 115 0032 1A4A     		ldr	r2, .L11+16
- 116 0034 1A60     		str	r2, [r3]
- 234:Core/Src/system_stm32f4xx.c ****     case 0x08:  /* PLL used as system clock source */
- 117              		.loc 1 234 7 is_stmt 1 view .LVU25
- 118 0036 F0E7     		b	.L8
- 119              	.LVL7:
- 120              	.L6:
+ 100              		.loc 1 266 1 view .LVU20
+ 101 0024 7047     		bx	lr
+ 102              	.LVL5:
+ 103              	.L11:
  240:Core/Src/system_stm32f4xx.c ****       pllm = RCC->PLLCFGR & RCC_PLLCFGR_PLLM;
- 121              		.loc 1 240 7 view .LVU26
+ 104              		.loc 1 240 7 is_stmt 1 view .LVU21
  240:Core/Src/system_stm32f4xx.c ****       pllm = RCC->PLLCFGR & RCC_PLLCFGR_PLLM;
- 122              		.loc 1 240 23 is_stmt 0 view .LVU27
- 123 0038 144B     		ldr	r3, .L11
- 124              	.LVL8:
- 240:Core/Src/system_stm32f4xx.c ****       pllm = RCC->PLLCFGR & RCC_PLLCFGR_PLLM;
- 125              		.loc 1 240 23 view .LVU28
- 126 003a 5968     		ldr	r1, [r3, #4]
- 127              	.LVL9:
+ 105              		.loc 1 240 23 is_stmt 0 view .LVU22
+ 106 0026 5368     		ldr	r3, [r2, #4]
+ 107              	.LVL6:
  241:Core/Src/system_stm32f4xx.c ****       
- 128              		.loc 1 241 7 is_stmt 1 view .LVU29
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 8
-
-
+ 108              		.loc 1 241 7 is_stmt 1 view .LVU23
  241:Core/Src/system_stm32f4xx.c ****       
- 129              		.loc 1 241 17 is_stmt 0 view .LVU30
- 130 003c 5A68     		ldr	r2, [r3, #4]
- 241:Core/Src/system_stm32f4xx.c ****       
- 131              		.loc 1 241 12 view .LVU31
- 132 003e 02F03F02 		and	r2, r2, #63
- 133              	.LVL10:
+ 109              		.loc 1 241 17 is_stmt 0 view .LVU24
+ 110 0028 5168     		ldr	r1, [r2, #4]
  243:Core/Src/system_stm32f4xx.c ****       {
- 134              		.loc 1 243 7 is_stmt 1 view .LVU32
+ 111              		.loc 1 243 10 view .LVU25
+ 112 002a 13F4800F 		tst	r3, #4194304
+ 246:Core/Src/system_stm32f4xx.c ****       }
+ 113              		.loc 1 246 44 view .LVU26
+ 114 002e 5368     		ldr	r3, [r2, #4]
+ 115              	.LVL7:
+ 246:Core/Src/system_stm32f4xx.c ****       }
+ 116              		.loc 1 246 29 view .LVU27
+ 117 0030 14BF     		ite	ne
+ 118 0032 0E4A     		ldrne	r2, .L12+16
+ 251:Core/Src/system_stm32f4xx.c ****       }
+ 119              		.loc 1 251 29 view .LVU28
+ 120 0034 0A4A     		ldreq	r2, .L12+4
+ 251:Core/Src/system_stm32f4xx.c ****       }
+ 121              		.loc 1 251 74 view .LVU29
+ 122 0036 C3F38813 		ubfx	r3, r3, #6, #9
+ 241:Core/Src/system_stm32f4xx.c ****       
+ 123              		.loc 1 241 12 view .LVU30
+ 124 003a 01F03F01 		and	r1, r1, #63
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s 			page 8
+
+
+ 125              	.LVL8:
  243:Core/Src/system_stm32f4xx.c ****       {
- 135              		.loc 1 243 10 is_stmt 0 view .LVU33
- 136 0042 11F4800F 		tst	r1, #4194304
- 137 0046 13D0     		beq	.L9
+ 126              		.loc 1 243 7 is_stmt 1 view .LVU31
  246:Core/Src/system_stm32f4xx.c ****       }
- 138              		.loc 1 246 9 is_stmt 1 view .LVU34
- 246:Core/Src/system_stm32f4xx.c ****       }
- 139              		.loc 1 246 29 is_stmt 0 view .LVU35
- 140 0048 144B     		ldr	r3, .L11+16
- 141 004a B3FBF2F3 		udiv	r3, r3, r2
- 246:Core/Src/system_stm32f4xx.c ****       }
- 142              		.loc 1 246 44 view .LVU36
- 143 004e 0F4A     		ldr	r2, .L11
- 144              	.LVL11:
- 246:Core/Src/system_stm32f4xx.c ****       }
- 145              		.loc 1 246 44 view .LVU37
- 146 0050 5268     		ldr	r2, [r2, #4]
- 246:Core/Src/system_stm32f4xx.c ****       }
- 147              		.loc 1 246 74 view .LVU38
- 148 0052 C2F38812 		ubfx	r2, r2, #6, #9
- 246:Core/Src/system_stm32f4xx.c ****       }
- 149              		.loc 1 246 16 view .LVU39
- 150 0056 02FB03F3 		mul	r3, r2, r3
- 151              	.LVL12:
- 152              	.L10:
+ 127              		.loc 1 246 9 view .LVU32
+ 251:Core/Src/system_stm32f4xx.c ****       }
+ 128              		.loc 1 251 9 view .LVU33
+ 251:Core/Src/system_stm32f4xx.c ****       }
+ 129              		.loc 1 251 29 is_stmt 0 view .LVU34
+ 130 003e B2FBF1F2 		udiv	r2, r2, r1
+ 251:Core/Src/system_stm32f4xx.c ****       }
+ 131              		.loc 1 251 16 view .LVU35
+ 132 0042 02FB03F3 		mul	r3, r2, r3
+ 133              	.LVL9:
  254:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = pllvco/pllp;
- 153              		.loc 1 254 7 is_stmt 1 view .LVU40
+ 134              		.loc 1 254 7 is_stmt 1 view .LVU36
  254:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = pllvco/pllp;
- 154              		.loc 1 254 20 is_stmt 0 view .LVU41
- 155 005a 0C4A     		ldr	r2, .L11
- 156 005c 5268     		ldr	r2, [r2, #4]
- 254:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = pllvco/pllp;
- 157              		.loc 1 254 50 view .LVU42
- 158 005e C2F30142 		ubfx	r2, r2, #16, #2
- 254:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = pllvco/pllp;
- 159              		.loc 1 254 56 view .LVU43
- 160 0062 0132     		adds	r2, r2, #1
- 254:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = pllvco/pllp;
- 161              		.loc 1 254 12 view .LVU44
- 162 0064 5200     		lsls	r2, r2, #1
- 163              	.LVL13:
+ 135              		.loc 1 254 20 is_stmt 0 view .LVU37
+ 136 0046 054A     		ldr	r2, .L12
+ 137 0048 5268     		ldr	r2, [r2, #4]
+ 138              	.LVL10:
  255:Core/Src/system_stm32f4xx.c ****       break;
- 164              		.loc 1 255 7 is_stmt 1 view .LVU45
+ 139              		.loc 1 255 7 is_stmt 1 view .LVU38
+ 254:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = pllvco/pllp;
+ 140              		.loc 1 254 50 is_stmt 0 view .LVU39
+ 141 004a C2F30142 		ubfx	r2, r2, #16, #2
+ 142              	.LVL11:
+ 254:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = pllvco/pllp;
+ 143              		.loc 1 254 56 view .LVU40
+ 144 004e 0132     		adds	r2, r2, #1
+ 254:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = pllvco/pllp;
+ 145              		.loc 1 254 12 view .LVU41
+ 146 0050 5200     		lsls	r2, r2, #1
  255:Core/Src/system_stm32f4xx.c ****       break;
- 165              		.loc 1 255 31 is_stmt 0 view .LVU46
- 166 0066 B3FBF2F3 		udiv	r3, r3, r2
- 167              	.LVL14:
- 255:Core/Src/system_stm32f4xx.c ****       break;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 9
-
-
- 168              		.loc 1 255 23 view .LVU47
- 169 006a 094A     		ldr	r2, .L11+4
- 170              	.LVL15:
- 255:Core/Src/system_stm32f4xx.c ****       break;
- 171              		.loc 1 255 23 view .LVU48
- 172 006c 1360     		str	r3, [r2]
+ 147              		.loc 1 255 31 view .LVU42
+ 148 0052 B3FBF2F3 		udiv	r3, r3, r2
+ 149              	.LVL12:
  256:Core/Src/system_stm32f4xx.c ****     default:
- 173              		.loc 1 256 7 is_stmt 1 view .LVU49
- 174 006e D4E7     		b	.L8
- 175              	.LVL16:
- 176              	.L9:
- 251:Core/Src/system_stm32f4xx.c ****       }
- 177              		.loc 1 251 9 view .LVU50
- 251:Core/Src/system_stm32f4xx.c ****       }
- 178              		.loc 1 251 29 is_stmt 0 view .LVU51
- 179 0070 084B     		ldr	r3, .L11+8
- 180 0072 B3FBF2F3 		udiv	r3, r3, r2
- 251:Core/Src/system_stm32f4xx.c ****       }
- 181              		.loc 1 251 44 view .LVU52
- 182 0076 054A     		ldr	r2, .L11
- 183              	.LVL17:
- 251:Core/Src/system_stm32f4xx.c ****       }
- 184              		.loc 1 251 44 view .LVU53
- 185 0078 5268     		ldr	r2, [r2, #4]
- 251:Core/Src/system_stm32f4xx.c ****       }
- 186              		.loc 1 251 74 view .LVU54
- 187 007a C2F38812 		ubfx	r2, r2, #6, #9
- 251:Core/Src/system_stm32f4xx.c ****       }
- 188              		.loc 1 251 16 view .LVU55
- 189 007e 02FB03F3 		mul	r3, r2, r3
- 190              	.LVL18:
- 251:Core/Src/system_stm32f4xx.c ****       }
- 191              		.loc 1 251 16 view .LVU56
- 192 0082 EAE7     		b	.L10
- 193              	.LVL19:
- 194              	.L7:
- 258:Core/Src/system_stm32f4xx.c ****       break;
- 195              		.loc 1 258 7 is_stmt 1 view .LVU57
- 258:Core/Src/system_stm32f4xx.c ****       break;
- 196              		.loc 1 258 23 is_stmt 0 view .LVU58
- 197 0084 024B     		ldr	r3, .L11+4
- 198              	.LVL20:
- 258:Core/Src/system_stm32f4xx.c ****       break;
- 199              		.loc 1 258 23 view .LVU59
- 200 0086 034A     		ldr	r2, .L11+8
- 201 0088 1A60     		str	r2, [r3]
- 259:Core/Src/system_stm32f4xx.c ****   }
- 202              		.loc 1 259 7 is_stmt 1 view .LVU60
- 203 008a C6E7     		b	.L8
- 204              	.L12:
- 205              		.align	2
- 206              	.L11:
- 207 008c 00380240 		.word	1073887232
- 208 0090 00000000 		.word	SystemCoreClock
- 209 0094 0024F400 		.word	16000000
- 210 0098 00000000 		.word	AHBPrescTable
- 211 009c 40787D01 		.word	25000000
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 10
+ 150              		.loc 1 256 7 is_stmt 1 view .LVU43
+ 151 0056 DCE7     		b	.L6
+ 152              	.LVL13:
+ 153              	.L9:
+ 227:Core/Src/system_stm32f4xx.c ****   {
+ 154              		.loc 1 227 3 is_stmt 0 view .LVU44
+ 155 0058 044B     		ldr	r3, .L12+16
+ 156              	.LVL14:
+ 227:Core/Src/system_stm32f4xx.c ****   {
+ 157              		.loc 1 227 3 view .LVU45
+ 158 005a DAE7     		b	.L6
+ 159              	.L13:
+ 160              		.align	2
+ 161              	.L12:
+ 162 005c 00380240 		.word	1073887232
+ 163 0060 0024F400 		.word	16000000
+ 164 0064 00000000 		.word	AHBPrescTable
+ 165 0068 00000000 		.word	SystemCoreClock
+ 166 006c 40787D01 		.word	25000000
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s 			page 9
 
 
- 212              		.cfi_endproc
- 213              	.LFE217:
- 215              		.global	APBPrescTable
- 216              		.section	.rodata.APBPrescTable,"a"
- 217              		.align	2
- 220              	APBPrescTable:
- 221 0000 00000000 		.ascii	"\000\000\000\000\001\002\003\004"
- 221      01020304 
- 222              		.global	AHBPrescTable
- 223              		.section	.rodata.AHBPrescTable,"a"
- 224              		.align	2
- 227              	AHBPrescTable:
- 228 0000 00000000 		.ascii	"\000\000\000\000\000\000\000\000\001\002\003\004\006"
- 228      00000000 
- 228      01020304 
- 228      06
- 229 000d 070809   		.ascii	"\007\010\011"
- 230              		.global	SystemCoreClock
- 231              		.section	.data.SystemCoreClock,"aw"
- 232              		.align	2
- 235              	SystemCoreClock:
- 236 0000 0024F400 		.word	16000000
- 237              		.text
- 238              	.Letext0:
- 239              		.file 2 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
- 240              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
- 241              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
- 242              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
- 243              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s 			page 11
+ 167              		.cfi_endproc
+ 168              	.LFE217:
+ 170              		.global	APBPrescTable
+ 171              		.section	.rodata.APBPrescTable,"a"
+ 172              		.align	2
+ 175              	APBPrescTable:
+ 176 0000 00000000 		.ascii	"\000\000\000\000\001\002\003\004"
+ 176      01020304 
+ 177              		.global	AHBPrescTable
+ 178              		.section	.rodata.AHBPrescTable,"a"
+ 179              		.align	2
+ 182              	AHBPrescTable:
+ 183 0000 00000000 		.ascii	"\000\000\000\000\000\000\000\000\001\002\003\004\006"
+ 183      00000000 
+ 183      01020304 
+ 183      06
+ 184 000d 070809   		.ascii	"\007\010\011"
+ 185              		.global	SystemCoreClock
+ 186              		.section	.data.SystemCoreClock,"aw"
+ 187              		.align	2
+ 190              	SystemCoreClock:
+ 191 0000 0024F400 		.word	16000000
+ 192              		.text
+ 193              	.Letext0:
+ 194              		.file 2 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
+ 195              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
+ 196              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+ 197              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
+ 198              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 system_stm32f4xx.c
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:21     .text.SystemInit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:27     .text.SystemInit:00000000 SystemInit
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:46     .text.SystemInit:00000010 $d
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:51     .text.SystemCoreClockUpdate:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:57     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:207    .text.SystemCoreClockUpdate:0000008c $d
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:235    .data.SystemCoreClock:00000000 SystemCoreClock
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:227    .rodata.AHBPrescTable:00000000 AHBPrescTable
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:220    .rodata.APBPrescTable:00000000 APBPrescTable
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:217    .rodata.APBPrescTable:00000000 $d
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:224    .rodata.AHBPrescTable:00000000 $d
-C:\Users\Konrad\AppData\Local\Temp\cc4Cob6s.s:232    .data.SystemCoreClock:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:19     .text.SystemInit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:26     .text.SystemInit:00000000 SystemInit
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:45     .text.SystemInit:00000010 $d
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:50     .text.SystemCoreClockUpdate:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:57     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:162    .text.SystemCoreClockUpdate:0000005c $d
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:182    .rodata.AHBPrescTable:00000000 AHBPrescTable
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:190    .data.SystemCoreClock:00000000 SystemCoreClock
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:175    .rodata.APBPrescTable:00000000 APBPrescTable
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:172    .rodata.APBPrescTable:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:179    .rodata.AHBPrescTable:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccIWGcOU.s:187    .data.SystemCoreClock:00000000 $d
 
 NO UNDEFINED SYMBOLS

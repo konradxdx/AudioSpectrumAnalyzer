@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -6,29 +6,28 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s 			page 1
    3              		.fpu fpv4-sp-d16
    4              		.eabi_attribute 27, 1
    5              		.eabi_attribute 28, 1
-   6              		.eabi_attribute 20, 1
-   7              		.eabi_attribute 21, 1
-   8              		.eabi_attribute 23, 3
-   9              		.eabi_attribute 24, 1
-  10              		.eabi_attribute 25, 1
-  11              		.eabi_attribute 26, 1
-  12              		.eabi_attribute 30, 1
-  13              		.eabi_attribute 34, 1
-  14              		.eabi_attribute 18, 4
-  15              		.file	"dac_driver.c"
-  16              		.text
-  17              	.Ltext0:
-  18              		.cfi_sections	.debug_frame
-  19              		.file 1 "Core/Src/dac_driver.c"
-  20              		.section	.text.dac_write,"ax",%progbits
-  21              		.align	1
-  22              		.global	dac_write
-  23              		.syntax unified
-  24              		.thumb
-  25              		.thumb_func
-  27              	dac_write:
-  28              	.LVL0:
-  29              	.LFB216:
+   6              		.eabi_attribute 23, 1
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 2
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"dac_driver.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.file 1 "Core/Src/dac_driver.c"
+  18              		.section	.text.dac_write,"ax",%progbits
+  19              		.align	1
+  20              		.p2align 2,,3
+  21              		.global	dac_write
+  22              		.syntax unified
+  23              		.thumb
+  24              		.thumb_func
+  26              	dac_write:
+  27              	.LVL0:
+  28              	.LFB216:
    1:Core/Src/dac_driver.c **** /*
    2:Core/Src/dac_driver.c ****  * dac_driver.c
    3:Core/Src/dac_driver.c ****  *
@@ -41,374 +40,469 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s 			page 1
   10:Core/Src/dac_driver.c **** 
   11:Core/Src/dac_driver.c **** 
   12:Core/Src/dac_driver.c **** uint8_t dac_write(uint8_t channel, uint8_t value, uint8_t dac){
-  30              		.loc 1 12 63 view -0
-  31              		.cfi_startproc
-  32              		@ args = 0, pretend = 0, frame = 8
-  33              		@ frame_needed = 0, uses_anonymous_args = 0
-  34              		.loc 1 12 63 is_stmt 0 view .LVU1
-  35 0000 70B5     		push	{r4, r5, r6, lr}
-  36              		.cfi_def_cfa_offset 16
-  37              		.cfi_offset 4, -16
-  38              		.cfi_offset 5, -12
-  39              		.cfi_offset 6, -8
+  29              		.loc 1 12 63 view -0
+  30              		.cfi_startproc
+  31              		@ args = 0, pretend = 0, frame = 8
+  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  33              		.loc 1 12 63 is_stmt 0 view .LVU1
+  34 0000 F0B5     		push	{r4, r5, r6, r7, lr}
+  35              		.cfi_def_cfa_offset 20
+  36              		.cfi_offset 4, -20
+  37              		.cfi_offset 5, -16
+  38              		.cfi_offset 6, -12
+  39              		.cfi_offset 7, -8
   40              		.cfi_offset 14, -4
-  41 0002 82B0     		sub	sp, sp, #8
-  42              		.cfi_def_cfa_offset 24
-  43 0004 0546     		mov	r5, r0
-  44 0006 0E46     		mov	r6, r1
-  45 0008 1446     		mov	r4, r2
-  13:Core/Src/dac_driver.c **** 	if(dac == 0)
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s 			page 2
+  41 0002 4FF00007 		mov	r7, #0	@ movhi
+  42 0006 61F30707 		bfi	r7, r1, #0, #8
+  43              	.LVL1:
+  44              		.loc 1 12 63 view .LVU2
+  45 000a 83B0     		sub	sp, sp, #12
+  46              		.cfi_def_cfa_offset 32
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s 			page 2
 
 
-  46              		.loc 1 13 2 is_stmt 1 view .LVU2
-  47 000a 032A     		cmp	r2, #3
-  48 000c 74D8     		bhi	.L20
-  49 000e DFE802F0 		tbb	[pc, r2]
-  50              	.L4:
-  51 0012 02       		.byte	(.L7-.L4)/2
-  52 0013 13       		.byte	(.L6-.L4)/2
-  53 0014 19       		.byte	(.L5-.L4)/2
-  54 0015 1F       		.byte	(.L3-.L4)/2
-  55              		.p2align 1
-  56              	.L7:
-  14:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS0_GPIO_Port, CS0_Pin, GPIO_PIN_RESET);
-  57              		.loc 1 14 3 view .LVU3
-  58 0016 0022     		movs	r2, #0
-  59              	.LVL1:
-  60              		.loc 1 14 3 is_stmt 0 view .LVU4
-  61 0018 4FF48061 		mov	r1, #1024
-  62              	.LVL2:
-  63              		.loc 1 14 3 view .LVU5
-  64 001c 3948     		ldr	r0, .L25
-  65              	.LVL3:
-  66              		.loc 1 14 3 view .LVU6
-  67 001e FFF7FEFF 		bl	HAL_GPIO_WritePin
-  68              	.LVL4:
-  69              	.L8:
-  15:Core/Src/dac_driver.c **** 	else if(dac == 1)
-  16:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS1_GPIO_Port, CS1_Pin, GPIO_PIN_RESET);
-  17:Core/Src/dac_driver.c **** 	else if(dac == 2)
-  18:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS2_GPIO_Port, CS2_Pin, GPIO_PIN_RESET);
-  19:Core/Src/dac_driver.c **** 	else if(dac == 3)
-  20:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS3_GPIO_Port, CS3_Pin, GPIO_PIN_RESET);
-  21:Core/Src/dac_driver.c **** 	else
-  22:Core/Src/dac_driver.c **** 		return 0;
-  23:Core/Src/dac_driver.c **** 		
-  24:Core/Src/dac_driver.c **** 	uint8_t toSend[3] = {0,0,0};
-  70              		.loc 1 24 2 is_stmt 1 view .LVU7
-  71              		.loc 1 24 10 is_stmt 0 view .LVU8
-  72 0022 0023     		movs	r3, #0
-  73 0024 ADF80430 		strh	r3, [sp, #4]	@ movhi
-  74 0028 8DF80630 		strb	r3, [sp, #6]
-  25:Core/Src/dac_driver.c **** 
-  26:Core/Src/dac_driver.c **** 	switch(channel){
-  75              		.loc 1 26 2 is_stmt 1 view .LVU9
-  76 002c 032D     		cmp	r5, #3
-  77 002e 65D8     		bhi	.L21
-  78 0030 DFE805F0 		tbb	[pc, r5]
-  79              	.L10:
-  80 0034 17       		.byte	(.L13-.L10)/2
-  81 0035 14       		.byte	(.L12-.L10)/2
-  82 0036 27       		.byte	(.L11-.L10)/2
-  83 0037 2B       		.byte	(.L9-.L10)/2
-  84              	.LVL5:
-  85              		.p2align 1
-  86              	.L6:
-  16:Core/Src/dac_driver.c **** 	else if(dac == 2)
-  87              		.loc 1 16 3 view .LVU10
-  88 0038 0022     		movs	r2, #0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s 			page 3
+  47              		.loc 1 12 63 view .LVU3
+  48 000c 0D46     		mov	r5, r1
+  49 000e 1446     		mov	r4, r2
+  50 0010 0646     		mov	r6, r0
+  13:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_RESET);
+  51              		.loc 1 13 2 view .LVU4
+  52 0012 0022     		movs	r2, #0
+  53              	.LVL2:
+  54              		.loc 1 13 2 view .LVU5
+  55 0014 5448     		ldr	r0, .L48
+  56              	.LVL3:
+  57              		.loc 1 13 2 view .LVU6
+  58 0016 61F30F27 		bfi	r7, r1, #8, #8
+  59              		.loc 1 13 2 is_stmt 1 view .LVU7
+  60 001a 1021     		movs	r1, #16
+  61 001c FFF7FEFF 		bl	HAL_GPIO_WritePin
+  62              	.LVL4:
+  14:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT1_GPIO_Port, LAT1_Pin, GPIO_PIN_RESET);
+  63              		.loc 1 14 2 view .LVU8
+  64 0020 5148     		ldr	r0, .L48
+  65 0022 0022     		movs	r2, #0
+  66 0024 2021     		movs	r1, #32
+  67 0026 FFF7FEFF 		bl	HAL_GPIO_WritePin
+  68              	.LVL5:
+  15:Core/Src/dac_driver.c **** 	
+  16:Core/Src/dac_driver.c **** 	if(dac == 0)
+  69              		.loc 1 16 2 view .LVU9
+  70 002a 032C     		cmp	r4, #3
+  71 002c 00F29980 		bhi	.L2
+  72 0030 DFE804F0 		tbb	[pc, r4]
+  73              	.L4:
+  74 0034 30       		.byte	(.L7-.L4)/2
+  75 0035 21       		.byte	(.L6-.L4)/2
+  76 0036 12       		.byte	(.L5-.L4)/2
+  77 0037 02       		.byte	(.L3-.L4)/2
+  78              		.p2align 1
+  79              	.L3:
+  17:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS0_GPIO_Port, CS0_Pin, GPIO_PIN_RESET);
+  18:Core/Src/dac_driver.c **** 	else if(dac == 1)
+  19:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS1_GPIO_Port, CS1_Pin, GPIO_PIN_RESET);
+  20:Core/Src/dac_driver.c **** 	else if(dac == 2)
+  21:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS2_GPIO_Port, CS2_Pin, GPIO_PIN_RESET);
+  22:Core/Src/dac_driver.c **** 	else if(dac == 3)
+  23:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS3_GPIO_Port, CS3_Pin, GPIO_PIN_RESET);
+  80              		.loc 1 23 3 view .LVU10
+  81 0038 0421     		movs	r1, #4
+  82 003a 4C48     		ldr	r0, .L48+4
+  83 003c 0022     		movs	r2, #0
+  84 003e FFF7FEFF 		bl	HAL_GPIO_WritePin
+  85              	.LVL6:
+  24:Core/Src/dac_driver.c **** 	else
+  25:Core/Src/dac_driver.c **** 		return 0;
+  26:Core/Src/dac_driver.c **** 		
+  27:Core/Src/dac_driver.c **** 	uint8_t toSend[3] = {0,0,0};
+  86              		.loc 1 27 2 view .LVU11
+  87              		.loc 1 27 10 is_stmt 0 view .LVU12
+  88 0042 0023     		movs	r3, #0
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s 			page 3
 
 
-  89              	.LVL6:
-  16:Core/Src/dac_driver.c **** 	else if(dac == 2)
-  90              		.loc 1 16 3 is_stmt 0 view .LVU11
-  91 003a 1021     		movs	r1, #16
-  92              	.LVL7:
-  16:Core/Src/dac_driver.c **** 	else if(dac == 2)
-  93              		.loc 1 16 3 view .LVU12
-  94 003c 3248     		ldr	r0, .L25+4
-  95              	.LVL8:
-  16:Core/Src/dac_driver.c **** 	else if(dac == 2)
-  96              		.loc 1 16 3 view .LVU13
-  97 003e FFF7FEFF 		bl	HAL_GPIO_WritePin
-  98              	.LVL9:
-  99 0042 EEE7     		b	.L8
- 100              	.LVL10:
+  89 0044 01A9     		add	r1, sp, #4
+  90 0046 ADF80430 		strh	r3, [sp, #4]	@ movhi
+  28:Core/Src/dac_driver.c **** 
+  29:Core/Src/dac_driver.c **** 	switch(channel){
+  91              		.loc 1 29 2 is_stmt 1 view .LVU13
+  92 004a 032E     		cmp	r6, #3
+  93 004c 00F28980 		bhi	.L2
+  94 0050 DFE806F0 		tbb	[pc, r6]
+  95              	.L19:
+  96 0054 7F       		.byte	(.L20-.L19)/2
+  97 0055 55       		.byte	(.L12-.L19)/2
+  98 0056 53       		.byte	(.L11-.L19)/2
+  99 0057 30       		.byte	(.L9-.L19)/2
+ 100              		.p2align 1
  101              	.L5:
-  18:Core/Src/dac_driver.c **** 	else if(dac == 3)
- 102              		.loc 1 18 3 is_stmt 1 view .LVU14
- 103 0044 0022     		movs	r2, #0
- 104              	.LVL11:
-  18:Core/Src/dac_driver.c **** 	else if(dac == 3)
- 105              		.loc 1 18 3 is_stmt 0 view .LVU15
- 106 0046 0821     		movs	r1, #8
- 107              	.LVL12:
-  18:Core/Src/dac_driver.c **** 	else if(dac == 3)
- 108              		.loc 1 18 3 view .LVU16
- 109 0048 2F48     		ldr	r0, .L25+4
- 110              	.LVL13:
-  18:Core/Src/dac_driver.c **** 	else if(dac == 3)
- 111              		.loc 1 18 3 view .LVU17
- 112 004a FFF7FEFF 		bl	HAL_GPIO_WritePin
- 113              	.LVL14:
- 114 004e E8E7     		b	.L8
- 115              	.LVL15:
- 116              	.L3:
-  20:Core/Src/dac_driver.c **** 	else
- 117              		.loc 1 20 3 is_stmt 1 view .LVU18
- 118 0050 0022     		movs	r2, #0
- 119              	.LVL16:
-  20:Core/Src/dac_driver.c **** 	else
- 120              		.loc 1 20 3 is_stmt 0 view .LVU19
- 121 0052 0421     		movs	r1, #4
- 122              	.LVL17:
-  20:Core/Src/dac_driver.c **** 	else
- 123              		.loc 1 20 3 view .LVU20
- 124 0054 2C48     		ldr	r0, .L25+4
- 125              	.LVL18:
-  20:Core/Src/dac_driver.c **** 	else
- 126              		.loc 1 20 3 view .LVU21
- 127 0056 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 128              	.LVL19:
- 129 005a E2E7     		b	.L8
- 130              	.L12:
-  27:Core/Src/dac_driver.c **** 		case 0:
-  28:Core/Src/dac_driver.c **** 		toSend[0]=0b00000000;
-  29:Core/Src/dac_driver.c **** 		break;
-  30:Core/Src/dac_driver.c **** 		case 1:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s 			page 4
+  21:Core/Src/dac_driver.c **** 	else if(dac == 3)
+ 102              		.loc 1 21 3 view .LVU14
+ 103 0058 0821     		movs	r1, #8
+ 104 005a 4448     		ldr	r0, .L48+4
+ 105 005c 0022     		movs	r2, #0
+ 106 005e FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 107              	.LVL7:
+  27:Core/Src/dac_driver.c **** 
+ 108              		.loc 1 27 2 view .LVU15
+  27:Core/Src/dac_driver.c **** 
+ 109              		.loc 1 27 10 is_stmt 0 view .LVU16
+ 110 0062 0023     		movs	r3, #0
+ 111 0064 01A9     		add	r1, sp, #4
+ 112 0066 ADF80430 		strh	r3, [sp, #4]	@ movhi
+ 113              		.loc 1 29 2 is_stmt 1 view .LVU17
+ 114 006a 032E     		cmp	r6, #3
+ 115 006c 79D8     		bhi	.L2
+ 116 006e DFE806F0 		tbb	[pc, r6]
+ 117              	.L17:
+ 118 0072 56       		.byte	(.L18-.L17)/2
+ 119 0073 46       		.byte	(.L12-.L17)/2
+ 120 0074 44       		.byte	(.L11-.L17)/2
+ 121 0075 21       		.byte	(.L9-.L17)/2
+ 122              		.p2align 1
+ 123              	.L6:
+  19:Core/Src/dac_driver.c **** 	else if(dac == 2)
+ 124              		.loc 1 19 3 view .LVU18
+ 125 0076 1021     		movs	r1, #16
+ 126 0078 3C48     		ldr	r0, .L48+4
+ 127 007a 0022     		movs	r2, #0
+ 128 007c FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 129              	.LVL8:
+  27:Core/Src/dac_driver.c **** 
+ 130              		.loc 1 27 2 view .LVU19
+  27:Core/Src/dac_driver.c **** 
+ 131              		.loc 1 27 10 is_stmt 0 view .LVU20
+ 132 0080 0023     		movs	r3, #0
+ 133 0082 01A9     		add	r1, sp, #4
+ 134 0084 ADF80430 		strh	r3, [sp, #4]	@ movhi
+ 135              		.loc 1 29 2 is_stmt 1 view .LVU21
+ 136 0088 032E     		cmp	r6, #3
+ 137 008a 6AD8     		bhi	.L2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s 			page 4
 
 
-  31:Core/Src/dac_driver.c **** 		toSend[0]=0b00010000;
- 131              		.loc 1 31 3 is_stmt 1 view .LVU22
- 132              		.loc 1 31 12 is_stmt 0 view .LVU23
- 133 005c 1023     		movs	r3, #16
- 134 005e 8DF80430 		strb	r3, [sp, #4]
-  32:Core/Src/dac_driver.c **** 		break;
- 135              		.loc 1 32 3 is_stmt 1 view .LVU24
- 136              	.L13:
-  33:Core/Src/dac_driver.c **** 		case 2:
-  34:Core/Src/dac_driver.c **** 		toSend[0]=0b00011000;
-  35:Core/Src/dac_driver.c **** 		break;
-  36:Core/Src/dac_driver.c **** 		case 3:
-  37:Core/Src/dac_driver.c **** 		toSend[0]=0b00001000;
-  38:Core/Src/dac_driver.c **** 		break;
-  39:Core/Src/dac_driver.c **** 		default:
-  40:Core/Src/dac_driver.c **** 		return 0;
-  41:Core/Src/dac_driver.c **** 	}
-  42:Core/Src/dac_driver.c **** 
-  43:Core/Src/dac_driver.c **** 	toSend[1]=value;
- 137              		.loc 1 43 2 view .LVU25
- 138              		.loc 1 43 11 is_stmt 0 view .LVU26
- 139 0062 8DF80560 		strb	r6, [sp, #5]
-  44:Core/Src/dac_driver.c **** 	toSend[2]=value;
- 140              		.loc 1 44 2 is_stmt 1 view .LVU27
- 141              		.loc 1 44 11 is_stmt 0 view .LVU28
- 142 0066 8DF80660 		strb	r6, [sp, #6]
-  45:Core/Src/dac_driver.c **** 
-  46:Core/Src/dac_driver.c **** 	HAL_SPI_Transmit(&hspi1, toSend, 3, 100);
- 143              		.loc 1 46 2 is_stmt 1 view .LVU29
- 144 006a 6423     		movs	r3, #100
- 145 006c 0322     		movs	r2, #3
- 146 006e 01A9     		add	r1, sp, #4
- 147 0070 2648     		ldr	r0, .L25+8
- 148 0072 FFF7FEFF 		bl	HAL_SPI_Transmit
- 149              	.LVL20:
-  47:Core/Src/dac_driver.c **** 
-  48:Core/Src/dac_driver.c **** 	if(dac == 0)
- 150              		.loc 1 48 2 view .LVU30
- 151 0076 032C     		cmp	r4, #3
- 152 0078 42D8     		bhi	.L22
- 153 007a DFE804F0 		tbb	[pc, r4]
- 154              	.L15:
- 155 007e 0A       		.byte	(.L18-.L15)/2
- 156 007f 2B       		.byte	(.L17-.L15)/2
- 157 0080 31       		.byte	(.L16-.L15)/2
- 158 0081 37       		.byte	(.L14-.L15)/2
- 159              		.p2align 1
- 160              	.L11:
-  34:Core/Src/dac_driver.c **** 		break;
- 161              		.loc 1 34 3 view .LVU31
-  34:Core/Src/dac_driver.c **** 		break;
- 162              		.loc 1 34 12 is_stmt 0 view .LVU32
- 163 0082 1823     		movs	r3, #24
- 164 0084 8DF80430 		strb	r3, [sp, #4]
-  35:Core/Src/dac_driver.c **** 		case 3:
- 165              		.loc 1 35 3 is_stmt 1 view .LVU33
- 166 0088 EBE7     		b	.L13
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s 			page 5
-
-
+ 138 008c DFE806F0 		tbb	[pc, r6]
+ 139              	.L15:
+ 140 0090 54       		.byte	(.L16-.L15)/2
+ 141 0091 37       		.byte	(.L12-.L15)/2
+ 142 0092 35       		.byte	(.L11-.L15)/2
+ 143 0093 12       		.byte	(.L9-.L15)/2
+ 144              		.p2align 1
+ 145              	.L7:
+  17:Core/Src/dac_driver.c **** 	else if(dac == 1)
+ 146              		.loc 1 17 3 view .LVU22
+ 147 0094 4FF48061 		mov	r1, #1024
+ 148 0098 3348     		ldr	r0, .L48
+ 149 009a 0022     		movs	r2, #0
+ 150 009c FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 151              	.LVL9:
+  27:Core/Src/dac_driver.c **** 
+ 152              		.loc 1 27 2 view .LVU23
+  27:Core/Src/dac_driver.c **** 
+ 153              		.loc 1 27 10 is_stmt 0 view .LVU24
+ 154 00a0 0023     		movs	r3, #0
+ 155 00a2 01A9     		add	r1, sp, #4
+ 156 00a4 ADF80430 		strh	r3, [sp, #4]	@ movhi
+ 157              		.loc 1 29 2 is_stmt 1 view .LVU25
+ 158 00a8 032E     		cmp	r6, #3
+ 159 00aa 5AD8     		bhi	.L2
+ 160 00ac DFE806F0 		tbb	[pc, r6]
+ 161              	.L10:
+ 162 00b0 29       		.byte	(.L13-.L10)/2
+ 163 00b1 27       		.byte	(.L12-.L10)/2
+ 164 00b2 25       		.byte	(.L11-.L10)/2
+ 165 00b3 02       		.byte	(.L9-.L10)/2
+ 166              		.p2align 1
  167              	.L9:
-  37:Core/Src/dac_driver.c **** 		break;
- 168              		.loc 1 37 3 view .LVU34
-  37:Core/Src/dac_driver.c **** 		break;
- 169              		.loc 1 37 12 is_stmt 0 view .LVU35
- 170 008a 0823     		movs	r3, #8
- 171 008c 8DF80430 		strb	r3, [sp, #4]
-  38:Core/Src/dac_driver.c **** 		default:
- 172              		.loc 1 38 3 is_stmt 1 view .LVU36
- 173 0090 E7E7     		b	.L13
- 174              	.L18:
-  49:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS0_GPIO_Port, CS0_Pin, GPIO_PIN_SET);
- 175              		.loc 1 49 3 view .LVU37
- 176 0092 0122     		movs	r2, #1
- 177 0094 4FF48061 		mov	r1, #1024
- 178 0098 1A48     		ldr	r0, .L25
- 179 009a FFF7FEFF 		bl	HAL_GPIO_WritePin
- 180              	.LVL21:
- 181              	.L19:
-  50:Core/Src/dac_driver.c **** 	else if(dac == 1)
-  51:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS1_GPIO_Port, CS1_Pin, GPIO_PIN_SET);
-  52:Core/Src/dac_driver.c **** 	else if(dac == 2)
-  53:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS2_GPIO_Port, CS2_Pin, GPIO_PIN_SET);
-  54:Core/Src/dac_driver.c **** 	else if(dac == 3)
-  55:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS3_GPIO_Port, CS3_Pin, GPIO_PIN_SET);
-  56:Core/Src/dac_driver.c **** 	else
-  57:Core/Src/dac_driver.c **** 		return 0;
-  58:Core/Src/dac_driver.c **** 
-  59:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_RESET);
- 182              		.loc 1 59 2 view .LVU38
- 183 009e 194C     		ldr	r4, .L25
- 184              	.LVL22:
- 185              		.loc 1 59 2 is_stmt 0 view .LVU39
- 186 00a0 0022     		movs	r2, #0
- 187 00a2 1021     		movs	r1, #16
- 188 00a4 2046     		mov	r0, r4
- 189 00a6 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 190              	.LVL23:
-  60:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT1_GPIO_Port, LAT1_Pin, GPIO_PIN_RESET);
- 191              		.loc 1 60 2 is_stmt 1 view .LVU40
- 192 00aa 0022     		movs	r2, #0
- 193 00ac 2021     		movs	r1, #32
- 194 00ae 2046     		mov	r0, r4
- 195 00b0 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 196              	.LVL24:
-  61:Core/Src/dac_driver.c **** 	HAL_Delay(1);
- 197              		.loc 1 61 2 view .LVU41
- 198 00b4 0120     		movs	r0, #1
- 199 00b6 FFF7FEFF 		bl	HAL_Delay
- 200              	.LVL25:
+  30:Core/Src/dac_driver.c **** 		case 0:
+  31:Core/Src/dac_driver.c **** 		toSend[0]=0b00000000;
+  32:Core/Src/dac_driver.c **** 		break;
+  33:Core/Src/dac_driver.c **** 		case 1:
+  34:Core/Src/dac_driver.c **** 		toSend[0]=0b00010000;
+  35:Core/Src/dac_driver.c **** 		break;
+  36:Core/Src/dac_driver.c **** 		case 2:
+  37:Core/Src/dac_driver.c **** 		toSend[0]=0b00011000;
+  38:Core/Src/dac_driver.c **** 		break;
+  39:Core/Src/dac_driver.c **** 		case 3:
+  40:Core/Src/dac_driver.c **** 		toSend[0]=0b00001000;
+ 168              		.loc 1 40 3 view .LVU26
+  41:Core/Src/dac_driver.c **** 		break;
+ 169              		.loc 1 41 3 view .LVU27
+ 170 00b4 0822     		movs	r2, #8
+ 171              	.L14:
+  40:Core/Src/dac_driver.c **** 		break;
+ 172              		.loc 1 40 12 is_stmt 0 view .LVU28
+ 173 00b6 8DF80420 		strb	r2, [sp, #4]
+  42:Core/Src/dac_driver.c **** 		default:
+  43:Core/Src/dac_driver.c **** 		return 0;
+  44:Core/Src/dac_driver.c **** 	}
+  45:Core/Src/dac_driver.c **** 
+  46:Core/Src/dac_driver.c **** 	toSend[1]=value;
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s 			page 5
+
+
+ 174              		.loc 1 46 2 is_stmt 1 view .LVU29
+  47:Core/Src/dac_driver.c **** 	toSend[2]=value;
+  48:Core/Src/dac_driver.c **** 
+  49:Core/Src/dac_driver.c **** 	HAL_SPI_Transmit(&hspi1, toSend, 3, 100);
+ 175              		.loc 1 49 2 is_stmt 0 view .LVU30
+ 176 00ba 2D48     		ldr	r0, .L48+8
+  46:Core/Src/dac_driver.c **** 	toSend[2]=value;
+ 177              		.loc 1 46 11 view .LVU31
+ 178 00bc 8DF80550 		strb	r5, [sp, #5]
+  47:Core/Src/dac_driver.c **** 	toSend[2]=value;
+ 179              		.loc 1 47 2 is_stmt 1 view .LVU32
+ 180              		.loc 1 49 2 is_stmt 0 view .LVU33
+ 181 00c0 6423     		movs	r3, #100
+ 182 00c2 0322     		movs	r2, #3
+  47:Core/Src/dac_driver.c **** 	toSend[2]=value;
+ 183              		.loc 1 47 11 view .LVU34
+ 184 00c4 8DF80650 		strb	r5, [sp, #6]
+ 185              		.loc 1 49 2 is_stmt 1 view .LVU35
+ 186 00c8 FFF7FEFF 		bl	HAL_SPI_Transmit
+ 187              	.LVL10:
+  50:Core/Src/dac_driver.c **** 
+  51:Core/Src/dac_driver.c **** 	if(dac == 0)
+ 188              		.loc 1 51 2 view .LVU36
+ 189              		.loc 1 51 4 is_stmt 0 view .LVU37
+ 190 00cc 04B3     		cbz	r4, .L27
+  52:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS0_GPIO_Port, CS0_Pin, GPIO_PIN_SET);
+  53:Core/Src/dac_driver.c **** 	else if(dac == 1)
+ 191              		.loc 1 53 7 is_stmt 1 view .LVU38
+ 192              		.loc 1 53 9 is_stmt 0 view .LVU39
+ 193 00ce 012C     		cmp	r4, #1
+ 194 00d0 39D0     		beq	.L25
+  54:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS1_GPIO_Port, CS1_Pin, GPIO_PIN_SET);
+  55:Core/Src/dac_driver.c **** 	else if(dac == 2)
+ 195              		.loc 1 55 7 is_stmt 1 view .LVU40
+ 196              		.loc 1 55 9 is_stmt 0 view .LVU41
+ 197 00d2 022C     		cmp	r4, #2
+ 198 00d4 2AD0     		beq	.L26
+ 199              	.L24:
+  56:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS2_GPIO_Port, CS2_Pin, GPIO_PIN_SET);
+  57:Core/Src/dac_driver.c **** 	else if(dac == 3)
+ 200              		.loc 1 57 7 is_stmt 1 view .LVU42
+  58:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS3_GPIO_Port, CS3_Pin, GPIO_PIN_SET);
+ 201              		.loc 1 58 3 view .LVU43
+ 202 00d6 2548     		ldr	r0, .L48+4
+ 203 00d8 0122     		movs	r2, #1
+ 204 00da 0421     		movs	r1, #4
+ 205 00dc FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 206              	.LVL11:
+ 207              	.L22:
+  59:Core/Src/dac_driver.c **** 	else
+  60:Core/Src/dac_driver.c **** 		return 0;
+  61:Core/Src/dac_driver.c **** 
   62:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_SET);
- 201              		.loc 1 62 2 view .LVU42
- 202 00ba 0122     		movs	r2, #1
- 203 00bc 1021     		movs	r1, #16
- 204 00be 2046     		mov	r0, r4
- 205 00c0 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 206              	.LVL26:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s 			page 6
+ 208              		.loc 1 62 2 view .LVU44
+ 209 00e0 2148     		ldr	r0, .L48
+ 210 00e2 0122     		movs	r2, #1
+ 211 00e4 1021     		movs	r1, #16
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s 			page 6
 
 
+ 212 00e6 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 213              	.LVL12:
   63:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT1_GPIO_Port, LAT1_Pin, GPIO_PIN_SET);
- 207              		.loc 1 63 2 view .LVU43
- 208 00c4 0122     		movs	r2, #1
- 209 00c6 2021     		movs	r1, #32
- 210 00c8 2046     		mov	r0, r4
- 211 00ca FFF7FEFF 		bl	HAL_GPIO_WritePin
- 212              	.LVL27:
+ 214              		.loc 1 63 2 view .LVU45
+ 215 00ea 1F48     		ldr	r0, .L48
+ 216 00ec 0122     		movs	r2, #1
+ 217 00ee 2021     		movs	r1, #32
+ 218 00f0 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 219              	.LVL13:
   64:Core/Src/dac_driver.c **** 
   65:Core/Src/dac_driver.c **** 	return 1;
- 213              		.loc 1 65 2 view .LVU44
- 214              		.loc 1 65 9 is_stmt 0 view .LVU45
- 215 00ce 0120     		movs	r0, #1
- 216              	.L2:
+ 220              		.loc 1 65 2 view .LVU46
+ 221              		.loc 1 65 9 is_stmt 0 view .LVU47
+ 222 00f4 0120     		movs	r0, #1
+ 223              	.L28:
   66:Core/Src/dac_driver.c **** }
- 217              		.loc 1 66 1 view .LVU46
- 218 00d0 02B0     		add	sp, sp, #8
- 219              		.cfi_remember_state
- 220              		.cfi_def_cfa_offset 16
- 221              		@ sp needed
- 222 00d2 70BD     		pop	{r4, r5, r6, pc}
- 223              	.LVL28:
- 224              	.L17:
- 225              		.cfi_restore_state
-  51:Core/Src/dac_driver.c **** 	else if(dac == 2)
- 226              		.loc 1 51 3 is_stmt 1 view .LVU47
- 227 00d4 0122     		movs	r2, #1
- 228 00d6 1021     		movs	r1, #16
- 229 00d8 0B48     		ldr	r0, .L25+4
- 230 00da FFF7FEFF 		bl	HAL_GPIO_WritePin
- 231              	.LVL29:
- 232 00de DEE7     		b	.L19
- 233              	.L16:
-  53:Core/Src/dac_driver.c **** 	else if(dac == 3)
- 234              		.loc 1 53 3 view .LVU48
- 235 00e0 0122     		movs	r2, #1
- 236 00e2 0821     		movs	r1, #8
- 237 00e4 0848     		ldr	r0, .L25+4
- 238 00e6 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 239              	.LVL30:
- 240 00ea D8E7     		b	.L19
- 241              	.L14:
-  55:Core/Src/dac_driver.c **** 	else
- 242              		.loc 1 55 3 view .LVU49
- 243 00ec 0122     		movs	r2, #1
- 244 00ee 0421     		movs	r1, #4
- 245 00f0 0548     		ldr	r0, .L25+4
- 246 00f2 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 247              	.LVL31:
- 248 00f6 D2E7     		b	.L19
- 249              	.LVL32:
- 250              	.L20:
-  26:Core/Src/dac_driver.c **** 		case 0:
- 251              		.loc 1 26 2 is_stmt 0 view .LVU50
- 252 00f8 0020     		movs	r0, #0
- 253              	.LVL33:
-  26:Core/Src/dac_driver.c **** 		case 0:
- 254              		.loc 1 26 2 view .LVU51
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s 			page 7
+ 224              		.loc 1 66 1 view .LVU48
+ 225 00f6 03B0     		add	sp, sp, #12
+ 226              		.cfi_remember_state
+ 227              		.cfi_def_cfa_offset 20
+ 228              		@ sp needed
+ 229 00f8 F0BD     		pop	{r4, r5, r6, r7, pc}
+ 230              	.LVL14:
+ 231              	.L11:
+ 232              		.cfi_restore_state
+  37:Core/Src/dac_driver.c **** 		break;
+ 233              		.loc 1 37 3 is_stmt 1 view .LVU49
+  38:Core/Src/dac_driver.c **** 		case 3:
+ 234              		.loc 1 38 3 view .LVU50
+ 235 00fa 1822     		movs	r2, #24
+ 236 00fc DBE7     		b	.L14
+ 237              	.L12:
+  34:Core/Src/dac_driver.c **** 		break;
+ 238              		.loc 1 34 3 view .LVU51
+  35:Core/Src/dac_driver.c **** 		case 2:
+ 239              		.loc 1 35 3 view .LVU52
+ 240 00fe 1022     		movs	r2, #16
+ 241 0100 D9E7     		b	.L14
+ 242              	.L13:
+  46:Core/Src/dac_driver.c **** 	toSend[2]=value;
+ 243              		.loc 1 46 2 view .LVU53
+  47:Core/Src/dac_driver.c **** 
+ 244              		.loc 1 47 2 view .LVU54
+  49:Core/Src/dac_driver.c **** 
+ 245              		.loc 1 49 2 is_stmt 0 view .LVU55
+ 246 0102 1B48     		ldr	r0, .L48+8
+  46:Core/Src/dac_driver.c **** 	toSend[2]=value;
+ 247              		.loc 1 46 11 view .LVU56
+ 248 0104 ADF80570 		strh	r7, [sp, #5]	@ unaligned
+  49:Core/Src/dac_driver.c **** 
+ 249              		.loc 1 49 2 is_stmt 1 view .LVU57
+ 250 0108 6423     		movs	r3, #100
+ 251 010a 0322     		movs	r2, #3
+ 252 010c FFF7FEFF 		bl	HAL_SPI_Transmit
+ 253              	.LVL15:
+  51:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS0_GPIO_Port, CS0_Pin, GPIO_PIN_SET);
+ 254              		.loc 1 51 2 view .LVU58
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s 			page 7
 
 
- 255 00fa E9E7     		b	.L2
- 256              	.LVL34:
- 257              	.L21:
-  26:Core/Src/dac_driver.c **** 		case 0:
- 258              		.loc 1 26 2 view .LVU52
- 259 00fc 0020     		movs	r0, #0
- 260 00fe E7E7     		b	.L2
- 261              	.L22:
-  46:Core/Src/dac_driver.c **** 
- 262              		.loc 1 46 2 view .LVU53
- 263 0100 0020     		movs	r0, #0
- 264 0102 E5E7     		b	.L2
- 265              	.L26:
- 266              		.align	2
- 267              	.L25:
- 268 0104 00040240 		.word	1073873920
- 269 0108 00000240 		.word	1073872896
- 270 010c 00000000 		.word	hspi1
- 271              		.cfi_endproc
- 272              	.LFE216:
- 274              		.text
- 275              	.Letext0:
- 276              		.file 2 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
- 277              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
- 278              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
- 279              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
- 280              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
- 281              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
- 282              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h"
- 283              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
- 284              		.file 10 "Core/Inc/spi.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s 			page 8
+ 255              	.L27:
+  52:Core/Src/dac_driver.c **** 	else if(dac == 1)
+ 256              		.loc 1 52 3 view .LVU59
+ 257 0110 1548     		ldr	r0, .L48
+ 258 0112 0122     		movs	r2, #1
+ 259 0114 4FF48061 		mov	r1, #1024
+ 260 0118 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 261              	.LVL16:
+ 262 011c E0E7     		b	.L22
+ 263              	.L18:
+  46:Core/Src/dac_driver.c **** 	toSend[2]=value;
+ 264              		.loc 1 46 2 view .LVU60
+  47:Core/Src/dac_driver.c **** 
+ 265              		.loc 1 47 2 view .LVU61
+  49:Core/Src/dac_driver.c **** 
+ 266              		.loc 1 49 2 is_stmt 0 view .LVU62
+ 267 011e 1448     		ldr	r0, .L48+8
+  46:Core/Src/dac_driver.c **** 	toSend[2]=value;
+ 268              		.loc 1 46 11 view .LVU63
+ 269 0120 ADF80570 		strh	r7, [sp, #5]	@ unaligned
+  49:Core/Src/dac_driver.c **** 
+ 270              		.loc 1 49 2 is_stmt 1 view .LVU64
+ 271 0124 6423     		movs	r3, #100
+ 272 0126 0322     		movs	r2, #3
+ 273 0128 FFF7FEFF 		bl	HAL_SPI_Transmit
+ 274              	.LVL17:
+  51:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS0_GPIO_Port, CS0_Pin, GPIO_PIN_SET);
+ 275              		.loc 1 51 2 view .LVU65
+  53:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS1_GPIO_Port, CS1_Pin, GPIO_PIN_SET);
+ 276              		.loc 1 53 7 view .LVU66
+  55:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS2_GPIO_Port, CS2_Pin, GPIO_PIN_SET);
+ 277              		.loc 1 55 7 view .LVU67
+ 278              	.L26:
+  56:Core/Src/dac_driver.c **** 	else if(dac == 3)
+ 279              		.loc 1 56 3 view .LVU68
+ 280 012c 0F48     		ldr	r0, .L48+4
+ 281 012e 0122     		movs	r2, #1
+ 282 0130 0821     		movs	r1, #8
+ 283 0132 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 284              	.LVL18:
+ 285 0136 D3E7     		b	.L22
+ 286              	.L16:
+  46:Core/Src/dac_driver.c **** 	toSend[2]=value;
+ 287              		.loc 1 46 2 view .LVU69
+  47:Core/Src/dac_driver.c **** 
+ 288              		.loc 1 47 2 view .LVU70
+  49:Core/Src/dac_driver.c **** 
+ 289              		.loc 1 49 2 is_stmt 0 view .LVU71
+ 290 0138 0D48     		ldr	r0, .L48+8
+  46:Core/Src/dac_driver.c **** 	toSend[2]=value;
+ 291              		.loc 1 46 11 view .LVU72
+ 292 013a ADF80570 		strh	r7, [sp, #5]	@ unaligned
+  49:Core/Src/dac_driver.c **** 
+ 293              		.loc 1 49 2 is_stmt 1 view .LVU73
+ 294 013e 6423     		movs	r3, #100
+ 295 0140 0322     		movs	r2, #3
+ 296 0142 FFF7FEFF 		bl	HAL_SPI_Transmit
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s 			page 8
+
+
+ 297              	.LVL19:
+  51:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS0_GPIO_Port, CS0_Pin, GPIO_PIN_SET);
+ 298              		.loc 1 51 2 view .LVU74
+ 299              	.L25:
+  54:Core/Src/dac_driver.c **** 	else if(dac == 2)
+ 300              		.loc 1 54 3 view .LVU75
+ 301 0146 0948     		ldr	r0, .L48+4
+ 302 0148 0122     		movs	r2, #1
+ 303 014a 1021     		movs	r1, #16
+ 304 014c FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 305              	.LVL20:
+ 306 0150 C6E7     		b	.L22
+ 307              	.L20:
+  46:Core/Src/dac_driver.c **** 	toSend[2]=value;
+ 308              		.loc 1 46 2 view .LVU76
+  47:Core/Src/dac_driver.c **** 
+ 309              		.loc 1 47 2 view .LVU77
+  49:Core/Src/dac_driver.c **** 
+ 310              		.loc 1 49 2 is_stmt 0 view .LVU78
+ 311 0152 6423     		movs	r3, #100
+ 312 0154 0322     		movs	r2, #3
+ 313 0156 0648     		ldr	r0, .L48+8
+  46:Core/Src/dac_driver.c **** 	toSend[2]=value;
+ 314              		.loc 1 46 11 view .LVU79
+ 315 0158 ADF80570 		strh	r7, [sp, #5]	@ unaligned
+  49:Core/Src/dac_driver.c **** 
+ 316              		.loc 1 49 2 is_stmt 1 view .LVU80
+ 317 015c FFF7FEFF 		bl	HAL_SPI_Transmit
+ 318              	.LVL21:
+  51:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS0_GPIO_Port, CS0_Pin, GPIO_PIN_SET);
+ 319              		.loc 1 51 2 view .LVU81
+  53:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS1_GPIO_Port, CS1_Pin, GPIO_PIN_SET);
+ 320              		.loc 1 53 7 view .LVU82
+  55:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS2_GPIO_Port, CS2_Pin, GPIO_PIN_SET);
+ 321              		.loc 1 55 7 view .LVU83
+ 322 0160 B9E7     		b	.L24
+ 323              	.L2:
+  25:Core/Src/dac_driver.c **** 		
+ 324              		.loc 1 25 10 is_stmt 0 view .LVU84
+ 325 0162 0020     		movs	r0, #0
+ 326 0164 C7E7     		b	.L28
+ 327              	.L49:
+ 328 0166 00BF     		.align	2
+ 329              	.L48:
+ 330 0168 00040240 		.word	1073873920
+ 331 016c 00000240 		.word	1073872896
+ 332 0170 00000000 		.word	hspi1
+ 333              		.cfi_endproc
+ 334              	.LFE216:
+ 336              		.text
+ 337              	.Letext0:
+ 338              		.file 2 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
+ 339              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
+ 340              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
+ 341              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
+ 342              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
+ 343              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s 			page 9
+
+
+ 344              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h"
+ 345              		.file 9 "Core/Inc/spi.h"
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 dac_driver.c
-C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s:21     .text.dac_write:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s:27     .text.dac_write:00000000 dac_write
-C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s:51     .text.dac_write:00000012 $d
-C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s:55     .text.dac_write:00000016 $t
-C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s:80     .text.dac_write:00000034 $d
-C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s:85     .text.dac_write:00000038 $t
-C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s:155    .text.dac_write:0000007e $d
-C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s:159    .text.dac_write:00000082 $t
-C:\Users\Konrad\AppData\Local\Temp\ccgLOUV8.s:268    .text.dac_write:00000104 $d
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:19     .text.dac_write:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:26     .text.dac_write:00000000 dac_write
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:74     .text.dac_write:00000034 $d
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:78     .text.dac_write:00000038 $t
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:96     .text.dac_write:00000054 $d
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:100    .text.dac_write:00000058 $t
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:118    .text.dac_write:00000072 $d
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:122    .text.dac_write:00000076 $t
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:140    .text.dac_write:00000090 $d
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:144    .text.dac_write:00000094 $t
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:162    .text.dac_write:000000b0 $d
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:166    .text.dac_write:000000b4 $t
+C:\Users\Konrad\AppData\Local\Temp\ccEAX7Lx.s:330    .text.dac_write:00000168 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin
 HAL_SPI_Transmit
-HAL_Delay
 hspi1

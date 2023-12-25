@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -6,28 +6,27 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s 			page 1
    3              		.fpu fpv4-sp-d16
    4              		.eabi_attribute 27, 1
    5              		.eabi_attribute 28, 1
-   6              		.eabi_attribute 20, 1
-   7              		.eabi_attribute 21, 1
-   8              		.eabi_attribute 23, 3
-   9              		.eabi_attribute 24, 1
-  10              		.eabi_attribute 25, 1
-  11              		.eabi_attribute 26, 1
-  12              		.eabi_attribute 30, 1
-  13              		.eabi_attribute 34, 1
-  14              		.eabi_attribute 18, 4
-  15              		.file	"gpio.c"
-  16              		.text
-  17              	.Ltext0:
-  18              		.cfi_sections	.debug_frame
-  19              		.file 1 "Core/Src/gpio.c"
-  20              		.section	.text.MX_GPIO_Init,"ax",%progbits
-  21              		.align	1
-  22              		.global	MX_GPIO_Init
-  23              		.syntax unified
-  24              		.thumb
-  25              		.thumb_func
-  27              	MX_GPIO_Init:
-  28              	.LFB216:
+   6              		.eabi_attribute 23, 1
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 2
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.file	"gpio.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.file 1 "Core/Src/gpio.c"
+  18              		.section	.text.MX_GPIO_Init,"ax",%progbits
+  19              		.align	1
+  20              		.p2align 2,,3
+  21              		.global	MX_GPIO_Init
+  22              		.syntax unified
+  23              		.thumb
+  24              		.thumb_func
+  26              	MX_GPIO_Init:
+  27              	.LFB216:
    1:Core/Src/gpio.c **** /* USER CODE BEGIN Header */
    2:Core/Src/gpio.c **** /**
    3:Core/Src/gpio.c ****   ******************************************************************************
@@ -58,10 +57,10 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s 			page 1
   28:Core/Src/gpio.c **** /*----------------------------------------------------------------------------*/
   29:Core/Src/gpio.c **** /* Configure GPIO                                                             */
   30:Core/Src/gpio.c **** /*----------------------------------------------------------------------------*/
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s 			page 2
-
-
   31:Core/Src/gpio.c **** /* USER CODE BEGIN 1 */
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 2
+
+
   32:Core/Src/gpio.c **** 
   33:Core/Src/gpio.c **** /* USER CODE END 1 */
   34:Core/Src/gpio.c **** 
@@ -74,243 +73,294 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s 			page 1
   41:Core/Src/gpio.c **** */
   42:Core/Src/gpio.c **** void MX_GPIO_Init(void)
   43:Core/Src/gpio.c **** {
-  29              		.loc 1 43 1 view -0
-  30              		.cfi_startproc
-  31              		@ args = 0, pretend = 0, frame = 40
-  32              		@ frame_needed = 0, uses_anonymous_args = 0
-  33 0000 F0B5     		push	{r4, r5, r6, r7, lr}
-  34              		.cfi_def_cfa_offset 20
-  35              		.cfi_offset 4, -20
-  36              		.cfi_offset 5, -16
-  37              		.cfi_offset 6, -12
-  38              		.cfi_offset 7, -8
-  39              		.cfi_offset 14, -4
-  40 0002 8BB0     		sub	sp, sp, #44
-  41              		.cfi_def_cfa_offset 64
+  28              		.loc 1 43 1 view -0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 40
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
   44:Core/Src/gpio.c **** 
   45:Core/Src/gpio.c ****   GPIO_InitTypeDef GPIO_InitStruct = {0};
-  42              		.loc 1 45 3 view .LVU1
-  43              		.loc 1 45 20 is_stmt 0 view .LVU2
-  44 0004 0024     		movs	r4, #0
-  45 0006 0594     		str	r4, [sp, #20]
-  46 0008 0694     		str	r4, [sp, #24]
-  47 000a 0794     		str	r4, [sp, #28]
-  48 000c 0894     		str	r4, [sp, #32]
-  49 000e 0994     		str	r4, [sp, #36]
+  32              		.loc 1 45 3 view .LVU1
+  43:Core/Src/gpio.c **** 
+  33              		.loc 1 43 1 is_stmt 0 view .LVU2
+  34 0000 70B5     		push	{r4, r5, r6, lr}
+  35              		.cfi_def_cfa_offset 16
+  36              		.cfi_offset 4, -16
+  37              		.cfi_offset 5, -12
+  38              		.cfi_offset 6, -8
+  39              		.cfi_offset 14, -4
+  40              		.loc 1 45 20 view .LVU3
+  41 0002 0024     		movs	r4, #0
+  43:Core/Src/gpio.c **** 
+  42              		.loc 1 43 1 view .LVU4
+  43 0004 8AB0     		sub	sp, sp, #40
+  44              		.cfi_def_cfa_offset 56
+  45              		.loc 1 45 20 view .LVU5
+  46 0006 CDE90444 		strd	r4, r4, [sp, #16]
+  47 000a CDE90644 		strd	r4, r4, [sp, #24]
+  48              	.LBB2:
   46:Core/Src/gpio.c **** 
   47:Core/Src/gpio.c ****   /* GPIO Ports Clock Enable */
   48:Core/Src/gpio.c ****   __HAL_RCC_GPIOC_CLK_ENABLE();
-  50              		.loc 1 48 3 is_stmt 1 view .LVU3
-  51              	.LBB2:
-  52              		.loc 1 48 3 view .LVU4
-  53 0010 0194     		str	r4, [sp, #4]
-  54              		.loc 1 48 3 view .LVU5
-  55 0012 2D4B     		ldr	r3, .L3
-  56 0014 1A6B     		ldr	r2, [r3, #48]
-  57 0016 42F00402 		orr	r2, r2, #4
-  58 001a 1A63     		str	r2, [r3, #48]
-  59              		.loc 1 48 3 view .LVU6
-  60 001c 1A6B     		ldr	r2, [r3, #48]
-  61 001e 02F00402 		and	r2, r2, #4
-  62 0022 0192     		str	r2, [sp, #4]
-  63              		.loc 1 48 3 view .LVU7
-  64 0024 019A     		ldr	r2, [sp, #4]
-  65              	.LBE2:
-  66              		.loc 1 48 3 view .LVU8
+  49              		.loc 1 48 3 view .LVU6
+  50 000e 2E4B     		ldr	r3, .L4
+  51 0010 0094     		str	r4, [sp]
+  52              	.LBE2:
+  45:Core/Src/gpio.c **** 
+  53              		.loc 1 45 20 view .LVU7
+  54 0012 0894     		str	r4, [sp, #32]
+  55              		.loc 1 48 3 is_stmt 1 view .LVU8
+  56              	.LBB3:
+  57              		.loc 1 48 3 view .LVU9
+  58              		.loc 1 48 3 view .LVU10
+  59 0014 1A6B     		ldr	r2, [r3, #48]
+  60              	.LBE3:
   49:Core/Src/gpio.c ****   __HAL_RCC_GPIOH_CLK_ENABLE();
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s 			page 3
-
-
-  67              		.loc 1 49 3 view .LVU9
-  68              	.LBB3:
-  69              		.loc 1 49 3 view .LVU10
-  70 0026 0294     		str	r4, [sp, #8]
-  71              		.loc 1 49 3 view .LVU11
-  72 0028 1A6B     		ldr	r2, [r3, #48]
-  73 002a 42F08002 		orr	r2, r2, #128
-  74 002e 1A63     		str	r2, [r3, #48]
-  75              		.loc 1 49 3 view .LVU12
-  76 0030 1A6B     		ldr	r2, [r3, #48]
-  77 0032 02F08002 		and	r2, r2, #128
-  78 0036 0292     		str	r2, [sp, #8]
-  79              		.loc 1 49 3 view .LVU13
-  80 0038 029A     		ldr	r2, [sp, #8]
-  81              	.LBE3:
-  82              		.loc 1 49 3 view .LVU14
   50:Core/Src/gpio.c ****   __HAL_RCC_GPIOA_CLK_ENABLE();
-  83              		.loc 1 50 3 view .LVU15
-  84              	.LBB4:
-  85              		.loc 1 50 3 view .LVU16
-  86 003a 0394     		str	r4, [sp, #12]
-  87              		.loc 1 50 3 view .LVU17
-  88 003c 1A6B     		ldr	r2, [r3, #48]
-  89 003e 42F00102 		orr	r2, r2, #1
-  90 0042 1A63     		str	r2, [r3, #48]
-  91              		.loc 1 50 3 view .LVU18
-  92 0044 1A6B     		ldr	r2, [r3, #48]
-  93 0046 02F00102 		and	r2, r2, #1
-  94 004a 0392     		str	r2, [sp, #12]
-  95              		.loc 1 50 3 view .LVU19
-  96 004c 039A     		ldr	r2, [sp, #12]
-  97              	.LBE4:
-  98              		.loc 1 50 3 view .LVU20
   51:Core/Src/gpio.c ****   __HAL_RCC_GPIOB_CLK_ENABLE();
-  99              		.loc 1 51 3 view .LVU21
- 100              	.LBB5:
- 101              		.loc 1 51 3 view .LVU22
- 102 004e 0494     		str	r4, [sp, #16]
- 103              		.loc 1 51 3 view .LVU23
- 104 0050 1A6B     		ldr	r2, [r3, #48]
- 105 0052 42F00202 		orr	r2, r2, #2
- 106 0056 1A63     		str	r2, [r3, #48]
- 107              		.loc 1 51 3 view .LVU24
- 108 0058 1B6B     		ldr	r3, [r3, #48]
- 109 005a 03F00203 		and	r3, r3, #2
- 110 005e 0493     		str	r3, [sp, #16]
- 111              		.loc 1 51 3 view .LVU25
- 112 0060 049B     		ldr	r3, [sp, #16]
- 113              	.LBE5:
- 114              		.loc 1 51 3 view .LVU26
   52:Core/Src/gpio.c **** 
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 3
+
+
   53:Core/Src/gpio.c ****   /*Configure GPIO pin Output Level */
   54:Core/Src/gpio.c ****   HAL_GPIO_WritePin(GPIOA, CS3_Pin|CS2_Pin|CS1_Pin, GPIO_PIN_SET);
- 115              		.loc 1 54 3 view .LVU27
- 116 0062 1A4F     		ldr	r7, .L3+4
- 117 0064 0122     		movs	r2, #1
- 118 0066 1C21     		movs	r1, #28
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s 			page 4
-
-
- 119 0068 3846     		mov	r0, r7
- 120 006a FFF7FEFF 		bl	HAL_GPIO_WritePin
- 121              	.LVL0:
+  61              		.loc 1 54 3 is_stmt 0 view .LVU11
+  62 0016 2D4E     		ldr	r6, .L4+4
   55:Core/Src/gpio.c **** 
   56:Core/Src/gpio.c ****   /*Configure GPIO pin Output Level */
   57:Core/Src/gpio.c ****   HAL_GPIO_WritePin(GPIOB, CS0_Pin|LAT0_Pin|LAT1_Pin, GPIO_PIN_SET);
- 122              		.loc 1 57 3 view .LVU28
- 123 006e 184D     		ldr	r5, .L3+8
- 124 0070 0122     		movs	r2, #1
- 125 0072 4FF48661 		mov	r1, #1072
- 126 0076 2846     		mov	r0, r5
- 127 0078 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 128              	.LVL1:
+  63              		.loc 1 57 3 view .LVU12
+  64 0018 2D4D     		ldr	r5, .L4+8
+  65              	.LBB4:
+  48:Core/Src/gpio.c ****   __HAL_RCC_GPIOH_CLK_ENABLE();
+  66              		.loc 1 48 3 view .LVU13
+  67 001a 42F00402 		orr	r2, r2, #4
+  68 001e 1A63     		str	r2, [r3, #48]
+  48:Core/Src/gpio.c ****   __HAL_RCC_GPIOH_CLK_ENABLE();
+  69              		.loc 1 48 3 is_stmt 1 view .LVU14
+  70 0020 1A6B     		ldr	r2, [r3, #48]
+  71 0022 02F00402 		and	r2, r2, #4
+  72 0026 0092     		str	r2, [sp]
+  48:Core/Src/gpio.c ****   __HAL_RCC_GPIOH_CLK_ENABLE();
+  73              		.loc 1 48 3 view .LVU15
+  74 0028 009A     		ldr	r2, [sp]
+  75              	.LBE4:
+  48:Core/Src/gpio.c ****   __HAL_RCC_GPIOH_CLK_ENABLE();
+  76              		.loc 1 48 3 view .LVU16
+  49:Core/Src/gpio.c ****   __HAL_RCC_GPIOH_CLK_ENABLE();
+  77              		.loc 1 49 3 view .LVU17
+  78              	.LBB5:
+  49:Core/Src/gpio.c ****   __HAL_RCC_GPIOH_CLK_ENABLE();
+  79              		.loc 1 49 3 view .LVU18
+  80 002a 0194     		str	r4, [sp, #4]
+  49:Core/Src/gpio.c ****   __HAL_RCC_GPIOH_CLK_ENABLE();
+  81              		.loc 1 49 3 view .LVU19
+  82 002c 1A6B     		ldr	r2, [r3, #48]
+  83 002e 42F08002 		orr	r2, r2, #128
+  84 0032 1A63     		str	r2, [r3, #48]
+  49:Core/Src/gpio.c ****   __HAL_RCC_GPIOH_CLK_ENABLE();
+  85              		.loc 1 49 3 view .LVU20
+  86 0034 1A6B     		ldr	r2, [r3, #48]
+  87 0036 02F08002 		and	r2, r2, #128
+  88 003a 0192     		str	r2, [sp, #4]
+  49:Core/Src/gpio.c ****   __HAL_RCC_GPIOH_CLK_ENABLE();
+  89              		.loc 1 49 3 view .LVU21
+  90 003c 019A     		ldr	r2, [sp, #4]
+  91              	.LBE5:
+  49:Core/Src/gpio.c ****   __HAL_RCC_GPIOH_CLK_ENABLE();
+  92              		.loc 1 49 3 view .LVU22
+  50:Core/Src/gpio.c ****   __HAL_RCC_GPIOB_CLK_ENABLE();
+  93              		.loc 1 50 3 view .LVU23
+  94              	.LBB6:
+  50:Core/Src/gpio.c ****   __HAL_RCC_GPIOB_CLK_ENABLE();
+  95              		.loc 1 50 3 view .LVU24
+  96 003e 0294     		str	r4, [sp, #8]
+  50:Core/Src/gpio.c ****   __HAL_RCC_GPIOB_CLK_ENABLE();
+  97              		.loc 1 50 3 view .LVU25
+  98 0040 1A6B     		ldr	r2, [r3, #48]
+  99 0042 42F00102 		orr	r2, r2, #1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 4
+
+
+ 100 0046 1A63     		str	r2, [r3, #48]
+  50:Core/Src/gpio.c ****   __HAL_RCC_GPIOB_CLK_ENABLE();
+ 101              		.loc 1 50 3 view .LVU26
+ 102 0048 1A6B     		ldr	r2, [r3, #48]
+ 103 004a 02F00102 		and	r2, r2, #1
+ 104 004e 0292     		str	r2, [sp, #8]
+  50:Core/Src/gpio.c ****   __HAL_RCC_GPIOB_CLK_ENABLE();
+ 105              		.loc 1 50 3 view .LVU27
+ 106 0050 029A     		ldr	r2, [sp, #8]
+ 107              	.LBE6:
+  50:Core/Src/gpio.c ****   __HAL_RCC_GPIOB_CLK_ENABLE();
+ 108              		.loc 1 50 3 view .LVU28
+  51:Core/Src/gpio.c **** 
+ 109              		.loc 1 51 3 view .LVU29
+ 110              	.LBB7:
+  51:Core/Src/gpio.c **** 
+ 111              		.loc 1 51 3 view .LVU30
+ 112 0052 0394     		str	r4, [sp, #12]
+  51:Core/Src/gpio.c **** 
+ 113              		.loc 1 51 3 view .LVU31
+ 114 0054 1A6B     		ldr	r2, [r3, #48]
+ 115 0056 42F00202 		orr	r2, r2, #2
+ 116 005a 1A63     		str	r2, [r3, #48]
+  51:Core/Src/gpio.c **** 
+ 117              		.loc 1 51 3 view .LVU32
+ 118 005c 1B6B     		ldr	r3, [r3, #48]
+ 119 005e 03F00203 		and	r3, r3, #2
+ 120 0062 0393     		str	r3, [sp, #12]
+  51:Core/Src/gpio.c **** 
+ 121              		.loc 1 51 3 view .LVU33
+ 122              	.LBE7:
+  54:Core/Src/gpio.c **** 
+ 123              		.loc 1 54 3 is_stmt 0 view .LVU34
+ 124 0064 3046     		mov	r0, r6
+ 125 0066 0122     		movs	r2, #1
+ 126 0068 1C21     		movs	r1, #28
+ 127              	.LBB8:
+  51:Core/Src/gpio.c **** 
+ 128              		.loc 1 51 3 view .LVU35
+ 129 006a 039B     		ldr	r3, [sp, #12]
+ 130              	.LBE8:
+  51:Core/Src/gpio.c **** 
+ 131              		.loc 1 51 3 is_stmt 1 view .LVU36
+  54:Core/Src/gpio.c **** 
+ 132              		.loc 1 54 3 view .LVU37
+ 133 006c FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 134              	.LVL0:
+ 135              		.loc 1 57 3 view .LVU38
+ 136 0070 2846     		mov	r0, r5
+ 137 0072 0122     		movs	r2, #1
+ 138 0074 4FF48661 		mov	r1, #1072
+ 139 0078 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 140              	.LVL1:
   58:Core/Src/gpio.c **** 
   59:Core/Src/gpio.c ****   /*Configure GPIO pin Output Level */
   60:Core/Src/gpio.c ****   HAL_GPIO_WritePin(EN_TUBE_GPIO_Port, EN_TUBE_Pin, GPIO_PIN_RESET);
- 129              		.loc 1 60 3 view .LVU29
- 130 007c 2246     		mov	r2, r4
- 131 007e 4FF40071 		mov	r1, #512
- 132 0082 2846     		mov	r0, r5
- 133 0084 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 134              	.LVL2:
+ 141              		.loc 1 60 3 view .LVU39
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 5
+
+
+ 142 007c 2246     		mov	r2, r4
+ 143 007e 2846     		mov	r0, r5
+ 144 0080 4FF40071 		mov	r1, #512
+ 145 0084 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 146              	.LVL2:
   61:Core/Src/gpio.c **** 
   62:Core/Src/gpio.c ****   /*Configure GPIO pin : PtPin */
   63:Core/Src/gpio.c ****   GPIO_InitStruct.Pin = SW_Pin;
- 135              		.loc 1 63 3 view .LVU30
- 136              		.loc 1 63 23 is_stmt 0 view .LVU31
- 137 0088 4FF40053 		mov	r3, #8192
- 138 008c 0593     		str	r3, [sp, #20]
+ 147              		.loc 1 63 3 view .LVU40
   64:Core/Src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
- 139              		.loc 1 64 3 is_stmt 1 view .LVU32
- 140              		.loc 1 64 24 is_stmt 0 view .LVU33
- 141 008e 0694     		str	r4, [sp, #24]
+ 148              		.loc 1 64 3 view .LVU41
+  63:Core/Src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+ 149              		.loc 1 63 23 is_stmt 0 view .LVU42
+ 150 0088 4FF40052 		mov	r2, #8192
+ 151 008c 0023     		movs	r3, #0
   65:Core/Src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
- 142              		.loc 1 65 3 is_stmt 1 view .LVU34
- 143              		.loc 1 65 24 is_stmt 0 view .LVU35
- 144 0090 0794     		str	r4, [sp, #28]
   66:Core/Src/gpio.c ****   HAL_GPIO_Init(SW_GPIO_Port, &GPIO_InitStruct);
- 145              		.loc 1 66 3 is_stmt 1 view .LVU36
- 146 0092 05A9     		add	r1, sp, #20
- 147 0094 0F48     		ldr	r0, .L3+12
- 148 0096 FFF7FEFF 		bl	HAL_GPIO_Init
- 149              	.LVL3:
+ 152              		.loc 1 66 3 view .LVU43
+ 153 008e 04A9     		add	r1, sp, #16
+ 154 0090 1048     		ldr	r0, .L4+12
+  65:Core/Src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 155              		.loc 1 65 24 view .LVU44
+ 156 0092 0694     		str	r4, [sp, #24]
+  63:Core/Src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+ 157              		.loc 1 63 23 view .LVU45
+ 158 0094 CDE90423 		strd	r2, [sp, #16]
+  65:Core/Src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 159              		.loc 1 65 3 is_stmt 1 view .LVU46
+ 160              		.loc 1 66 3 view .LVU47
+ 161 0098 FFF7FEFF 		bl	HAL_GPIO_Init
+ 162              	.LVL3:
   67:Core/Src/gpio.c **** 
   68:Core/Src/gpio.c ****   /*Configure GPIO pins : PAPin PAPin PAPin */
   69:Core/Src/gpio.c ****   GPIO_InitStruct.Pin = CS3_Pin|CS2_Pin|CS1_Pin;
- 150              		.loc 1 69 3 view .LVU37
- 151              		.loc 1 69 23 is_stmt 0 view .LVU38
- 152 009a 1C23     		movs	r3, #28
- 153 009c 0593     		str	r3, [sp, #20]
+ 163              		.loc 1 69 3 view .LVU48
+ 164              		.loc 1 69 23 is_stmt 0 view .LVU49
+ 165 009c 1C23     		movs	r3, #28
   70:Core/Src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
- 154              		.loc 1 70 3 is_stmt 1 view .LVU39
- 155              		.loc 1 70 24 is_stmt 0 view .LVU40
- 156 009e 0126     		movs	r6, #1
- 157 00a0 0696     		str	r6, [sp, #24]
   71:Core/Src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
- 158              		.loc 1 71 3 is_stmt 1 view .LVU41
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s 			page 5
-
-
- 159              		.loc 1 71 24 is_stmt 0 view .LVU42
- 160 00a2 0794     		str	r4, [sp, #28]
   72:Core/Src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
- 161              		.loc 1 72 3 is_stmt 1 view .LVU43
- 162              		.loc 1 72 25 is_stmt 0 view .LVU44
- 163 00a4 0894     		str	r4, [sp, #32]
   73:Core/Src/gpio.c ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
- 164              		.loc 1 73 3 is_stmt 1 view .LVU45
- 165 00a6 05A9     		add	r1, sp, #20
- 166 00a8 3846     		mov	r0, r7
- 167 00aa FFF7FEFF 		bl	HAL_GPIO_Init
- 168              	.LVL4:
+ 166              		.loc 1 73 3 view .LVU50
+ 167 009e 3046     		mov	r0, r6
+ 168 00a0 04A9     		add	r1, sp, #16
+  70:Core/Src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 169              		.loc 1 70 24 view .LVU51
+ 170 00a2 0126     		movs	r6, #1
+  69:Core/Src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 171              		.loc 1 69 23 view .LVU52
+ 172 00a4 0493     		str	r3, [sp, #16]
+  70:Core/Src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 173              		.loc 1 70 3 is_stmt 1 view .LVU53
+  71:Core/Src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 174              		.loc 1 71 24 is_stmt 0 view .LVU54
+ 175 00a6 CDE90564 		strd	r6, r4, [sp, #20]
+  72:Core/Src/gpio.c ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+ 176              		.loc 1 72 3 is_stmt 1 view .LVU55
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 6
+
+
+  72:Core/Src/gpio.c ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+ 177              		.loc 1 72 25 is_stmt 0 view .LVU56
+ 178 00aa 0794     		str	r4, [sp, #28]
+ 179              		.loc 1 73 3 is_stmt 1 view .LVU57
+ 180 00ac FFF7FEFF 		bl	HAL_GPIO_Init
+ 181              	.LVL4:
   74:Core/Src/gpio.c **** 
   75:Core/Src/gpio.c ****   /*Configure GPIO pins : PBPin PBPin PBPin PBPin */
   76:Core/Src/gpio.c ****   GPIO_InitStruct.Pin = CS0_Pin|LAT0_Pin|LAT1_Pin|EN_TUBE_Pin;
- 169              		.loc 1 76 3 view .LVU46
- 170              		.loc 1 76 23 is_stmt 0 view .LVU47
- 171 00ae 4FF4C663 		mov	r3, #1584
- 172 00b2 0593     		str	r3, [sp, #20]
+ 182              		.loc 1 76 3 view .LVU58
+ 183              		.loc 1 76 23 is_stmt 0 view .LVU59
+ 184 00b0 4FF4C663 		mov	r3, #1584
   77:Core/Src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
- 173              		.loc 1 77 3 is_stmt 1 view .LVU48
- 174              		.loc 1 77 24 is_stmt 0 view .LVU49
- 175 00b4 0696     		str	r6, [sp, #24]
   78:Core/Src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
- 176              		.loc 1 78 3 is_stmt 1 view .LVU50
- 177              		.loc 1 78 24 is_stmt 0 view .LVU51
- 178 00b6 0794     		str	r4, [sp, #28]
   79:Core/Src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
- 179              		.loc 1 79 3 is_stmt 1 view .LVU52
- 180              		.loc 1 79 25 is_stmt 0 view .LVU53
- 181 00b8 0894     		str	r4, [sp, #32]
   80:Core/Src/gpio.c ****   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
- 182              		.loc 1 80 3 is_stmt 1 view .LVU54
- 183 00ba 05A9     		add	r1, sp, #20
- 184 00bc 2846     		mov	r0, r5
- 185 00be FFF7FEFF 		bl	HAL_GPIO_Init
- 186              	.LVL5:
+ 185              		.loc 1 80 3 view .LVU60
+ 186 00b4 04A9     		add	r1, sp, #16
+ 187 00b6 2846     		mov	r0, r5
+  77:Core/Src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 188              		.loc 1 77 24 view .LVU61
+ 189 00b8 CDE90436 		strd	r3, r6, [sp, #16]
+  78:Core/Src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 190              		.loc 1 78 3 is_stmt 1 view .LVU62
+  79:Core/Src/gpio.c ****   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+ 191              		.loc 1 79 25 is_stmt 0 view .LVU63
+ 192 00bc CDE90644 		strd	r4, r4, [sp, #24]
+ 193              		.loc 1 80 3 is_stmt 1 view .LVU64
+ 194 00c0 FFF7FEFF 		bl	HAL_GPIO_Init
+ 195              	.LVL5:
   81:Core/Src/gpio.c **** 
   82:Core/Src/gpio.c **** }
- 187              		.loc 1 82 1 is_stmt 0 view .LVU55
- 188 00c2 0BB0     		add	sp, sp, #44
- 189              		.cfi_def_cfa_offset 20
- 190              		@ sp needed
- 191 00c4 F0BD     		pop	{r4, r5, r6, r7, pc}
- 192              	.L4:
- 193 00c6 00BF     		.align	2
- 194              	.L3:
- 195 00c8 00380240 		.word	1073887232
- 196 00cc 00000240 		.word	1073872896
- 197 00d0 00040240 		.word	1073873920
- 198 00d4 00080240 		.word	1073874944
- 199              		.cfi_endproc
- 200              	.LFE216:
- 202              		.text
- 203              	.Letext0:
- 204              		.file 2 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
- 205              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s 			page 6
-
-
- 206              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
- 207              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s 			page 7
+ 196              		.loc 1 82 1 is_stmt 0 view .LVU65
+ 197 00c4 0AB0     		add	sp, sp, #40
+ 198              		.cfi_def_cfa_offset 16
+ 199              		@ sp needed
+ 200 00c6 70BD     		pop	{r4, r5, r6, pc}
+ 201              	.L5:
+ 202              		.align	2
+ 203              	.L4:
+ 204 00c8 00380240 		.word	1073887232
+ 205 00cc 00000240 		.word	1073872896
+ 206 00d0 00040240 		.word	1073873920
+ 207 00d4 00080240 		.word	1073874944
+ 208              		.cfi_endproc
+ 209              	.LFE216:
+ 211              		.text
+ 212              	.Letext0:
+ 213              		.file 2 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
+ 214              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
+ 215              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
+ 216              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 gpio.c
-C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s:21     .text.MX_GPIO_Init:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s:27     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-C:\Users\Konrad\AppData\Local\Temp\cc9byQcc.s:195    .text.MX_GPIO_Init:000000c8 $d
+C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s:19     .text.MX_GPIO_Init:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s:26     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s:204    .text.MX_GPIO_Init:000000c8 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin

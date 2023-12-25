@@ -10,7 +10,7 @@ target: AudioSpectrumAnalyzer
 # Can be C or C++
 language: C
 
-optimization: Og
+optimization: Ofast
 
 # MCU settings
 targetMCU: stm32f4x
@@ -44,7 +44,8 @@ assemblyFlags:
   - -fdata-sections
   - -ffunction-sections
 
-linkerFlags: []
+linkerFlags:
+- -u _printf_float
 
 # libraries to be included. The -l prefix to the library will be automatically added.
 libraries:

@@ -9,7 +9,7 @@
 #include "spi.h"
 
 
-uint8_t dac_write(uint8_t channel, uint8_t value, uint8_t dac){
+void dac_write(uint8_t channel, uint8_t value, uint8_t dac){
 	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_RESET);
 	HAL_GPIO_WritePin(LAT1_GPIO_Port, LAT1_Pin, GPIO_PIN_RESET);
 	
@@ -22,7 +22,7 @@ uint8_t dac_write(uint8_t channel, uint8_t value, uint8_t dac){
 	else if(dac == 3)
 		HAL_GPIO_WritePin(CS3_GPIO_Port, CS3_Pin, GPIO_PIN_RESET);
 	else
-		return 0;
+		return;
 		
 	uint8_t toSend[3] = {0,0,0};
 
@@ -57,10 +57,28 @@ uint8_t dac_write(uint8_t channel, uint8_t value, uint8_t dac){
 	else if(dac == 3)
 		HAL_GPIO_WritePin(CS3_GPIO_Port, CS3_Pin, GPIO_PIN_SET);
 	else
-		return 0;
+		return;
 
 	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_SET);
 	HAL_GPIO_WritePin(LAT1_GPIO_Port, LAT1_Pin, GPIO_PIN_SET);
 
-	return 1;
+	return;
+}
+
+void setBar(uint8_t barNumber,uint8_t value){
+	if(barNumber<4){
+		dac_write(barNumber,value,0);
+	}else if(barNumber<8){
+		dac_write(barNumber-4,value,1);
+	}else if(barNumber<12){
+		dac_write(barNumber-8,value,2);	
+	}else if(barNumber<16){
+		dac_write(barNumber-12,value,3);
+	}else{
+		return;
+	}
+}
+
+void setBarInv(uint8_t barNumber,uint8_t value){
+	setBar(11-barNumber,value);
 }

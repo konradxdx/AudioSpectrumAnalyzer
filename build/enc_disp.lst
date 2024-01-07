@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 1
   39              		.cfi_offset 2, -8
   40              		.cfi_offset 3, -4
   41 0002 30B5     		push	{r4, r5, lr}
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s 			page 2
 
 
   42              		.cfi_def_cfa_offset 28
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 1
   85              		.loc 1 23 5 is_stmt 0 view .LVU20
   86 002e 13F8012F 		ldrb	r2, [r3, #1]!	@ zero_extendqisi2
   87              	.LVL4:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s 			page 3
 
 
   22:Core/Src/enc_disp.c **** 	 if(buffer[i]<32) buffer[i]=' ';
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 1
  138              	clearDisp:
  139              	.LFB220:
   28:Core/Src/enc_disp.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s 			page 4
 
 
   29:Core/Src/enc_disp.c **** void clearDisp(void) {
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 1
  188              		@ args = 0, pretend = 0, frame = 0
  189              		@ frame_needed = 0, uses_anonymous_args = 0
   35:Core/Src/enc_disp.c **** 	static uint16_t LastTimerCounter = 0;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s 			page 5
 
 
  190              		.loc 1 35 2 view .LVU37
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 1
  236              		.loc 1 40 3 is_stmt 1 view .LVU57
  237              		.loc 1 40 6 is_stmt 0 view .LVU58
  238 0036 07DD     		ble	.L16
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s 			page 6
 
 
   41:Core/Src/enc_disp.c **** 			if(stopAtBorder == true) *enc_state = max; else *enc_state = min;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 1
   46:Core/Src/enc_disp.c **** 	}
  277              		.loc 1 46 36 is_stmt 0 view .LVU78
  278 0050 6B6A     		ldr	r3, [r5, #36]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s 			page 7
 
 
  279              	.LVL14:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 1
  327 0014 00080240 		.word	1073874944
  328              		.cfi_endproc
  329              	.LFE222:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 8
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s 			page 8
 
 
  331              		.section	.bss.LastTimerCounter.0,"aw",%nobits
@@ -441,25 +441,25 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 1
  350              		.file 13 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-
  351              		.file 14 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-
  352              		.file 15 "<built-in>"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s 			page 9
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 enc_disp.c
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:19     .text.dprint:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:26     .text.dprint:00000000 dprint
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:126    .text.dprint:00000054 $d
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:131    .text.clearDisp:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:138    .text.clearDisp:00000000 clearDisp
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:171    .text.clearDisp:00000024 $d
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:176    .text.UpdateEnc:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:183    .text.UpdateEnc:00000000 UpdateEnc
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:289    .text.UpdateEnc:00000058 $d
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:335    .bss.LastTimerCounter.0:00000000 LastTimerCounter.0
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:295    .text.button:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:302    .text.button:00000000 button
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:327    .text.button:00000014 $d
-C:\Users\Konrad\AppData\Local\Temp\ccLgV50h.s:332    .bss.LastTimerCounter.0:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:19     .text.dprint:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:26     .text.dprint:00000000 dprint
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:126    .text.dprint:00000054 $d
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:131    .text.clearDisp:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:138    .text.clearDisp:00000000 clearDisp
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:171    .text.clearDisp:00000024 $d
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:176    .text.UpdateEnc:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:183    .text.UpdateEnc:00000000 UpdateEnc
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:289    .text.UpdateEnc:00000058 $d
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:335    .bss.LastTimerCounter.0:00000000 LastTimerCounter.0
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:295    .text.button:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:302    .text.button:00000000 button
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:327    .text.button:00000014 $d
+C:\Users\Konrad\AppData\Local\Temp\cciBgkeB.s:332    .bss.LastTimerCounter.0:00000000 $d
 
 UNDEFINED SYMBOLS
 memset

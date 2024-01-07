@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 1
   29:Core/Src/spi.c **** /* SPI1 init function */
   30:Core/Src/spi.c **** void MX_SPI1_Init(void)
   31:Core/Src/spi.c **** {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s 			page 2
 
 
   28              		.loc 1 31 1 view -0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 1
   57              		.loc 1 45 23 is_stmt 0 view .LVU13
   58 001c C0E90433 		strd	r3, r3, [r0, #16]
   46:Core/Src/spi.c ****   hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_16;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s 			page 3
 
 
   59              		.loc 1 46 3 is_stmt 1 view .LVU14
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 1
  101              	HAL_SPI_MspInit:
  102              	.LVL2:
  103              	.LFB217:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s 			page 4
 
 
   61:Core/Src/spi.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 1
   84:Core/Src/spi.c ****     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
   85:Core/Src/spi.c **** 
   86:Core/Src/spi.c ****   /* USER CODE BEGIN SPI1_MspInit 1 */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s 			page 5
 
 
   87:Core/Src/spi.c **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 1
  169 003a 43F00103 		orr	r3, r3, #1
  170 003e 1363     		str	r3, [r2, #48]
   74:Core/Src/spi.c ****     /**SPI1 GPIO Configuration
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s 			page 6
 
 
  171              		.loc 1 74 5 is_stmt 1 view .LVU49
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 1
  210 0064 AFF30080 		.align	3
  211              	.L12:
  212 0068 A0000000 		.word	160
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s 			page 7
 
 
  213 006c 02000000 		.word	2
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 1
  245 000a 054A     		ldr	r2, .L17+4
  107:Core/Src/spi.c **** 
  246              		.loc 1 107 5 is_stmt 0 view .LVU71
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 8
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s 			page 8
 
 
  247 000c 0548     		ldr	r0, .L17+8
@@ -465,22 +465,22 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 1
  283              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h"
  284              		.file 9 "Core/Inc/spi.h"
  285              		.file 10 "Core/Inc/main.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s 			page 9
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 spi.c
-C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s:19     .text.MX_SPI1_Init:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s:26     .text.MX_SPI1_Init:00000000 MX_SPI1_Init
-C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s:88     .text.MX_SPI1_Init:0000003c $d
-C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s:273    .bss.hspi1:00000000 hspi1
-C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s:94     .text.HAL_SPI_MspInit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s:101    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
-C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s:212    .text.HAL_SPI_MspInit:00000068 $d
-C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s:220    .text.HAL_SPI_MspDeInit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s:227    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
-C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s:262    .text.HAL_SPI_MspDeInit:0000001c $d
-C:\Users\Konrad\AppData\Local\Temp\cc8xIwEL.s:270    .bss.hspi1:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s:19     .text.MX_SPI1_Init:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s:26     .text.MX_SPI1_Init:00000000 MX_SPI1_Init
+C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s:88     .text.MX_SPI1_Init:0000003c $d
+C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s:273    .bss.hspi1:00000000 hspi1
+C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s:94     .text.HAL_SPI_MspInit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s:101    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
+C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s:212    .text.HAL_SPI_MspInit:00000068 $d
+C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s:220    .text.HAL_SPI_MspDeInit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s:227    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
+C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s:262    .text.HAL_SPI_MspDeInit:0000001c $d
+C:\Users\Konrad\AppData\Local\Temp\ccsEqElG.s:270    .bss.hspi1:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_SPI_Init

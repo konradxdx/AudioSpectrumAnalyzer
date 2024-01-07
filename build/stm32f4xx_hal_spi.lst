@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
   29:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
   30:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       (#) Declare a SPI_HandleTypeDef handle structure, for example:
   31:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****           SPI_HandleTypeDef  hspi;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 2
 
 
   32:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
   86:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****             (++) MspInitCallback       : SPI Msp Init callback
   87:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****             (++) MspDeInitCallback     : SPI Msp DeInit callback
   88:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****           This function takes as parameters the HAL peripheral handle, the Callback ID
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 3
 
 
   89:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****           and a pointer to the user callback function.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  143:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****        |         |                | 2Lines Fullduplex   |     2Lines RxOnly    |         1Line     
  144:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****        | Process | Transfer mode  |---------------------|----------------------|-------------------
  145:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****        |         |                |  Master  |  Slave   |  Master   |  Slave   |  Master   |  Slave
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 4
 
 
  146:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****        |===========================================================================================
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  200:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #include "stm32f4xx_hal.h"
  201:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  202:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /** @addtogroup STM32F4xx_HAL_Driver
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 5
 
 
  203:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @{
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  257:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static void SPI_CloseRxTx_ISR(SPI_HandleTypeDef *hspi);
  258:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static void SPI_CloseRx_ISR(SPI_HandleTypeDef *hspi);
  259:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static void SPI_CloseTx_ISR(SPI_HandleTypeDef *hspi);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 6
 
 
  260:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static HAL_StatusTypeDef SPI_EndRxTransaction(SPI_HandleTypeDef *hspi, uint32_t Timeout, uint32_t T
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  314:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if (hspi == NULL)
  315:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  316:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     return HAL_ERROR;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 7
 
 
  317:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  371:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->TxHalfCpltCallback   = HAL_SPI_TxHalfCpltCallback;   /* Legacy weak TxHalfCpltCallback   
  372:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->RxHalfCpltCallback   = HAL_SPI_RxHalfCpltCallback;   /* Legacy weak RxHalfCpltCallback   
  373:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->TxRxHalfCpltCallback = HAL_SPI_TxRxHalfCpltCallback; /* Legacy weak TxRxHalfCpltCallback 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 8
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 8
 
 
  374:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->ErrorCallback        = HAL_SPI_ErrorCallback;        /* Legacy weak ErrorCallback        
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  428:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   return HAL_OK;
  429:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** }
  430:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 9
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 9
 
 
  431:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /**
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  485:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  486:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* NOTE : This function should not be modified, when the callback is needed,
  487:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****             the HAL_SPI_MspInit should be implemented in the user file
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 10
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 10
 
 
  488:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****    */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  542:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         break;
  543:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  544:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       case HAL_SPI_TX_RX_COMPLETE_CB_ID :
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 11
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 11
 
 
  545:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->TxRxCpltCallback = pCallback;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  599:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_INVALID_CALLBACK);
  600:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         /* Return error status */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 12
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 12
 
 
  602:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         status =  HAL_ERROR;
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  656:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->RxHalfCpltCallback = HAL_SPI_RxHalfCpltCallback;     /* Legacy weak RxHalfCpltCallbac
  657:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         break;
  658:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 13
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 13
 
 
  659:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       case HAL_SPI_TX_RX_HALF_COMPLETE_CB_ID :
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  713:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  714:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* Return error status */
  715:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     status =  HAL_ERROR;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 14
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 14
 
 
  716:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  770:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
  771:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   uint32_t tickstart;
  772:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   HAL_StatusTypeDef errorcode = HAL_OK;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 15
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 15
 
 
  773:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   uint16_t initial_TxXferCount;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  827:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Check if the SPI is already enabled */
  828:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if ((hspi->Instance->CR1 & SPI_CR1_SPE) != SPI_CR1_SPE)
  829:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 16
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 16
 
 
  830:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* Enable SPI peripheral */
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  884:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         /* Timeout management */
  885:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         if ((((HAL_GetTick() - tickstart) >=  Timeout) && (Timeout != HAL_MAX_DELAY)) || (Timeout =
  886:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 17
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 17
 
 
  887:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****           errorcode = HAL_TIMEOUT;
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  941:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  942:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if ((hspi->Init.Mode == SPI_MODE_MASTER) && (hspi->Init.Direction == SPI_DIRECTION_2LINES))
  943:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 18
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 18
 
 
  944:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->State = HAL_SPI_STATE_BUSY_RX;
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  998:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  999:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Check if the SPI is already enabled */
 1000:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if ((hspi->Instance->CR1 & SPI_CR1_SPE) != SPI_CR1_SPE)
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 19
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 19
 
 
 1001:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1055:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
 1056:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Handle the CRC Transmission */
 1057:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if (hspi->Init.CRCCalculation == SPI_CRCCALCULATION_ENABLE)
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 20
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 20
 
 
 1058:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1112:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
 1113:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     errorcode = HAL_ERROR;
 1114:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 21
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 21
 
 
 1115:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1169:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
 1170:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     errorcode = HAL_ERROR;
 1171:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     goto error;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 22
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 22
 
 
 1172:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1226:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         txallowed = 0U;
 1227:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1228:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 23
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 23
 
 
 1229:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         /* Enable CRC Transmission */
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1283:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       if ((__HAL_SPI_GET_FLAG(hspi, SPI_FLAG_RXNE)) && (hspi->RxXferCount > 0U))
 1284:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
 1285:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         (*(uint8_t *)hspi->pRxBuffPtr) = hspi->Instance->DR;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 24
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 24
 
 
 1286:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->pRxBuffPtr++;
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1340:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
 1341:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1342:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** error :
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 25
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 25
 
 
 1343:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->State = HAL_SPI_STATE_READY;
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1397:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
 1398:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->TxISR = SPI_TxISR_8BIT;
 1399:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 26
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 26
 
 
 1400:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1454:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1455:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if (hspi->State != HAL_SPI_STATE_READY)
 1456:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 27
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 27
 
 
 1457:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     errorcode = HAL_BUSY;
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1511:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****             process unlock */
 1512:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1513:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Check if the SPI is already enabled */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 28
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 28
 
 
 1514:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if ((hspi->Instance->CR1 & SPI_CR1_SPE) != SPI_CR1_SPE)
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1568:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
 1569:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1570:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Set the transaction information */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 29
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 29
 
 
 1571:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->ErrorCode   = HAL_SPI_ERROR_NONE;
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1625:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   HAL_StatusTypeDef errorcode = HAL_OK;
 1626:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1627:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Check tx dma handle */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 30
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 30
 
 
 1628:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   assert_param(IS_SPI_DMA_HANDLE(hspi->hdmatx));
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1682:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->hdmatx->XferCpltCallback = SPI_DMATransmitCplt;
 1683:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 1684:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Set the DMA error callback */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 31
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 31
 
 
 1685:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->hdmatx->XferErrorCallback = SPI_DMAError;
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1739:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
 1740:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->State = HAL_SPI_STATE_BUSY_RX;
 1741:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 32
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 32
 
 
 1742:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* Check tx dma handle */
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1796:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Set the SPI Rx DMA transfer complete callback */
 1797:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->hdmarx->XferCpltCallback = SPI_DMAReceiveCplt;
 1798:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 33
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 33
 
 
 1799:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Set the DMA error callback */
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1853:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Check rx & tx dma handles */
 1854:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   assert_param(IS_SPI_DMA_HANDLE(hspi->hdmarx));
 1855:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   assert_param(IS_SPI_DMA_HANDLE(hspi->hdmatx));
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 34
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 34
 
 
 1856:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1910:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* Set the SPI Rx DMA Half transfer complete callback */
 1911:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->hdmarx->XferHalfCpltCallback = SPI_DMAHalfReceiveCplt;
 1912:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->hdmarx->XferCpltCallback     = SPI_DMAReceiveCplt;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 35
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 35
 
 
 1913:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1967:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Enable the SPI Error Interrupt Bit */
 1968:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __HAL_SPI_ENABLE_IT(hspi, (SPI_IT_ERR));
 1969:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 36
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 36
 
 
 1970:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Enable Tx DMA Request */
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2024:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if (HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_RXNEIE))
 2025:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
 2026:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->RxISR = SPI_AbortRx_ISR;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 37
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 37
 
 
 2027:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* Wait HAL_SPI_STATE_ABORT state */
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2081:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       hspi->hdmarx->XferAbortCallback = NULL;
 2082:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 2083:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       /* Abort DMA Rx Handle linked to SPI Peripheral */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 38
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 38
 
 
 2084:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       if (HAL_DMA_Abort(hspi->hdmarx) != HAL_OK)
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2138:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
 2139:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   HAL_StatusTypeDef errorcode;
 2140:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   uint32_t abortcplt ;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 39
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 39
 
 
 2141:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __IO uint32_t count;
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2195:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     if (HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_TXDMAEN))
 2196:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
 2197:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       hspi->hdmatx->XferAbortCallback = SPI_DMATxAbortCallback;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 40
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 40
 
 
 2198:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2252:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       }
 2253:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
 2254:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 41
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 41
 
 
 2255:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2309:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   return HAL_OK;
 2310:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** }
 2311:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 42
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 42
 
 
 2312:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /**
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2366:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Disable the SPI DMA Tx & Rx requests */
 2367:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   CLEAR_BIT(hspi->Instance->CR2, SPI_CR2_TXDMAEN | SPI_CR2_RXDMAEN);
 2368:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->State = HAL_SPI_STATE_READY;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 43
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 43
 
 
 2369:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   return errorcode;
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2423:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 2424:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* SPI Frame error interrupt occurred ------------------------------------*/
 2425:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     if (SPI_CHECK_FLAG(itflag, SPI_FLAG_FRE) != RESET)
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 44
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 44
 
 
 2426:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2480:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @brief  Tx Transfer completed callback.
 2481:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
 2482:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   *               the configuration information for SPI module.
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 45
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 45
 
 
 2483:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @retval None
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2537:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 2538:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* NOTE : This function should not be modified, when the callback is needed,
 2539:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****             the HAL_SPI_TxHalfCpltCallback should be implemented in the user file
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 46
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 46
 
 
 2540:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****    */
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2594:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /**
 2595:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @brief  SPI Abort Complete callback.
 2596:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @param  hspi SPI handle.
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 47
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 47
 
 
 2597:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @retval None
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2651:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 2652:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /**
 2653:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @}
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 48
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 48
 
 
 2654:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   */
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2708:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #else
 2709:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       HAL_SPI_ErrorCallback(hspi);
 2710:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 49
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 49
 
 
 2711:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       return;
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2765:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       /* Disable Rx/Tx DMA Request (done by default to handle the case master rx direction 2 lines)
 2766:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       CLEAR_BIT(hspi->Instance->CR2, SPI_CR2_TXDMAEN | SPI_CR2_RXDMAEN);
 2767:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 50
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 50
 
 
 2768:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     else
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2822:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __IO uint32_t tmpreg = 0U;
 2823:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
 2824:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 51
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 51
 
 
 2825:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Init tickstart for timeout management*/
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2879:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
 2880:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       return;
 2881:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 52
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 52
 
 
 2882:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2936:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 2937:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Call user TxRx half complete callback */
 2938:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 53
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 53
 
 
 2939:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxRxHalfCpltCallback(hspi);
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2993:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @param  hdma DMA handle.
 2994:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @retval None
 2995:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 54
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 54
 
 
 2996:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static void SPI_DMATxAbortCallback(DMA_HandleTypeDef *hdma)
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3050:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
 3051:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** }
 3052:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 55
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 55
 
 
 3053:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /**
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3107:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
 3108:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->AbortCpltCallback(hspi);
 3109:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #else
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 56
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 56
 
 
 3110:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   HAL_SPI_AbortCpltCallback(hspi);
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3164:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* To avoid GCC warning */
 3165:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   UNUSED(tmpreg8);
 3166:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 57
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 57
 
 
 3167:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Disable RXNE and ERR interrupt */
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3221:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Receive data in 16 Bit mode */
 3222:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   *((uint16_t *)hspi->pRxBuffPtr) = (uint16_t)(hspi->Instance->DR);
 3223:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pRxBuffPtr += sizeof(uint16_t);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 58
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 58
 
 
 3224:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferCount--;
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3278:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->Instance->DR = *((uint16_t *)hspi->pTxBuffPtr);
 3279:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pTxBuffPtr += sizeof(uint16_t);
 3280:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxXferCount--;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 59
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 59
 
 
 3281:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3335:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static void SPI_RxISR_8BIT(struct __SPI_HandleTypeDef *hspi)
 3336:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
 3337:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   *hspi->pRxBuffPtr = (*(__IO uint8_t *)&hspi->Instance->DR);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 60
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 60
 
 
 3338:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pRxBuffPtr++;
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3392:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
 3393:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   *((uint16_t *)hspi->pRxBuffPtr) = (uint16_t)(hspi->Instance->DR);
 3394:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pRxBuffPtr += sizeof(uint16_t);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 61
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 61
 
 
 3395:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferCount--;
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3449:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static void SPI_TxISR_16BIT(struct __SPI_HandleTypeDef *hspi)
 3450:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
 3451:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Transmit data in 16 Bit mode */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 62
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 62
 
 
 3452:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->Instance->DR = *((uint16_t *)hspi->pTxBuffPtr);
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3506:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         if ((hspi->Init.Mode == SPI_MODE_MASTER) && ((hspi->Init.Direction == SPI_DIRECTION_1LINE)
 3507:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****                                                      || (hspi->Init.Direction == SPI_DIRECTION_2LIN
 3508:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 63
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 63
 
 
 3509:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****           /* Disable SPI peripheral */
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3563:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_FLAG);
 3564:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         return HAL_TIMEOUT;
 3565:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 64
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 64
 
 
 3566:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3620:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
 3621:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         break;
 3622:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 65
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 65
 
 
 3623:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       count--;
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3677:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     /* Call user error callback */
 3678:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
 3679:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->ErrorCallback(hspi);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 66
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 66
 
 
 3680:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #else
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3734:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __HAL_SPI_DISABLE_IT(hspi, (SPI_IT_RXNE | SPI_IT_ERR));
 3735:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 3736:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Check the end of the transaction */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 67
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 67
 
 
 3737:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   if (SPI_EndRxTransaction(hspi, SPI_DEFAULT_TIMEOUT, HAL_GetTick()) != HAL_OK)
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3791:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   *               the configuration information for SPI module.
 3792:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @retval None
 3793:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 68
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 68
 
 
 3794:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** static void SPI_CloseTx_ISR(SPI_HandleTypeDef *hspi)
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3848:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 3849:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** /**
 3850:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @brief  Handle abort a Rx transaction.
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 69
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 69
 
 
 3851:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
   57              	.L2:
 3868:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   } while ((hspi->Instance->SR & SPI_FLAG_TXE) == RESET);
   58              		.loc 1 3868 10 view .LVU11
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 70
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 70
 
 
   59 001e 019B     		ldr	r3, [sp, #4]
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3880:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   UNUSED(tmpreg);
   96              		.loc 1 3880 3 is_stmt 1 view .LVU27
   97 004c 009B     		ldr	r3, [sp]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 71
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 71
 
 
 3881:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3898:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
 3899:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->State = HAL_SPI_STATE_ABORT;
  137              		.loc 1 3899 15 is_stmt 0 view .LVU34
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 72
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 72
 
 
  138 000c 0721     		movs	r1, #7
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3487:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   tmp_tickstart = HAL_GetTick();
  185              		.loc 1 3487 30 is_stmt 0 view .LVU46
  186 000e FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 73
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 73
 
 
  187              	.LVL4:
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3536:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  226              		.loc 1 3536 1 view .LVU62
  227 0038 02B0     		add	sp, sp, #8
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 74
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 74
 
 
  228              		.cfi_remember_state
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  266              		.loc 1 3529 21 view .LVU78
  267 0060 08BF     		it	eq
  268 0062 0025     		moveq	r5, #0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 75
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 75
 
 
 3531:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3516:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         }
  308              		.loc 1 3516 11 discriminator 1 view .LVU94
 3519:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 76
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 76
 
 
  309              		.loc 1 3519 9 view .LVU95
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  352              		.p2align 2,,3
  353              		.syntax unified
  354              		.thumb
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 77
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 77
 
 
  355              		.thumb_func
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  397 0016 264B     		ldr	r3, .L51
  398              	.LVL22:
 3491:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 78
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 78
 
 
  399              		.loc 1 3491 3 is_stmt 1 view .LVU121
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  437              		.loc 1 3493 57 view .LVU137
  438 0044 35EA0303 		bics	r3, r5, r3
  439 0048 22D1     		bne	.L36
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 79
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 79
 
 
  440              	.L43:
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3516:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         }
  477              		.loc 1 3516 11 view .LVU155
  478 006e 1A68     		ldr	r2, [r3]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 80
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 80
 
 
  479 0070 22F40052 		bic	r2, r2, #8192
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  519              		@ sp needed
  520 0094 F0BD     		pop	{r4, r5, r6, r7, pc}
  521              	.LVL29:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 81
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 81
 
 
  522              	.L50:
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  570              		.cfi_offset 4, -8
  571              		.cfi_offset 14, -4
 3546:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 82
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 82
 
 
  572              		.loc 1 3546 26 view .LVU178
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  611 002c FFF7FEFF 		bl	SPI_WaitFlagStateUntilTimeout.constprop.0
  612              	.LVL36:
 3561:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 83
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 83
 
 
  613              		.loc 1 3561 10 discriminator 1 view .LVU194
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  654              	.LVL42:
 3561:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
  655              		.loc 1 3561 10 discriminator 1 view .LVU208
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 84
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 84
 
 
  656 005e 0028     		cmp	r0, #0
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  705              		.loc 1 322 3 view .LVU217
  323:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   assert_param(IS_SPI_NSS(hspi->Init.NSS));
  706              		.loc 1 323 3 view .LVU218
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 85
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 85
 
 
  324:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   assert_param(IS_SPI_BAUDRATE_PRESCALER(hspi->Init.BaudRatePrescaler));
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  744 0024 9446     		mov	ip, r2
  745              	.L71:
  390:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 86
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 86
 
 
  746              		.loc 1 390 3 is_stmt 1 view .LVU236
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  790 0084 0243     		orrs	r2, r2, r0
  398:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****                                   (hspi->Init.Direction & (SPI_CR1_RXONLY | SPI_CR1_BIDIMODE)) |
  791              		.loc 1 398 3 view .LVU247
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 87
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 87
 
 
  792 0086 0B60     		str	r3, [r1]
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  364:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  828              		.loc 1 364 5 is_stmt 1 view .LVU266
  386:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 88
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 88
 
 
  829              		.loc 1 386 5 is_stmt 0 view .LVU267
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  879              		.syntax unified
  880              		.thumb
  881              		.thumb_func
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 89
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 89
 
 
  883              	HAL_SPI_DeInit:
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  921 001e 84F85030 		strb	r3, [r4, #80]
  467:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  922              		.loc 1 467 15 view .LVU291
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 90
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 90
 
 
  923 0022 84F85130 		strb	r3, [r4, #81]
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  779:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  965              		.loc 1 779 3 view .LVU306
  770:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   uint32_t tickstart;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 91
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 91
 
 
  966              		.loc 1 770 1 is_stmt 0 view .LVU307
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  785:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  1007              		.loc 1 785 3 view .LVU321
  785:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 92
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 92
 
 
  1008              		.loc 1 785 11 is_stmt 0 view .LVU322
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1046              		.loc 1 812 6 is_stmt 0 view .LVU338
  1047 004c A268     		ldr	r2, [r4, #8]
  815:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     SPI_1LINE_TX(hspi);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 93
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 93
 
 
  1048              		.loc 1 815 5 view .LVU339
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  809:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  1082              		.loc 1 809 3 view .LVU360
  812:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 94
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 94
 
 
  1083              		.loc 1 812 3 view .LVU361
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1121 009e ABB1     		cbz	r3, .L113
  1122 00a0 681C     		adds	r0, r5, #1
  1123 00a2 40F08280 		bne	.L110
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 95
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 95
 
 
  1124              	.L114:
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1162              	.LBB16:
 3601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  1163              		.loc 1 3601 17 is_stmt 0 view .LVU394
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 96
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 96
 
 
  1164 00cc 6268     		ldr	r2, [r4, #4]
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1203 00f4 9368     		ldr	r3, [r2, #8]
 3624:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
  1204              		.loc 1 3624 53 view .LVU410
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 97
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 97
 
 
  1205 00f6 1B06     		lsls	r3, r3, #24
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1243 0112 606D     		ldr	r0, [r4, #84]
  913:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  1244              		.loc 1 913 6 view .LVU427
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 98
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 98
 
 
  1245 0114 0038     		subs	r0, r0, #0
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1285              		.loc 1 844 30 is_stmt 1 view .LVU441
  844:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  1286              		.loc 1 844 16 is_stmt 0 view .LVU442
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 99
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 99
 
 
  1287 013a E38E     		ldrh	r3, [r4, #54]
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  847:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
  1326              		.loc 1 847 7 is_stmt 1 view .LVU458
  849:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->pTxBuffPtr += sizeof(uint16_t);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 100
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 100
 
 
  1327              		.loc 1 849 9 view .LVU459
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1367              		.loc 1 879 26 view .LVU473
  1368 0196 226B     		ldr	r2, [r4, #48]
  880:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 101
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 101
 
 
  1369              		.loc 1 880 26 view .LVU474
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  858:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****           goto error;
  1407              		.loc 1 858 21 view .LVU491
  1408 01bc 0320     		movs	r0, #3
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 102
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 102
 
 
  1409 01be 37E7     		b	.L93
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1446              	.L167:
  849:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->pTxBuffPtr += sizeof(uint16_t);
  1447              		.loc 1 849 30 view .LVU509
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 103
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 103
 
 
  1448 01e6 226B     		ldr	r2, [r4, #48]
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1485 0214 831B     		subs	r3, r0, r6
  856:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         {
  1486              		.loc 1 856 12 discriminator 1 view .LVU527
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 104
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 104
 
 
  1487 0216 AB42     		cmp	r3, r5
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1530              	.L169:
  1531              		.align	2
  1532              	.L168:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 105
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 105
 
 
  1533 0240 00000000 		.word	SystemCoreClock
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1576 000a 0128     		cmp	r0, #1
 1134:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   uint16_t             initial_TxXferCount;
  1577              		.loc 1 1134 1 view .LVU552
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 106
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 106
 
 
  1578 000c 82B0     		sub	sp, sp, #8
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1615 0030 B3F5827F 		cmp	r3, #260
  1616 0034 09D0     		beq	.L294
  1617              	.L213:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 107
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 107
 
 
 1164:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     goto error;
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1656              		.loc 1 1168 25 discriminator 1 view .LVU585
  1657 005a B8F1000F 		cmp	r8, #0
  1658 005e 00F09480 		beq	.L174
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 108
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 108
 
 
 1168:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1693              		.loc 1 1190 3 view .LVU605
 1191:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  1694              		.loc 1 1191 3 view .LVU606
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 109
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 109
 
 
 1202:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1733              		.loc 1 1244 19 view .LVU622
  1734 00ba 28D0     		beq	.L201
  1735 00bc 67E0     		b	.L197
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 110
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 110
 
 
  1736              	.LVL88:
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1773              		.loc 1 1269 26 view .LVU639
  1774 00e2 E386     		strh	r3, [r4, #54]	@ movhi
 1268:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->TxXferCount--;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 111
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 111
 
 
  1775              		.loc 1 1268 25 view .LVU640
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1286:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->RxXferCount--;
  1811              		.loc 1 1286 25 view .LVU659
  1812 0104 A163     		str	r1, [r4, #56]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 112
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 112
 
 
 1287:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         /* Next Data is a Transmission (Tx). Tx is allowed */
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1851 0120 764A     		ldr	r2, .L300+4
  1852 0122 1B68     		ldr	r3, [r3]
  1853 0124 A2FB0323 		umull	r2, r3, r2, r3
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 113
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 113
 
 
 3601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3619:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
  1890              		.loc 1 3619 10 view .LVU694
  1891 014e 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 114
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 114
 
 
  1892 0150 F5D1     		bne	.L297
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3604:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  1935              		.loc 1 3604 5 is_stmt 1 view .LVU706
 3604:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 115
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 115
 
 
  1936              		.loc 1 3604 9 is_stmt 0 view .LVU707
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  1977 0190 9BB2     		uxth	r3, r3
 1262:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  1978              		.loc 1 1262 37 view .LVU721
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 116
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 116
 
 
  1979 0192 1BB9     		cbnz	r3, .L205
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2016              		.loc 1 1269 26 view .LVU738
  2017 01ba 9BB2     		uxth	r3, r3
 1268:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->TxXferCount--;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 117
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 117
 
 
  2018              		.loc 1 1268 25 view .LVU739
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2057              	.L204:
 1248:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         goto error;
  2058              		.loc 1 1248 19 view .LVU755
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 118
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 118
 
 
  2059 01e2 0320     		movs	r0, #3
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2097              	.LVL111:
 1213:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       hspi->pTxBuffPtr += sizeof(uint16_t);
  2098              		.loc 1 1213 26 view .LVU772
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 119
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 119
 
 
  2099 0202 D360     		str	r3, [r2, #12]
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2138              		.loc 1 1222 9 is_stmt 1 view .LVU787
 1222:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->pTxBuffPtr += sizeof(uint16_t);
  2139              		.loc 1 1222 30 is_stmt 0 view .LVU788
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 120
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 120
 
 
  2140 022a 216B     		ldr	r1, [r4, #48]
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2177              		.loc 1 1240 43 view .LVU805
  2178 0250 21F8023B 		strh	r3, [r1], #2	@ movhi
 1241:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->RxXferCount--;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 121
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 121
 
 
  2179              		.loc 1 1241 9 is_stmt 1 view .LVU806
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2218 0276 012E     		cmp	r6, #1
  2219 0278 C9D1     		bne	.L180
  2220 027a C0E7     		b	.L179
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 122
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 122
 
 
  2221              	.LVL122:
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1223:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->TxXferCount--;
  2259              		.loc 1 1223 26 view .LVU838
  2260 02a6 2163     		str	r1, [r4, #48]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 123
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 123
 
 
 1224:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         /* Next Data is a reception (Rx). Tx not allowed */
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2298 02ca A163     		str	r1, [r4, #56]
 1242:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         /* Next Data is a Transmission (Tx). Tx is allowed */
  2299              		.loc 1 1242 9 is_stmt 1 view .LVU856
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 124
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 124
 
 
 1242:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         /* Next Data is a Transmission (Tx). Tx is allowed */
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2337              		.loc 1 1287 26 view .LVU873
  2338 02ee 92B2     		uxth	r2, r2
 1286:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->RxXferCount--;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 125
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 125
 
 
  2339              		.loc 1 1286 25 view .LVU874
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2385              		.loc 1 942 6 view .LVU884
  2386 0006 4368     		ldr	r3, [r0, #4]
  2387              	.LVL131:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 126
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 126
 
 
  942:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  957:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     goto error;
  2426              		.loc 1 957 15 view .LVU901
  2427 0034 0220     		movs	r0, #2
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 127
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 127
 
 
  2428              	.LVL135:
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2466 0056 C4F83880 		str	r8, [r4, #56]
  969:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pRxBuffPtr  = (uint8_t *)pData;
  2467              		.loc 1 969 21 view .LVU918
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 128
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 128
 
 
  2468 005a 0023     		movs	r3, #0
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  992:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  2501              		.loc 1 992 6 view .LVU940
  2502 0078 07D1     		bne	.L306
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 129
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 129
 
 
  995:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     SPI_1LINE_RX(hspi);
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2542 00aa DB07     		lsls	r3, r3, #31
  2543 00ac 44D5     		bpl	.L363
 1039:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->pRxBuffPtr += sizeof(uint16_t);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 130
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 130
 
 
  2544              		.loc 1 1039 43 view .LVU956
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2581              		.loc 1 3580 9 is_stmt 0 view .LVU973
  2582 00d0 3346     		mov	r3, r6
  2583 00d2 2A46     		mov	r2, r5
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 131
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 131
 
 
  2584 00d4 0121     		movs	r1, #1
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2624 00fa 0A46     		mov	r2, r1
  2625              	.LVL144:
  946:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 132
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 132
 
 
  2626              		.loc 1 946 12 view .LVU988
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2666              		.loc 1 1034 30 view .LVU1002
  2667 0120 002B     		cmp	r3, #0
  2668 0122 D1D0     		beq	.L309
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 133
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 133
 
 
 1037:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2707 014a 92B2     		uxth	r2, r2
 1010:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  2708              		.loc 1 1010 30 view .LVU1019
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 134
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 134
 
 
  2709 014c 002A     		cmp	r2, #0
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1013:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
  2748              		.loc 1 1013 7 is_stmt 1 view .LVU1035
 1016:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         hspi->pRxBuffPtr += sizeof(uint8_t);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 135
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 135
 
 
  2749              		.loc 1 1016 9 view .LVU1036
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2786 0198 A263     		str	r2, [r4, #56]
 1018:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       }
  2787              		.loc 1 1018 9 is_stmt 1 view .LVU1054
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 136
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 136
 
 
 1018:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       }
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3548:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****                                                || (hspi->Init.Direction == SPI_DIRECTION_2LINES_RXO
  2827              		.loc 1 3548 44 discriminator 1 view .LVU1070
  2828 01bc B3F5004F 		cmp	r3, #32768
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 137
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 137
 
 
  2829 01c0 11D0     		beq	.L330
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2871 01f0 EAE7     		b	.L335
  2872              	.L331:
 3552:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 138
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 138
 
 
  2873              		.loc 1 3552 5 view .LVU1083
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2918 0000 0346     		mov	r3, r0
 1364:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  2919              		.loc 1 1364 3 view .LVU1095
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 139
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 139
 
 
  2920 0002 90F85000 		ldrb	r0, [r0, #80]	@ zero_extendqisi2
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2957              		.loc 1 1394 17 is_stmt 0 view .LVU1112
  2958 002c 1A4C     		ldr	r4, .L384
  2959 002e D968     		ldr	r1, [r3, #12]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 140
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 140
 
 
 1380:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pTxBuffPtr  = (uint8_t *)pData;
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  2994              		.loc 1 1402 6 view .LVU1132
  2995 0050 16D0     		beq	.L383
  2996              	.L370:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 141
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 141
 
 
 1418:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3036 0078 0022     		movs	r2, #0
  3037              	.LVL166:
 1429:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   return errorcode;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 142
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 142
 
 
  3038              		.loc 1 1429 3 is_stmt 0 view .LVU1148
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1537:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   HAL_SPI_StateTypeDef tmp_state;
  3087              		.loc 1 1537 3 view .LVU1156
 1538:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   HAL_StatusTypeDef    errorcode = HAL_OK;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 143
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 143
 
 
  3088              		.loc 1 1538 3 view .LVU1157
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3123              		.loc 1 1551 6 is_stmt 0 view .LVU1176
  3124 0020 0ED0     		beq	.L388
 1551:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         ((tmp_mode == SPI_MODE_MASTER) && (hspi->Init.Direction == SPI_DIRECTION_2LINES) && (tmp_st
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 144
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 144
 
 
  3125              		.loc 1 1551 7 discriminator 1 view .LVU1177
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3164 004e CCF83010 		str	r1, [ip, #48]
 1565:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  3165              		.loc 1 1565 6 view .LVU1193
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 145
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 145
 
 
  3166 0052 0428     		cmp	r0, #4
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3203              		.loc 1 1574 3 is_stmt 1 view .LVU1210
 1575:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferSize  = Size;
  3204              		.loc 1 1575 3 view .LVU1211
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 146
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 146
 
 
 1576:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferCount = Size;
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3243              		.loc 1 1611 3 view .LVU1227
  3244 00b4 8CF85030 		strb	r3, [ip, #80]
 1560:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     goto error;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 147
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 147
 
 
  3245              		.loc 1 1560 15 view .LVU1228
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1442:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   HAL_StatusTypeDef errorcode = HAL_OK;
  3291              		.loc 1 1442 1 is_stmt 0 view .LVU1239
  3292 0000 30B4     		push	{r4, r5}
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 148
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 148
 
 
  3293              		.cfi_def_cfa_offset 8
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1522:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   return errorcode;
  3332              		.loc 1 1522 3 view .LVU1255
  3333 002c 0023     		movs	r3, #0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 149
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 149
 
 
  3334 002e 8CF85030 		strb	r3, [ip, #80]
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3372              		.loc 1 1475 21 view .LVU1271
  3373 0056 CCF83030 		str	r3, [ip, #48]
 1483:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 150
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 150
 
 
  3374              		.loc 1 1483 17 view .LVU1272
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3410 0084 42F06002 		orr	r2, r2, #96
  3411 0088 5A60     		str	r2, [r3, #4]
 1514:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 151
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 151
 
 
  3412              		.loc 1 1514 3 view .LVU1291
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1449:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
  3454              		.loc 1 1449 12 view .LVU1304
  3455 00ba FFF7FEBF 		b	HAL_SPI_TransmitReceive_IT
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 152
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 152
 
 
  3456              	.LVL192:
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3502              		.cfi_def_cfa_offset 8
  3503              		.cfi_offset 4, -8
  3504              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 153
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 153
 
 
 1636:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1651:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxXferSize  = Size;
  3541              		.loc 1 1651 3 is_stmt 1 view .LVU1333
 1652:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxXferCount = Size;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 154
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 154
 
 
  3542              		.loc 1 1652 3 view .LVU1334
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3576 004c 1D4B     		ldr	r3, .L459+4
  3577 004e C363     		str	r3, [r0, #60]
 1685:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 155
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 155
 
 
  3578              		.loc 1 1685 3 is_stmt 1 view .LVU1355
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1717:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   return errorcode;
  3618              		.loc 1 1717 3 view .LVU1370
 1717:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   return errorcode;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 156
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 156
 
 
  3619              		.loc 1 1717 3 view .LVU1371
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1644:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     goto error;
  3657              		.loc 1 1644 15 is_stmt 0 view .LVU1388
  3658 00a4 0120     		movs	r0, #1
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 157
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 157
 
 
  3659 00a6 F2E7     		b	.L440
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3707              		.loc 1 1851 3 view .LVU1396
 1854:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   assert_param(IS_SPI_DMA_HANDLE(hspi->hdmatx));
  3708              		.loc 1 1854 3 view .LVU1397
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 158
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 158
 
 
 1855:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3745 001e 0DD0     		beq	.L463
 1867:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****         ((tmp_mode == SPI_MODE_MASTER) && (hspi->Init.Direction == SPI_DIRECTION_2LINES) && (tmp_st
  3746              		.loc 1 1867 7 discriminator 1 view .LVU1416
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 159
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 159
 
 
  3747 0020 B5F5827F 		cmp	r5, #260
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3786 004c 2163     		str	r1, [r4, #48]
 1881:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  3787              		.loc 1 1881 6 view .LVU1432
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 160
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 160
 
 
  3788 004e 0428     		cmp	r0, #4
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1896:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxISR       = NULL;
  3823              		.loc 1 1896 3 view .LVU1452
 1897:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 161
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 161
 
 
  3824              		.loc 1 1897 3 view .LVU1453
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 1940:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  3863              		.loc 1 1940 3 is_stmt 1 view .LVU1469
  3864 009e 2268     		ldr	r2, [r4]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 162
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 162
 
 
 1944:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->hdmatx->XferCpltCallback     = NULL;
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3901 00ca 42F04002 		orr	r2, r2, #64
  3902 00ce 1A60     		str	r2, [r3]
  3903              	.L470:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 163
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 163
 
 
 1968:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3946 0108 00000000 		.word	SPI_DMAReceiveCplt
  3947              		.cfi_endproc
  3948              	.LFE228:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 164
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 164
 
 
  3950              		.section	.text.HAL_SPI_Receive_DMA,"ax",%progbits
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  3993 0018 5FD0     		beq	.L504
 1750:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  3994              		.loc 1 1750 3 is_stmt 1 discriminator 2 view .LVU1512
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 165
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 165
 
 
  3995 001a 0121     		movs	r1, #1
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4031 004a A563     		str	r5, [r4, #56]
 1768:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferCount = Size;
  4032              		.loc 1 1768 3 is_stmt 1 view .LVU1531
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 166
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 166
 
 
 1781:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     SPI_1LINE_RX(hspi);
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4067 0064 E38F     		ldrh	r3, [r4, #62]
 1806:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****                                  hspi->RxXferCount))
  4068              		.loc 1 1806 17 view .LVU1552
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 167
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 167
 
 
  4069 0066 2A46     		mov	r2, r5
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4109              	.L505:
 1754:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     goto error;
  4110              		.loc 1 1754 15 view .LVU1567
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 168
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 168
 
 
  4111 009a 0220     		movs	r0, #2
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4150 00c0 23F48043 		bic	r3, r3, #16384
  4151 00c4 0B60     		str	r3, [r1]
  4152 00c6 C4E7     		b	.L501
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 169
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 169
 
 
  4153              	.LVL233:
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4197              		.p2align 2,,3
  4198              		.global	HAL_SPI_Abort
  4199              		.syntax unified
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 170
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 170
 
 
  4200              		.thumb
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4239              		.loc 1 2004 3 view .LVU1609
  4240 001a 0268     		ldr	r2, [r0]
 2001:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 171
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 171
 
 
  4241              		.loc 1 2001 9 view .LVU1610
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2011:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  4278              		.loc 1 2011 5 is_stmt 1 view .LVU1628
 2013:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 172
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 172
 
 
  4279              		.loc 1 2013 7 view .LVU1629
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4317              		.loc 1 2036 26 view .LVU1645
  4318 006c 072B     		cmp	r3, #7
  4319 006e 06D0     		beq	.L525
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 173
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 173
 
 
  4320              	.L526:
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4356 008e 0365     		str	r3, [r0, #80]
 2052:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
  4357              		.loc 1 2052 7 is_stmt 1 view .LVU1664
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 174
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 174
 
 
 2052:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4397              		.loc 1 2074 3 view .LVU1679
 2074:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  4398              		.loc 1 2074 7 is_stmt 0 view .LVU1680
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 175
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 175
 
 
  4399 00be 5368     		ldr	r3, [r2, #4]
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4437              		.loc 1 2098 3 is_stmt 1 view .LVU1696
 2098:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  4438              		.loc 1 2098 21 is_stmt 0 view .LVU1697
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 176
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 176
 
 
  4439 00ec E086     		strh	r0, [r4, #54]	@ movhi
@@ -10558,7 +10558,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4479              	.LBE45:
 2113:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __HAL_SPI_CLEAR_FREFLAG(hspi);
  4480              		.loc 1 2113 3 view .LVU1712
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 177
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 177
 
 
 2114:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -10618,7 +10618,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4526              	.LVL244:
  4527              	.LFB231:
 2299:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Process Locked */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 178
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 178
 
 
  4528              		.loc 1 2299 1 is_stmt 1 view -0
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4567              	.LVL246:
  4568              	.L571:
 2301:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 179
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 179
 
 
  4569              		.loc 1 2301 3 discriminator 1 view .LVU1740
@@ -10738,7 +10738,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2327:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  4614              		.loc 1 2327 3 is_stmt 1 view .LVU1752
 2327:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 180
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 180
 
 
  4615              		.loc 1 2327 3 view .LVU1753
@@ -10798,7 +10798,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2339:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   HAL_StatusTypeDef errorcode = HAL_OK;
  4661              		.loc 1 2339 1 view .LVU1764
  4662 0002 0446     		mov	r4, r0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 181
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 181
 
 
 2348:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2367:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->State = HAL_SPI_STATE_READY;
  4701              		.loc 1 2367 3 view .LVU1781
  4702 0024 2268     		ldr	r2, [r4]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 182
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 182
 
 
  4703 0026 5368     		ldr	r3, [r2, #4]
@@ -10918,7 +10918,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4747 0000 7047     		bx	lr
  4748              		.cfi_endproc
  4749              	.LFE277:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 183
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 183
 
 
  4751 0002 00BF     		.section	.text.HAL_SPI_RxCpltCallback,"ax",%progbits
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4808 0002 00BF     		.section	.text.SPI_DMAHalfTransmitCplt,"ax",%progbits
  4809              		.align	1
  4810              		.p2align 2,,3
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 184
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 184
 
 
  4811              		.syntax unified
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4861              		.p2align 2,,3
  4862              		.syntax unified
  4863              		.thumb
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 185
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 185
 
 
  4864              		.thumb_func
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4914              		.thumb
  4915              		.thumb_func
  4917              	SPI_DMAHalfTransmitReceiveCplt:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 186
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 186
 
 
  4918              	.LVL267:
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  4968              	SPI_CloseTx_ISR:
  4969              	.LVL270:
  4970              	.LFB268:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 187
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 187
 
 
 3795:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   uint32_t tickstart;
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3800:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  5010              		.loc 1 3800 15 view .LVU1836
  5011 0022 05E0     		b	.L614
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 188
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 188
 
 
  5012              	.L612:
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5051              	.LBB52:
 3599:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Erratasheet: BSY bit may stay high at the end of a data transfer in Slave mode */
  5052              		.loc 1 3599 82 view .LVU1852
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 189
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 189
 
 
  5053 0044 A0FB0202 		umull	r0, r2, r0, r2
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5093 006a 8B68     		ldr	r3, [r1, #8]
 3624:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
  5094              		.loc 1 3624 53 view .LVU1867
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 190
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 190
 
 
  5095 006c 1B06     		lsls	r3, r3, #24
@@ -11398,7 +11398,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5133 0088 0123     		movs	r3, #1
  5134 008a 84F85130 		strb	r3, [r4, #81]
 3829:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 191
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 191
 
 
  5135              		.loc 1 3829 3 is_stmt 1 view .LVU1884
@@ -11458,7 +11458,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3606:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       return HAL_TIMEOUT;
  5179              		.loc 1 3606 7 is_stmt 1 view .LVU1895
  5180 00b2 636D     		ldr	r3, [r4, #84]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 192
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 192
 
 
  5181 00b4 43F02003 		orr	r3, r3, #32
@@ -11518,7 +11518,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3428:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  5227              		.loc 1 3428 7 is_stmt 0 view .LVU1906
  5228 0008 C28E     		ldrh	r2, [r0, #54]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 193
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 193
 
 
 3427:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxXferCount--;
@@ -11578,7 +11578,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3452:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pTxBuffPtr += sizeof(uint16_t);
  5272              		.loc 1 3452 3 view .LVU1920
 3452:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->pTxBuffPtr += sizeof(uint16_t);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 194
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 194
 
 
  5273              		.loc 1 3452 24 is_stmt 0 view .LVU1921
@@ -11638,7 +11638,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5312              		.cfi_restore 4
  5313              		.cfi_def_cfa_offset 0
 3465:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 195
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 195
 
 
  5314              		.loc 1 3465 5 view .LVU1937
@@ -11698,7 +11698,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3349:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  5357              		.loc 1 3349 11 view .LVU1951
  5358 0016 9BB2     		uxth	r3, r3
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 196
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 196
 
 
 3338:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->RxXferCount--;
@@ -11758,7 +11758,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5400              	.LVL290:
 3737:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  5401              		.loc 1 3737 7 view .LVU1965
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 197
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 197
 
 
  5402 0032 0146     		mov	r1, r0
@@ -11818,7 +11818,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3771:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
  5441              		.loc 1 3771 7 view .LVU1981
  5442 005e 2046     		mov	r0, r4
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 198
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 198
 
 
 3765:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
@@ -11878,7 +11878,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5490              		@ args = 0, pretend = 0, frame = 16
  5491              		@ frame_needed = 0, uses_anonymous_args = 0
 3638:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __IO uint32_t count = SPI_DEFAULT_TIMEOUT * (SystemCoreClock / 24U / 1000U);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 199
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 199
 
 
  5492              		.loc 1 3638 3 view .LVU1991
@@ -11938,7 +11938,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5532              	.L656:
 3655:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   } while ((hspi->Instance->SR & SPI_FLAG_TXE) == RESET);
  5533              		.loc 1 3655 10 is_stmt 0 view .LVU2006
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 200
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 200
 
 
  5534 002c 019A     		ldr	r2, [sp, #4]
@@ -11998,7 +11998,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5572              		.loc 1 3599 57 view .LVU2022
  5573 0050 4FF47A70 		mov	r0, #1000
  5574 0054 00FB02F2 		mul	r2, r0, r2
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 201
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 201
 
 
 3601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -12058,7 +12058,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5613 0078 33B9     		cbnz	r3, .L662
 3667:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
  5614              		.loc 1 3667 5 is_stmt 1 view .LVU2039
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 202
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 202
 
 
  5615              	.LBB79:
@@ -12118,7 +12118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5652              		.loc 1 3723 1 view .LVU2056
  5653 00a2 05B0     		add	sp, sp, #20
  5654              		.cfi_remember_state
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 203
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 203
 
 
  5655              		.cfi_def_cfa_offset 12
@@ -12178,7 +12178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3604:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  5700              		.loc 1 3604 8 discriminator 1 view .LVU2066
  5701 00c8 0028     		cmp	r0, #0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 204
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 204
 
 
  5702 00ca D4D0     		beq	.L661
@@ -12238,7 +12238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5748              		.loc 1 3185 40 view .LVU2076
  5749 0006 1173     		strb	r1, [r2, #12]
 3186:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   hspi->TxXferCount--;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 205
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 205
 
 
  5750              		.loc 1 3186 3 is_stmt 1 view .LVU2077
@@ -12298,7 +12298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3206:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  5789              		.loc 1 3206 8 view .LVU2093
  5790              	.LBE84:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 206
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 206
 
 
  5791              	.LBE83:
@@ -12358,7 +12358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5835 000a 816B     		ldr	r1, [r0, #56]
 3125:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  5836              		.loc 1 3125 20 view .LVU2106
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 207
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 207
 
 
  5837 000c 013A     		subs	r2, r2, #1
@@ -12418,7 +12418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5877              	.LBB92:
  5878              	.LBB91:
 3143:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 208
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 208
 
 
  5879              		.loc 1 3143 7 is_stmt 1 view .LVU2121
@@ -12478,7 +12478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5922              		.loc 1 3280 20 is_stmt 0 view .LVU2134
  5923 0010 013A     		subs	r2, r2, #1
  5924 0012 92B2     		uxth	r2, r2
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 209
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 209
 
 
  5925 0014 C286     		strh	r2, [r0, #54]	@ movhi
@@ -12538,7 +12538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  5968              		.thumb_func
  5970              	SPI_2linesRxISR_16BIT:
  5971              	.LVL324:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 210
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 210
 
 
  5972              	.LFB257:
@@ -12598,7 +12598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6010 0022 6260     		str	r2, [r4, #4]
 3239:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  6011              		.loc 1 3239 5 view .LVU2163
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 211
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 211
 
 
 3239:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
@@ -12658,7 +12658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6057 0002 0268     		ldr	r2, [r0]
 2952:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   SPI_HandleTypeDef *hspi = (SPI_HandleTypeDef *)(((DMA_HandleTypeDef *)hdma)->Parent); /* Derogati
  6058              		.loc 1 2952 1 is_stmt 0 view .LVU2175
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 212
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 212
 
 
  6059 0004 08B5     		push	{r3, lr}
@@ -12718,7 +12718,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6104              		.cfi_offset 5, -8
  6105              		.cfi_offset 14, -4
  6106 0002 0546     		mov	r5, r0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 213
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 213
 
 
  6107 0004 83B0     		sub	sp, sp, #12
@@ -12778,7 +12778,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6147              		.loc 1 3599 82 view .LVU2200
  6148 0022 A3FB0131 		umull	r3, r1, r3, r1
  6149              	.LBE99:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 214
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 214
 
 
  6150              	.LBE107:
@@ -12838,7 +12838,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6190 0040 0191     		str	r1, [sp, #4]
 3601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  6191              		.loc 1 3601 3 is_stmt 1 view .LVU2215
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 215
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 215
 
 
 3601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -12898,7 +12898,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2697:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
  6232              		.loc 1 2697 7 is_stmt 1 discriminator 1 view .LVU2230
 2700:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     hspi->State = HAL_SPI_STATE_READY;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 216
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 216
 
 
  6233              		.loc 1 2700 5 view .LVU2231
@@ -12958,7 +12958,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3617:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  6274              		.loc 1 3617 5 is_stmt 1 view .LVU2245
 3619:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 217
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 217
 
 
  6275              		.loc 1 3619 7 view .LVU2246
@@ -13018,7 +13018,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6317              	.LBE105:
  6318              	.LBE114:
 2691:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 218
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 218
 
 
  6319              		.loc 1 2691 7 is_stmt 1 view .LVU2259
@@ -13078,7 +13078,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2737:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  6366              		.loc 1 2737 15 is_stmt 0 view .LVU2269
  6367 0006 FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 219
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 219
 
 
  6368              	.LVL346:
@@ -13138,7 +13138,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3546:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** {
  6408              		.loc 1 3546 26 view .LVU2284
  6409              	.LBB119:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 220
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 220
 
 
 3548:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****                                                || (hspi->Init.Direction == SPI_DIRECTION_2LINES_RXO
@@ -13198,7 +13198,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6448              	.LVL353:
  6449              	.L755:
 2763:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 221
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 221
 
 
  6450              		.loc 1 2763 56 discriminator 1 view .LVU2301
@@ -13258,7 +13258,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3561:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
  6491              		.loc 1 3561 7 view .LVU2315
 3561:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 222
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 222
 
 
  6492              		.loc 1 3561 11 is_stmt 0 view .LVU2316
@@ -13318,7 +13318,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6534 00a2 21F04001 		bic	r1, r1, #64
  6535 00a6 1960     		str	r1, [r3]
 3556:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 223
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 223
 
 
  6536              		.loc 1 3556 3 view .LVU2329
@@ -13378,7 +13378,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2826:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  6582              		.loc 1 2826 15 is_stmt 0 view .LVU2340
  6583 0008 FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 224
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 224
 
 
  6584              	.LVL366:
@@ -13438,7 +13438,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6625 002e 25F02005 		bic	r5, r5, #32
  6626              	.LBB140:
  6627              	.LBB133:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 225
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 225
 
 
 3601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -13498,7 +13498,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6667 004e 0021     		movs	r1, #0
 2857:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  6668              		.loc 1 2857 5 view .LVU2369
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 226
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 226
 
 
  6669 0050 23F00303 		bic	r3, r3, #3
@@ -13558,7 +13558,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6708              		.loc 1 3624 53 is_stmt 1 view .LVU2384
 3624:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
  6709              		.loc 1 3624 14 is_stmt 0 view .LVU2385
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 227
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 227
 
 
  6710 0074 9368     		ldr	r3, [r2, #8]
@@ -13618,7 +13618,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6752              	.LBB137:
 3606:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       return HAL_TIMEOUT;
  6753              		.loc 1 3606 7 view .LVU2398
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 228
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 228
 
 
  6754 0090 43F02003 		orr	r3, r3, #32
@@ -13678,7 +13678,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6801              		.loc 1 2381 3 is_stmt 1 view .LVU2407
 2381:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  6802              		.loc 1 2381 12 is_stmt 0 view .LVU2408
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 229
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 229
 
 
  6803 0006 9368     		ldr	r3, [r2, #8]
@@ -13738,7 +13738,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6842              	.L795:
 2427:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       __HAL_SPI_CLEAR_FREFLAG(hspi);
  6843              		.loc 1 2427 7 is_stmt 1 view .LVU2424
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 230
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 230
 
 
  6844 0030 636D     		ldr	r3, [r4, #84]
@@ -13798,7 +13798,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6883              		.loc 1 2403 5 is_stmt 1 view .LVU2439
 2403:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  6884              		.loc 1 2403 8 is_stmt 0 view .LVU2440
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 231
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 231
 
 
  6885 0054 002D     		cmp	r5, #0
@@ -13858,7 +13858,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2434:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  6924              		.loc 1 2434 7 is_stmt 1 view .LVU2456
  6925 007c 5368     		ldr	r3, [r2, #4]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 232
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 232
 
 
 2436:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       /* Disable the SPI DMA requests if enabled */
@@ -13918,7 +13918,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  6961 00a4 636D     		ldr	r3, [r4, #84]
  6962 00a6 43F04003 		orr	r3, r3, #64
  6963 00aa 6365     		str	r3, [r4, #84]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 233
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 233
 
 
  6964              	.L798:
@@ -13978,7 +13978,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7003 00d2 8806     		lsls	r0, r1, #26
  7004 00d4 13D5     		bpl	.L779
 2405:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 234
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 234
 
 
  7005              		.loc 1 2405 7 is_stmt 1 view .LVU2491
@@ -14038,7 +14038,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7045              		.cfi_def_cfa_offset 12
  7046              		@ sp needed
  7047 0100 30BD     		pop	{r4, r5, pc}
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 235
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 235
 
 
  7048              	.LVL392:
@@ -14098,7 +14098,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7088              	.LVL396:
  7089              	.L833:
 2477:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 236
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 236
 
 
  7090              		.loc 1 2477 1 view .LVU2520
@@ -14158,7 +14158,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7133 0148 D9E7     		b	.L779
  7134              	.L838:
  7135 014a 00BF     		.align	2
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 237
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 237
 
 
  7136              	.L837:
@@ -14218,7 +14218,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7183              		.thumb
  7184              		.thumb_func
  7186              	SPI_RxISR_16BIT:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 238
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 238
 
 
  7187              	.LVL403:
@@ -14278,7 +14278,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7225              		.cfi_offset 14, -4
  7226              	.LBB154:
  7227              	.LBB155:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 239
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 239
 
 
 3734:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -14338,7 +14338,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7268 0042 33B9     		cbnz	r3, .L844
 3745:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   }
  7269              		.loc 1 3745 5 is_stmt 1 view .LVU2572
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 240
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 240
 
 
  7270              	.LBB156:
@@ -14398,7 +14398,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7310              	.L854:
  7311              		.cfi_restore_state
  7312              	.LBB161:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 241
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 241
 
 
  7313              	.LBB159:
@@ -14458,7 +14458,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2140:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __IO uint32_t count;
  7364              		.loc 1 2140 3 view .LVU2594
 2141:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __IO uint32_t resetcount;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 242
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 242
 
 
  7365              		.loc 1 2141 3 view .LVU2595
@@ -14518,7 +14518,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 2154:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  7403              		.loc 1 2154 3 view .LVU2612
 2154:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 243
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 243
 
 
  7404              		.loc 1 2154 7 is_stmt 0 view .LVU2613
@@ -14578,7 +14578,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7439              		.loc 1 2160 10 view .LVU2632
  7440 0046 002B     		cmp	r3, #0
  7441 0048 F5D1     		bne	.L858
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 244
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 244
 
 
  7442              	.L909:
@@ -14638,7 +14638,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7480              		.loc 1 2177 7 view .LVU2648
 2182:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     } while (hspi->State != HAL_SPI_STATE_ABORT);
  7481              		.loc 1 2182 7 view .LVU2649
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 245
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 245
 
 
 2177:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****       {
@@ -14698,7 +14698,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7518              		.loc 1 2209 9 is_stmt 0 view .LVU2667
  7519 0096 5368     		ldr	r3, [r2, #4]
 2211:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 246
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 246
 
 
  7520              		.loc 1 2211 39 view .LVU2668
@@ -14758,7 +14758,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7561 00c2 30BD     		pop	{r4, r5, pc}
  7562              	.LVL415:
  7563              	.L911:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 247
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 247
 
 
  7564              		.cfi_restore_state
@@ -14818,7 +14818,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7601 00e6 6365     		str	r3, [r4, #84]
 2238:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  7602              		.loc 1 2238 3 is_stmt 1 view .LVU2699
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 248
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 248
 
 
 2238:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
@@ -14878,7 +14878,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7641 010c 9168     		ldr	r1, [r2, #8]
  7642 010e 0291     		str	r1, [sp, #8]
  7643 0110 0299     		ldr	r1, [sp, #8]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 249
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 249
 
 
  7644              	.LBE163:
@@ -14938,7 +14938,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7680              		.loc 1 2279 5 view .LVU2733
 2285:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
  7681              		.loc 1 2285 5 view .LVU2734
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 250
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 250
 
 
  7682 0128 FFF7FEFF 		bl	HAL_SPI_AbortCpltCallback
@@ -14998,7 +14998,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7720 0144 E06C     		ldr	r0, [r4, #76]
 2241:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
  7721              		.loc 1 2241 8 view .LVU2751
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 251
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 251
 
 
  7722 0146 0028     		cmp	r0, #0
@@ -15058,7 +15058,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7759              	.LBB168:
 2275:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     __HAL_SPI_CLEAR_FREFLAG(hspi);
  7760              		.loc 1 2275 5 is_stmt 0 view .LVU2769
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 252
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 252
 
 
  7761 0168 2268     		ldr	r2, [r4]
@@ -15118,7 +15118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7808 0008 1A68     		ldr	r2, [r3]
  7809 000a 22F04002 		bic	r2, r2, #64
  7810 000e 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 253
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 253
 
 
 3068:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
@@ -15178,7 +15178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7848 003c 0392     		str	r2, [sp, #12]
  7849              	.LVL427:
 3599:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   /* Erratasheet: BSY bit may stay high at the end of a data transfer in Slave mode */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 254
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 254
 
 
  7850              		.loc 1 3599 17 view .LVU2796
@@ -15238,7 +15238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3080:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
  7888              		.loc 1 3080 3 is_stmt 1 view .LVU2813
 3080:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 255
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 255
 
 
  7889              		.loc 1 3080 11 is_stmt 0 view .LVU2814
@@ -15298,7 +15298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3100:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __HAL_SPI_CLEAR_FREFLAG(hspi);
  7928              		.loc 1 3100 3 view .LVU2830
  7929 0076 D968     		ldr	r1, [r3, #12]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 256
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 256
 
 
  7930 0078 0191     		str	r1, [sp, #4]
@@ -15358,7 +15358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  7970              	.LBB180:
  7971              	.LBB176:
 3604:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****     {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 257
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 257
 
 
  7972              		.loc 1 3604 5 is_stmt 1 view .LVU2845
@@ -15418,7 +15418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  8020              		@ frame_needed = 0, uses_anonymous_args = 0
 2998:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   __IO uint32_t count;
  8021              		.loc 1 2998 3 view .LVU2854
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 258
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 258
 
 
 2997:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c ****   SPI_HandleTypeDef *hspi = (SPI_HandleTypeDef *)(((DMA_HandleTypeDef *)hdma)->Parent); /* Derogati
@@ -15478,7 +15478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3002:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  8060              		.loc 1 3002 3 is_stmt 1 view .LVU2871
 3005:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 259
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 259
 
 
  8061              		.loc 1 3005 3 view .LVU2872
@@ -15538,7 +15538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
 3051:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  8099              		.loc 1 3051 1 view .LVU2889
  8100 004e 04B0     		add	sp, sp, #16
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 260
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 260
 
 
  8101              		.cfi_remember_state
@@ -15598,7 +15598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  8139              	.LBB182:
 3040:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** 
  8140              		.loc 1 3040 3 view .LVU2906
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 261
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 261
 
 
  8141 006e 0393     		str	r3, [sp, #12]
@@ -15658,7 +15658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  8187              		@ frame_needed = 0, uses_anonymous_args = 0
  8188              		@ link register save eliminated.
 2637:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c **** }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 262
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 262
 
 
  8189              		.loc 1 2637 3 view .LVU2917
@@ -15709,145 +15709,145 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 1
  8231              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h"
  8232              		.file 9 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
  8233              		.file 10 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 263
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 263
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f4xx_hal_spi.c
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:19     .text.SPI_AbortRx_ISR:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:25     .text.SPI_AbortRx_ISR:00000000 SPI_AbortRx_ISR
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:110    .text.SPI_AbortRx_ISR:00000058 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:116    .text.SPI_AbortTx_ISR:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:122    .text.SPI_AbortTx_ISR:00000000 SPI_AbortTx_ISR
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:151    .text.SPI_WaitFlagStateUntilTimeout.constprop.1:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:157    .text.SPI_WaitFlagStateUntilTimeout.constprop.1:00000000 SPI_WaitFlagStateUntilTimeout.constprop.1
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:344    .text.SPI_WaitFlagStateUntilTimeout.constprop.1:000000bc $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:351    .text.SPI_WaitFlagStateUntilTimeout.constprop.0:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:357    .text.SPI_WaitFlagStateUntilTimeout.constprop.0:00000000 SPI_WaitFlagStateUntilTimeout.constprop.0
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:543    .text.SPI_WaitFlagStateUntilTimeout.constprop.0:000000b0 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:550    .text.SPI_EndRxTransaction.constprop.0:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:556    .text.SPI_EndRxTransaction.constprop.0:00000000 SPI_EndRxTransaction.constprop.0
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:663    .text.HAL_SPI_MspInit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:670    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:685    .text.HAL_SPI_Init:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:692    .text.HAL_SPI_Init:00000000 HAL_SPI_Init
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:857    .text.HAL_SPI_MspDeInit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:864    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:876    .text.HAL_SPI_DeInit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:883    .text.HAL_SPI_DeInit:00000000 HAL_SPI_DeInit
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:946    .text.HAL_SPI_Transmit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:953    .text.HAL_SPI_Transmit:00000000 HAL_SPI_Transmit
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:1533   .text.HAL_SPI_Transmit:00000240 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:1539   .text.HAL_SPI_TransmitReceive:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:1546   .text.HAL_SPI_TransmitReceive:00000000 HAL_SPI_TransmitReceive
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:2352   .text.HAL_SPI_TransmitReceive:000002f8 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:2358   .text.HAL_SPI_Receive:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:2365   .text.HAL_SPI_Receive:00000000 HAL_SPI_Receive
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:2898   .text.HAL_SPI_Transmit_IT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:2905   .text.HAL_SPI_Transmit_IT:00000000 HAL_SPI_Transmit_IT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3067   .text.HAL_SPI_Transmit_IT:00000098 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5209   .text.SPI_TxISR_8BIT:00000000 SPI_TxISR_8BIT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5264   .text.SPI_TxISR_16BIT:00000000 SPI_TxISR_16BIT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3073   .text.HAL_SPI_TransmitReceive_IT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3080   .text.HAL_SPI_TransmitReceive_IT:00000000 HAL_SPI_TransmitReceive_IT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3266   .text.HAL_SPI_TransmitReceive_IT:000000c0 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5733   .text.SPI_2linesTxISR_8BIT:00000000 SPI_2linesTxISR_8BIT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5895   .text.SPI_2linesTxISR_16BIT:00000000 SPI_2linesTxISR_16BIT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5814   .text.SPI_2linesRxISR_8BIT:00000000 SPI_2linesRxISR_8BIT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5970   .text.SPI_2linesRxISR_16BIT:00000000 SPI_2linesRxISR_16BIT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3274   .text.HAL_SPI_Receive_IT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3281   .text.HAL_SPI_Receive_IT:00000000 HAL_SPI_Receive_IT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3471   .text.HAL_SPI_Receive_IT:000000c4 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7186   .text.SPI_RxISR_16BIT:00000000 SPI_RxISR_16BIT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5328   .text.SPI_RxISR_8BIT:00000000 SPI_RxISR_8BIT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3477   .text.HAL_SPI_Transmit_DMA:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3484   .text.HAL_SPI_Transmit_DMA:00000000 HAL_SPI_Transmit_DMA
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3684   .text.HAL_SPI_Transmit_DMA:000000c0 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4815   .text.SPI_DMAHalfTransmitCplt:00000000 SPI_DMAHalfTransmitCplt
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6092   .text.SPI_DMATransmitCplt:00000000 SPI_DMATransmitCplt
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6045   .text.SPI_DMAError:00000000 SPI_DMAError
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3691   .text.HAL_SPI_TransmitReceive_DMA:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3698   .text.HAL_SPI_TransmitReceive_DMA:00000000 HAL_SPI_TransmitReceive_DMA
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3942   .text.HAL_SPI_TransmitReceive_DMA:000000f8 $d
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 264
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:19     .text.SPI_AbortRx_ISR:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:25     .text.SPI_AbortRx_ISR:00000000 SPI_AbortRx_ISR
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:110    .text.SPI_AbortRx_ISR:00000058 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:116    .text.SPI_AbortTx_ISR:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:122    .text.SPI_AbortTx_ISR:00000000 SPI_AbortTx_ISR
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:151    .text.SPI_WaitFlagStateUntilTimeout.constprop.1:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:157    .text.SPI_WaitFlagStateUntilTimeout.constprop.1:00000000 SPI_WaitFlagStateUntilTimeout.constprop.1
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:344    .text.SPI_WaitFlagStateUntilTimeout.constprop.1:000000bc $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:351    .text.SPI_WaitFlagStateUntilTimeout.constprop.0:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:357    .text.SPI_WaitFlagStateUntilTimeout.constprop.0:00000000 SPI_WaitFlagStateUntilTimeout.constprop.0
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:543    .text.SPI_WaitFlagStateUntilTimeout.constprop.0:000000b0 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:550    .text.SPI_EndRxTransaction.constprop.0:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:556    .text.SPI_EndRxTransaction.constprop.0:00000000 SPI_EndRxTransaction.constprop.0
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:663    .text.HAL_SPI_MspInit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:670    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:685    .text.HAL_SPI_Init:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:692    .text.HAL_SPI_Init:00000000 HAL_SPI_Init
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:857    .text.HAL_SPI_MspDeInit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:864    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:876    .text.HAL_SPI_DeInit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:883    .text.HAL_SPI_DeInit:00000000 HAL_SPI_DeInit
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:946    .text.HAL_SPI_Transmit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:953    .text.HAL_SPI_Transmit:00000000 HAL_SPI_Transmit
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:1533   .text.HAL_SPI_Transmit:00000240 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:1539   .text.HAL_SPI_TransmitReceive:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:1546   .text.HAL_SPI_TransmitReceive:00000000 HAL_SPI_TransmitReceive
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:2352   .text.HAL_SPI_TransmitReceive:000002f8 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:2358   .text.HAL_SPI_Receive:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:2365   .text.HAL_SPI_Receive:00000000 HAL_SPI_Receive
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:2898   .text.HAL_SPI_Transmit_IT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:2905   .text.HAL_SPI_Transmit_IT:00000000 HAL_SPI_Transmit_IT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3067   .text.HAL_SPI_Transmit_IT:00000098 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5209   .text.SPI_TxISR_8BIT:00000000 SPI_TxISR_8BIT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5264   .text.SPI_TxISR_16BIT:00000000 SPI_TxISR_16BIT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3073   .text.HAL_SPI_TransmitReceive_IT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3080   .text.HAL_SPI_TransmitReceive_IT:00000000 HAL_SPI_TransmitReceive_IT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3266   .text.HAL_SPI_TransmitReceive_IT:000000c0 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5733   .text.SPI_2linesTxISR_8BIT:00000000 SPI_2linesTxISR_8BIT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5895   .text.SPI_2linesTxISR_16BIT:00000000 SPI_2linesTxISR_16BIT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5814   .text.SPI_2linesRxISR_8BIT:00000000 SPI_2linesRxISR_8BIT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5970   .text.SPI_2linesRxISR_16BIT:00000000 SPI_2linesRxISR_16BIT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3274   .text.HAL_SPI_Receive_IT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3281   .text.HAL_SPI_Receive_IT:00000000 HAL_SPI_Receive_IT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3471   .text.HAL_SPI_Receive_IT:000000c4 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7186   .text.SPI_RxISR_16BIT:00000000 SPI_RxISR_16BIT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5328   .text.SPI_RxISR_8BIT:00000000 SPI_RxISR_8BIT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3477   .text.HAL_SPI_Transmit_DMA:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3484   .text.HAL_SPI_Transmit_DMA:00000000 HAL_SPI_Transmit_DMA
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3684   .text.HAL_SPI_Transmit_DMA:000000c0 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4815   .text.SPI_DMAHalfTransmitCplt:00000000 SPI_DMAHalfTransmitCplt
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6092   .text.SPI_DMATransmitCplt:00000000 SPI_DMATransmitCplt
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6045   .text.SPI_DMAError:00000000 SPI_DMAError
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3691   .text.HAL_SPI_TransmitReceive_DMA:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3698   .text.HAL_SPI_TransmitReceive_DMA:00000000 HAL_SPI_TransmitReceive_DMA
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3942   .text.HAL_SPI_TransmitReceive_DMA:000000f8 $d
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 264
 
 
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4917   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 SPI_DMAHalfTransmitReceiveCplt
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4866   .text.SPI_DMAHalfReceiveCplt:00000000 SPI_DMAHalfReceiveCplt
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6560   .text.SPI_DMATransmitReceiveCplt:00000000 SPI_DMATransmitReceiveCplt
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6344   .text.SPI_DMAReceiveCplt:00000000 SPI_DMAReceiveCplt
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3951   .text.HAL_SPI_Receive_DMA:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:3958   .text.HAL_SPI_Receive_DMA:00000000 HAL_SPI_Receive_DMA
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4189   .text.HAL_SPI_Receive_DMA:000000e0 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4196   .text.HAL_SPI_Abort:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4203   .text.HAL_SPI_Abort:00000000 HAL_SPI_Abort
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4510   .text.HAL_SPI_Abort:00000124 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4518   .text.HAL_SPI_DMAPause:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4525   .text.HAL_SPI_DMAPause:00000000 HAL_SPI_DMAPause
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4578   .text.HAL_SPI_DMAResume:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4585   .text.HAL_SPI_DMAResume:00000000 HAL_SPI_DMAResume
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4638   .text.HAL_SPI_DMAStop:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4645   .text.HAL_SPI_DMAStop:00000000 HAL_SPI_DMAStop
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4733   .text.HAL_SPI_TxCpltCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4740   .text.HAL_SPI_TxCpltCallback:00000000 HAL_SPI_TxCpltCallback
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4752   .text.HAL_SPI_RxCpltCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4759   .text.HAL_SPI_RxCpltCallback:00000000 HAL_SPI_RxCpltCallback
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4771   .text.HAL_SPI_TxRxCpltCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4778   .text.HAL_SPI_TxRxCpltCallback:00000000 HAL_SPI_TxRxCpltCallback
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4790   .text.HAL_SPI_TxHalfCpltCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4797   .text.HAL_SPI_TxHalfCpltCallback:00000000 HAL_SPI_TxHalfCpltCallback
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4809   .text.SPI_DMAHalfTransmitCplt:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4841   .text.HAL_SPI_RxHalfCpltCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4848   .text.HAL_SPI_RxHalfCpltCallback:00000000 HAL_SPI_RxHalfCpltCallback
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4860   .text.SPI_DMAHalfReceiveCplt:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4892   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4899   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 HAL_SPI_TxRxHalfCpltCallback
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4911   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4943   .text.HAL_SPI_ErrorCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4950   .text.HAL_SPI_ErrorCallback:00000000 HAL_SPI_ErrorCallback
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4962   .text.SPI_CloseTx_ISR:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:4968   .text.SPI_CloseTx_ISR:00000000 SPI_CloseTx_ISR
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5196   .text.SPI_CloseTx_ISR:000000c4 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5203   .text.SPI_TxISR_8BIT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5258   .text.SPI_TxISR_16BIT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5322   .text.SPI_RxISR_8BIT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5479   .text.SPI_CloseRxTx_ISR:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5485   .text.SPI_CloseRxTx_ISR:00000000 SPI_CloseRxTx_ISR
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5720   .text.SPI_CloseRxTx_ISR:000000e0 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5727   .text.SPI_2linesTxISR_8BIT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5808   .text.SPI_2linesRxISR_8BIT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5889   .text.SPI_2linesTxISR_16BIT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:5964   .text.SPI_2linesRxISR_16BIT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6039   .text.SPI_DMAError:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6086   .text.SPI_DMATransmitCplt:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6332   .text.SPI_DMATransmitCplt:000000b8 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6338   .text.SPI_DMAReceiveCplt:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6554   .text.SPI_DMATransmitReceiveCplt:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6769   .text.SPI_DMATransmitReceiveCplt:000000a0 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6775   .text.HAL_SPI_IRQHandler:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:6782   .text.HAL_SPI_IRQHandler:00000000 HAL_SPI_IRQHandler
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7137   .text.HAL_SPI_IRQHandler:0000014c $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7148   .text.SPI_DMAAbortOnError:00000000 SPI_DMAAbortOnError
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7142   .text.SPI_DMAAbortOnError:00000000 $t
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s 			page 265
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4917   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 SPI_DMAHalfTransmitReceiveCplt
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4866   .text.SPI_DMAHalfReceiveCplt:00000000 SPI_DMAHalfReceiveCplt
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6560   .text.SPI_DMATransmitReceiveCplt:00000000 SPI_DMATransmitReceiveCplt
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6344   .text.SPI_DMAReceiveCplt:00000000 SPI_DMAReceiveCplt
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3951   .text.HAL_SPI_Receive_DMA:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:3958   .text.HAL_SPI_Receive_DMA:00000000 HAL_SPI_Receive_DMA
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4189   .text.HAL_SPI_Receive_DMA:000000e0 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4196   .text.HAL_SPI_Abort:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4203   .text.HAL_SPI_Abort:00000000 HAL_SPI_Abort
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4510   .text.HAL_SPI_Abort:00000124 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4518   .text.HAL_SPI_DMAPause:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4525   .text.HAL_SPI_DMAPause:00000000 HAL_SPI_DMAPause
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4578   .text.HAL_SPI_DMAResume:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4585   .text.HAL_SPI_DMAResume:00000000 HAL_SPI_DMAResume
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4638   .text.HAL_SPI_DMAStop:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4645   .text.HAL_SPI_DMAStop:00000000 HAL_SPI_DMAStop
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4733   .text.HAL_SPI_TxCpltCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4740   .text.HAL_SPI_TxCpltCallback:00000000 HAL_SPI_TxCpltCallback
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4752   .text.HAL_SPI_RxCpltCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4759   .text.HAL_SPI_RxCpltCallback:00000000 HAL_SPI_RxCpltCallback
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4771   .text.HAL_SPI_TxRxCpltCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4778   .text.HAL_SPI_TxRxCpltCallback:00000000 HAL_SPI_TxRxCpltCallback
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4790   .text.HAL_SPI_TxHalfCpltCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4797   .text.HAL_SPI_TxHalfCpltCallback:00000000 HAL_SPI_TxHalfCpltCallback
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4809   .text.SPI_DMAHalfTransmitCplt:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4841   .text.HAL_SPI_RxHalfCpltCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4848   .text.HAL_SPI_RxHalfCpltCallback:00000000 HAL_SPI_RxHalfCpltCallback
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4860   .text.SPI_DMAHalfReceiveCplt:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4892   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4899   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 HAL_SPI_TxRxHalfCpltCallback
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4911   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4943   .text.HAL_SPI_ErrorCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4950   .text.HAL_SPI_ErrorCallback:00000000 HAL_SPI_ErrorCallback
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4962   .text.SPI_CloseTx_ISR:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:4968   .text.SPI_CloseTx_ISR:00000000 SPI_CloseTx_ISR
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5196   .text.SPI_CloseTx_ISR:000000c4 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5203   .text.SPI_TxISR_8BIT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5258   .text.SPI_TxISR_16BIT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5322   .text.SPI_RxISR_8BIT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5479   .text.SPI_CloseRxTx_ISR:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5485   .text.SPI_CloseRxTx_ISR:00000000 SPI_CloseRxTx_ISR
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5720   .text.SPI_CloseRxTx_ISR:000000e0 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5727   .text.SPI_2linesTxISR_8BIT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5808   .text.SPI_2linesRxISR_8BIT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5889   .text.SPI_2linesTxISR_16BIT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:5964   .text.SPI_2linesRxISR_16BIT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6039   .text.SPI_DMAError:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6086   .text.SPI_DMATransmitCplt:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6332   .text.SPI_DMATransmitCplt:000000b8 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6338   .text.SPI_DMAReceiveCplt:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6554   .text.SPI_DMATransmitReceiveCplt:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6769   .text.SPI_DMATransmitReceiveCplt:000000a0 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6775   .text.HAL_SPI_IRQHandler:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:6782   .text.HAL_SPI_IRQHandler:00000000 HAL_SPI_IRQHandler
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7137   .text.HAL_SPI_IRQHandler:0000014c $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7148   .text.SPI_DMAAbortOnError:00000000 SPI_DMAAbortOnError
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7142   .text.SPI_DMAAbortOnError:00000000 $t
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s 			page 265
 
 
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7180   .text.SPI_RxISR_16BIT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7330   .text.HAL_SPI_AbortCpltCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7337   .text.HAL_SPI_AbortCpltCallback:00000000 HAL_SPI_AbortCpltCallback
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7349   .text.HAL_SPI_Abort_IT:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7356   .text.HAL_SPI_Abort_IT:00000000 HAL_SPI_Abort_IT
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7770   .text.HAL_SPI_Abort_IT:00000170 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7786   .text.SPI_DMARxAbortCallback:00000000 SPI_DMARxAbortCallback
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:8014   .text.SPI_DMATxAbortCallback:00000000 SPI_DMATxAbortCallback
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:7780   .text.SPI_DMARxAbortCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:8002   .text.SPI_DMARxAbortCallback:000000bc $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:8008   .text.SPI_DMATxAbortCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:8168   .text.SPI_DMATxAbortCallback:00000084 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:8174   .text.HAL_SPI_GetState:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:8181   .text.HAL_SPI_GetState:00000000 HAL_SPI_GetState
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:8199   .text.HAL_SPI_GetError:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVmhMLu.s:8206   .text.HAL_SPI_GetError:00000000 HAL_SPI_GetError
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7180   .text.SPI_RxISR_16BIT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7330   .text.HAL_SPI_AbortCpltCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7337   .text.HAL_SPI_AbortCpltCallback:00000000 HAL_SPI_AbortCpltCallback
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7349   .text.HAL_SPI_Abort_IT:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7356   .text.HAL_SPI_Abort_IT:00000000 HAL_SPI_Abort_IT
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7770   .text.HAL_SPI_Abort_IT:00000170 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7786   .text.SPI_DMARxAbortCallback:00000000 SPI_DMARxAbortCallback
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:8014   .text.SPI_DMATxAbortCallback:00000000 SPI_DMATxAbortCallback
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:7780   .text.SPI_DMARxAbortCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:8002   .text.SPI_DMARxAbortCallback:000000bc $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:8008   .text.SPI_DMATxAbortCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:8168   .text.SPI_DMATxAbortCallback:00000084 $d
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:8174   .text.HAL_SPI_GetState:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:8181   .text.HAL_SPI_GetState:00000000 HAL_SPI_GetState
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:8199   .text.HAL_SPI_GetError:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccBsvLlw.s:8206   .text.HAL_SPI_GetError:00000000 HAL_SPI_GetError
 
 UNDEFINED SYMBOLS
 SystemCoreClock

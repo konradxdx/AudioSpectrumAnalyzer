@@ -14,4 +14,6 @@
 
 #include <stdint.h>
 
-uint8_t dac_write(uint8_t channel, uint8_t value, uint8_t dac);
+void dac_write(uint8_t channel, uint8_t value, uint8_t dac);
+void setBar(uint8_t barNumber,uint8_t value);
+void setBarInv(uint8_t barNumber,uint8_t value);

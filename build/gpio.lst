@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccSFLmcA.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 1
   29:Core/Src/gpio.c **** /* Configure GPIO                                                             */
   30:Core/Src/gpio.c **** /*----------------------------------------------------------------------------*/
   31:Core/Src/gpio.c **** /* USER CODE BEGIN 1 */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccSFLmcA.s 			page 2
 
 
   32:Core/Src/gpio.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 1
   50:Core/Src/gpio.c ****   __HAL_RCC_GPIOA_CLK_ENABLE();
   51:Core/Src/gpio.c ****   __HAL_RCC_GPIOB_CLK_ENABLE();
   52:Core/Src/gpio.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccSFLmcA.s 			page 3
 
 
   53:Core/Src/gpio.c ****   /*Configure GPIO pin Output Level */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 1
   97              		.loc 1 50 3 view .LVU25
   98 0040 1A6B     		ldr	r2, [r3, #48]
   99 0042 42F00102 		orr	r2, r2, #1
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccSFLmcA.s 			page 4
 
 
  100 0046 1A63     		str	r2, [r3, #48]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 1
   59:Core/Src/gpio.c ****   /*Configure GPIO pin Output Level */
   60:Core/Src/gpio.c ****   HAL_GPIO_WritePin(EN_TUBE_GPIO_Port, EN_TUBE_Pin, GPIO_PIN_RESET);
  141              		.loc 1 60 3 view .LVU39
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccSFLmcA.s 			page 5
 
 
  142 007c 2246     		mov	r2, r4
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 1
  175 00a6 CDE90564 		strd	r6, r4, [sp, #20]
   72:Core/Src/gpio.c ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
  176              		.loc 1 72 3 is_stmt 1 view .LVU55
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccSFLmcA.s 			page 6
 
 
   72:Core/Src/gpio.c ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -353,14 +353,14 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 1
  214              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
  215              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
  216              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccSFLmcA.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 gpio.c
-C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s:19     .text.MX_GPIO_Init:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s:26     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-C:\Users\Konrad\AppData\Local\Temp\ccKtTGbD.s:204    .text.MX_GPIO_Init:000000c8 $d
+C:\Users\Konrad\AppData\Local\Temp\ccSFLmcA.s:19     .text.MX_GPIO_Init:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccSFLmcA.s:26     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+C:\Users\Konrad\AppData\Local\Temp\ccSFLmcA.s:204    .text.MX_GPIO_Init:000000c8 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
   29:Core/Src/syscalls.c **** #include <time.h>
   30:Core/Src/syscalls.c **** #include <sys/time.h>
   31:Core/Src/syscalls.c **** #include <sys/times.h>
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 2
 
 
   32:Core/Src/syscalls.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
   65              		.thumb
   66              		.thumb_func
   68              	_kill:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 3
 
 
   69              	.LVL0:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  112              		.loc 1 63 3 view .LVU15
  113              	.LBB4:
  114              	.LBI4:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 4
 
 
   53:Core/Src/syscalls.c **** {
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  161              	.LFB29:
   65:Core/Src/syscalls.c **** }
   66:Core/Src/syscalls.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 5
 
 
   67:Core/Src/syscalls.c **** __attribute__((weak)) int _read(int file, char *ptr, int len)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  201              		.loc 1 78 1 view .LVU45
  202              		.cfi_endproc
  203              	.LFE29:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 6
 
 
  205 001a 00BF     		.section	.text._write,"ax",%progbits
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  248 0014 F9D1     		bne	.L16
  249              	.LVL14:
  250              	.L15:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 7
 
 
   88:Core/Src/syscalls.c ****   }
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  296              		.loc 1 100 1 is_stmt 1 view -0
  297              		.cfi_startproc
  298              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 8
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 8
 
 
  299              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  346              		.thumb
  347              		.thumb_func
  349              	_lseek:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 9
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 9
 
 
  350              	.LVL21:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  390              		.cfi_def_cfa_offset 12
  391              		.cfi_offset 1, -12
  392              		.cfi_offset 2, -8
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 10
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 10
 
 
  393              		.cfi_offset 3, -4
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  440              	.LFE36:
  442              		.section	.text._unlink,"ax",%progbits
  443              		.align	1
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 11
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 11
 
 
  444              		.p2align 2,,3
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  490              		@ args = 0, pretend = 0, frame = 0
  491              		@ frame_needed = 0, uses_anonymous_args = 0
  492              		@ link register save eliminated.
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 12
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 12
 
 
  144:Core/Src/syscalls.c ****   (void)buf;
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  541              	_link:
  542              	.LVL33:
  543              	.LFB40:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 13
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 13
 
 
  154:Core/Src/syscalls.c **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  586              		.cfi_def_cfa_offset 8
  587              		.cfi_offset 3, -8
  588              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 14
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 14
 
 
  589              		.loc 1 165 3 view .LVU132
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  633              		.loc 1 176 1 is_stmt 0 view .LVU145
  634 000a 4FF0FF30 		mov	r0, #-1
  635 000e 08BD     		pop	{r3, pc}
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 15
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 15
 
 
  636              		.cfi_endproc
@@ -865,51 +865,51 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 1
  662              		.file 7 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
  663              		.file 8 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
  664              		.file 9 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s 			page 16
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 syscalls.c
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:19     .text.initialise_monitor_handles:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:26     .text.initialise_monitor_handles:00000000 initialise_monitor_handles
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:39     .text._getpid:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:46     .text._getpid:00000000 _getpid
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:61     .text._kill:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:68     .text._kill:00000000 _kill
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:97     .text._exit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:104    .text._exit:00000000 _exit
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:152    .text._read:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:159    .text._read:00000000 _read
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:206    .text._write:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:213    .text._write:00000000 _write
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:260    .text._close:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:267    .text._close:00000000 _close
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:286    .text._fstat:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:293    .text._fstat:00000000 _fstat
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:316    .text._isatty:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:323    .text._isatty:00000000 _isatty
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:342    .text._lseek:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:349    .text._lseek:00000000 _lseek
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:370    .text._open:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:377    .text._open:00000000 _open
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:408    .text._wait:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:415    .text._wait:00000000 _wait
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:443    .text._unlink:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:450    .text._unlink:00000000 _unlink
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:478    .text._times:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:485    .text._times:00000000 _times
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:504    .text._stat:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:511    .text._stat:00000000 _stat
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:534    .text._link:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:541    .text._link:00000000 _link
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:570    .text._fork:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:577    .text._fork:00000000 _fork
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:603    .text._execve:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:610    .text._execve:00000000 _execve
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:644    .data.environ:00000000 environ
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:641    .data.environ:00000000 $d
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:651    .bss.__env:00000000 __env
-C:\Users\Konrad\AppData\Local\Temp\ccunu3JO.s:648    .bss.__env:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:19     .text.initialise_monitor_handles:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:26     .text.initialise_monitor_handles:00000000 initialise_monitor_handles
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:39     .text._getpid:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:46     .text._getpid:00000000 _getpid
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:61     .text._kill:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:68     .text._kill:00000000 _kill
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:97     .text._exit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:104    .text._exit:00000000 _exit
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:152    .text._read:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:159    .text._read:00000000 _read
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:206    .text._write:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:213    .text._write:00000000 _write
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:260    .text._close:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:267    .text._close:00000000 _close
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:286    .text._fstat:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:293    .text._fstat:00000000 _fstat
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:316    .text._isatty:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:323    .text._isatty:00000000 _isatty
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:342    .text._lseek:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:349    .text._lseek:00000000 _lseek
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:370    .text._open:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:377    .text._open:00000000 _open
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:408    .text._wait:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:415    .text._wait:00000000 _wait
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:443    .text._unlink:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:450    .text._unlink:00000000 _unlink
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:478    .text._times:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:485    .text._times:00000000 _times
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:504    .text._stat:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:511    .text._stat:00000000 _stat
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:534    .text._link:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:541    .text._link:00000000 _link
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:570    .text._fork:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:577    .text._fork:00000000 _fork
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:603    .text._execve:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:610    .text._execve:00000000 _execve
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:644    .data.environ:00000000 environ
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:641    .data.environ:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:651    .bss.__env:00000000 __env
+C:\Users\Konrad\AppData\Local\Temp\ccxdBmi1.s:648    .bss.__env:00000000 $d
 
 UNDEFINED SYMBOLS
 __errno

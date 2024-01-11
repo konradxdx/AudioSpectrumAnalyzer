@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
   29:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** 
   30:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** /** @defgroup PWR PWR
   31:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @brief PWR HAL module driver
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 2
 
 
   32:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @{
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
   86:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** /**
   87:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @brief Deinitializes the HAL PWR peripheral registers to their default reset values.
   88:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @retval None
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 3
 
 
   89:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
   63              		@ args = 0, pretend = 0, frame = 8
   64              		@ frame_needed = 0, uses_anonymous_args = 0
   65              		@ link register save eliminated.
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 4
 
 
  110:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   __IO uint32_t dummyread;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  120:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *         Backup Domain Access should be kept enabled.
  121:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @note The following sequence is required to bypass the delay between
  122:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *         DBP bit programming and the effective disabling  of the backup domain.
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 5
 
 
  123:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *         Please check the Errata Sheet for more details under "Possible delay
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  149              		.p2align 2,,3
  150              		.global	HAL_PWR_ConfigPVD
  151              		.syntax unified
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 6
 
 
  152              		.thumb
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  184:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****           (++) PWR_SLEEPENTRY_WFI: enter SLEEP mode with WFI instruction
  185:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****           (++) PWR_SLEEPENTRY_WFE: enter SLEEP mode with WFE instruction
  186:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****       
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 7
 
 
  187:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****       -@@- The Regulator parameter is not used for the STM32F4 family 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  241:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****       (+) RTC auto-wake-up (AWU) from the Stop and Standby modes
  242:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****        
  243:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****         (++) To wake up from the Stop mode with an RTC alarm event, it is necessary to 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 8
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 8
 
 
  244:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****               configure the RTC to generate the RTC alarm using the HAL_RTC_SetAlarm_IT() function.
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  176 0008 0468     		ldr	r4, [r0]
  177 000a 22F0E002 		bic	r2, r2, #224
  178 000e 2243     		orrs	r2, r2, r4
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 9
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 9
 
 
  179 0010 0A60     		str	r2, [r1]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  291:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   }
  292:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   
  293:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   /* Configure the edge */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 10
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 10
 
 
  294:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   if((sConfigPVD->Mode & PVD_RISING_EDGE) == PVD_RISING_EDGE)
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  307:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @retval None
  308:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   */
  309:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** void HAL_PWR_EnablePVD(void)
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 11
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 11
 
 
  310:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** {
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  306 0008 00000E42 		.word	1108213760
  307              		.cfi_endproc
  308              	.LFE221:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 12
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 12
 
 
  310              		.section	.text.HAL_PWR_EnableWakeUpPin,"ax",%progbits
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  349              	HAL_PWR_DisableWakeUpPin:
  350              	.LVL3:
  351              	.LFB223:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 13
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 13
 
 
  340:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  365:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *       systick interrupt when used as time base for Timeout 
  366:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *                
  367:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @param Regulator Specifies the regulator state in SLEEP mode.
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 14
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 14
 
 
  368:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *            This parameter can be one of the following values:
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  398:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****     __WFE();
  406              		.loc 1 398 5 view .LVU82
  407              	@ 398 "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" 1
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 15
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 15
 
 
  408 0010 20BF     		wfe
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  417:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *          This parameter can be one of the following values:
  418:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *            @arg PWR_STOPENTRY_WFI: Enter Stop mode with WFI instruction
  419:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   *            @arg PWR_STOPENTRY_WFE: Enter Stop mode with WFE instruction
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 16
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 16
 
 
  420:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   * @retval None
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  440:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   else
  441:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****   {
  442:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****     /* Request Wait For Event */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 17
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 17
 
 
  443:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ****     __SEV();
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  521              	.LFE225:
  523              		.section	.text.HAL_PWR_EnterSTANDBYMode,"ax",%progbits
  524              		.align	1
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 18
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 18
 
 
  525              		.p2align 2,,3
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  554              	@ 0 "" 2
  475:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c **** }
  555              		.loc 1 475 1 is_stmt 0 view .LVU113
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 19
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 19
 
 
  556              		.thumb
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  583 0000 7047     		bx	lr
  584              		.cfi_endproc
  585              	.LFE228:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 20
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 20
 
 
  587 0002 00BF     		.section	.text.HAL_PWR_PVD_IRQHandler,"ax",%progbits
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  634              		.global	HAL_PWR_EnableSleepOnExit
  635              		.syntax unified
  636              		.thumb
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 21
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 21
 
 
  637              		.thumb_func
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  671              		.cfi_startproc
  672              		@ args = 0, pretend = 0, frame = 0
  673              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 22
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 22
 
 
  674              		@ link register save eliminated.
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  715              		.cfi_endproc
  716              	.LFE231:
  718              		.section	.text.HAL_PWR_DisableSEVOnPend,"ax",%progbits
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 23
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 23
 
 
  719              		.align	1
@@ -1367,60 +1367,60 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 1
  752              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
  753              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
  754              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s 			page 24
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f4xx_hal_pwr.c
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:19     .text.HAL_PWR_DeInit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:26     .text.HAL_PWR_DeInit:00000000 HAL_PWR_DeInit
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:47     .text.HAL_PWR_DeInit:00000014 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:52     .text.HAL_PWR_EnableBkUpAccess:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:59     .text.HAL_PWR_EnableBkUpAccess:00000000 HAL_PWR_EnableBkUpAccess
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:94     .text.HAL_PWR_EnableBkUpAccess:00000014 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:100    .text.HAL_PWR_DisableBkUpAccess:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:107    .text.HAL_PWR_DisableBkUpAccess:00000000 HAL_PWR_DisableBkUpAccess
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:142    .text.HAL_PWR_DisableBkUpAccess:00000014 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:148    .text.HAL_PWR_ConfigPVD:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:155    .text.HAL_PWR_ConfigPVD:00000000 HAL_PWR_ConfigPVD
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:247    .text.HAL_PWR_ConfigPVD:00000070 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:253    .text.HAL_PWR_EnablePVD:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:260    .text.HAL_PWR_EnablePVD:00000000 HAL_PWR_EnablePVD
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:277    .text.HAL_PWR_EnablePVD:00000008 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:282    .text.HAL_PWR_DisablePVD:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:289    .text.HAL_PWR_DisablePVD:00000000 HAL_PWR_DisablePVD
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:306    .text.HAL_PWR_DisablePVD:00000008 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:311    .text.HAL_PWR_EnableWakeUpPin:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:318    .text.HAL_PWR_EnableWakeUpPin:00000000 HAL_PWR_EnableWakeUpPin
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:337    .text.HAL_PWR_EnableWakeUpPin:0000000c $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:342    .text.HAL_PWR_DisableWakeUpPin:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:349    .text.HAL_PWR_DisableWakeUpPin:00000000 HAL_PWR_DisableWakeUpPin
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:368    .text.HAL_PWR_DisableWakeUpPin:0000000c $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:373    .text.HAL_PWR_EnterSLEEPMode:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:380    .text.HAL_PWR_EnterSLEEPMode:00000000 HAL_PWR_EnterSLEEPMode
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:430    .text.HAL_PWR_EnterSLEEPMode:0000001c $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:435    .text.HAL_PWR_EnterSTOPMode:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:442    .text.HAL_PWR_EnterSTOPMode:00000000 HAL_PWR_EnterSTOPMode
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:518    .text.HAL_PWR_EnterSTOPMode:00000038 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:524    .text.HAL_PWR_EnterSTANDBYMode:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:531    .text.HAL_PWR_EnterSTANDBYMode:00000000 HAL_PWR_EnterSTANDBYMode
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:562    .text.HAL_PWR_EnterSTANDBYMode:00000018 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:568    .text.HAL_PWR_PVDCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:575    .text.HAL_PWR_PVDCallback:00000000 HAL_PWR_PVDCallback
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:588    .text.HAL_PWR_PVD_IRQHandler:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:595    .text.HAL_PWR_PVD_IRQHandler:00000000 HAL_PWR_PVD_IRQHandler
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:627    .text.HAL_PWR_PVD_IRQHandler:00000018 $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:632    .text.HAL_PWR_EnableSleepOnExit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:639    .text.HAL_PWR_EnableSleepOnExit:00000000 HAL_PWR_EnableSleepOnExit
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:656    .text.HAL_PWR_EnableSleepOnExit:0000000c $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:661    .text.HAL_PWR_DisableSleepOnExit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:668    .text.HAL_PWR_DisableSleepOnExit:00000000 HAL_PWR_DisableSleepOnExit
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:685    .text.HAL_PWR_DisableSleepOnExit:0000000c $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:690    .text.HAL_PWR_EnableSEVOnPend:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:697    .text.HAL_PWR_EnableSEVOnPend:00000000 HAL_PWR_EnableSEVOnPend
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:714    .text.HAL_PWR_EnableSEVOnPend:0000000c $d
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:719    .text.HAL_PWR_DisableSEVOnPend:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:726    .text.HAL_PWR_DisableSEVOnPend:00000000 HAL_PWR_DisableSEVOnPend
-C:\Users\Konrad\AppData\Local\Temp\ccVujgAp.s:743    .text.HAL_PWR_DisableSEVOnPend:0000000c $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:19     .text.HAL_PWR_DeInit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:26     .text.HAL_PWR_DeInit:00000000 HAL_PWR_DeInit
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:47     .text.HAL_PWR_DeInit:00000014 $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:52     .text.HAL_PWR_EnableBkUpAccess:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:59     .text.HAL_PWR_EnableBkUpAccess:00000000 HAL_PWR_EnableBkUpAccess
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:94     .text.HAL_PWR_EnableBkUpAccess:00000014 $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:100    .text.HAL_PWR_DisableBkUpAccess:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:107    .text.HAL_PWR_DisableBkUpAccess:00000000 HAL_PWR_DisableBkUpAccess
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:142    .text.HAL_PWR_DisableBkUpAccess:00000014 $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:148    .text.HAL_PWR_ConfigPVD:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:155    .text.HAL_PWR_ConfigPVD:00000000 HAL_PWR_ConfigPVD
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:247    .text.HAL_PWR_ConfigPVD:00000070 $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:253    .text.HAL_PWR_EnablePVD:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:260    .text.HAL_PWR_EnablePVD:00000000 HAL_PWR_EnablePVD
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:277    .text.HAL_PWR_EnablePVD:00000008 $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:282    .text.HAL_PWR_DisablePVD:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:289    .text.HAL_PWR_DisablePVD:00000000 HAL_PWR_DisablePVD
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:306    .text.HAL_PWR_DisablePVD:00000008 $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:311    .text.HAL_PWR_EnableWakeUpPin:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:318    .text.HAL_PWR_EnableWakeUpPin:00000000 HAL_PWR_EnableWakeUpPin
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:337    .text.HAL_PWR_EnableWakeUpPin:0000000c $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:342    .text.HAL_PWR_DisableWakeUpPin:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:349    .text.HAL_PWR_DisableWakeUpPin:00000000 HAL_PWR_DisableWakeUpPin
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:368    .text.HAL_PWR_DisableWakeUpPin:0000000c $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:373    .text.HAL_PWR_EnterSLEEPMode:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:380    .text.HAL_PWR_EnterSLEEPMode:00000000 HAL_PWR_EnterSLEEPMode
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:430    .text.HAL_PWR_EnterSLEEPMode:0000001c $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:435    .text.HAL_PWR_EnterSTOPMode:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:442    .text.HAL_PWR_EnterSTOPMode:00000000 HAL_PWR_EnterSTOPMode
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:518    .text.HAL_PWR_EnterSTOPMode:00000038 $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:524    .text.HAL_PWR_EnterSTANDBYMode:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:531    .text.HAL_PWR_EnterSTANDBYMode:00000000 HAL_PWR_EnterSTANDBYMode
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:562    .text.HAL_PWR_EnterSTANDBYMode:00000018 $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:568    .text.HAL_PWR_PVDCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:575    .text.HAL_PWR_PVDCallback:00000000 HAL_PWR_PVDCallback
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:588    .text.HAL_PWR_PVD_IRQHandler:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:595    .text.HAL_PWR_PVD_IRQHandler:00000000 HAL_PWR_PVD_IRQHandler
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:627    .text.HAL_PWR_PVD_IRQHandler:00000018 $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:632    .text.HAL_PWR_EnableSleepOnExit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:639    .text.HAL_PWR_EnableSleepOnExit:00000000 HAL_PWR_EnableSleepOnExit
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:656    .text.HAL_PWR_EnableSleepOnExit:0000000c $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:661    .text.HAL_PWR_DisableSleepOnExit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:668    .text.HAL_PWR_DisableSleepOnExit:00000000 HAL_PWR_DisableSleepOnExit
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:685    .text.HAL_PWR_DisableSleepOnExit:0000000c $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:690    .text.HAL_PWR_EnableSEVOnPend:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:697    .text.HAL_PWR_EnableSEVOnPend:00000000 HAL_PWR_EnableSEVOnPend
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:714    .text.HAL_PWR_EnableSEVOnPend:0000000c $d
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:719    .text.HAL_PWR_DisableSEVOnPend:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:726    .text.HAL_PWR_DisableSEVOnPend:00000000 HAL_PWR_DisableSEVOnPend
+C:\Users\Konrad\AppData\Local\Temp\cc2Gko6E.s:743    .text.HAL_PWR_DisableSEVOnPend:0000000c $d
 
 NO UNDEFINED SYMBOLS

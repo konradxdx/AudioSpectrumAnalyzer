@@ -214,6 +214,12 @@ void TestFilterOut(){
 
 void display_bars(){
 	switchTube(1);
+	for(uint8_t i=0;i<15;i++){
+		for(uint8_t j=0;j<FILTER_NUMBER;j++){
+			setBarInv(j,i);
+			HAL_Delay(1);
+		}
+	}
 	float32_t smooth_bar_values[FILTER_NUMBER];
 	dprint("   Nixie spectrum         analyzer      ");
 	while(button() == 1);
@@ -225,7 +231,7 @@ void display_bars(){
 			}else if(bar_values[i]<smooth_bar_values[i]){
 				smooth_bar_values[i] -= 0.008;
 			}
-			setBarInv(i,(uint8_t)(smooth_bar_values[i]*137.5));
+			setBarInv(i,(uint8_t)(smooth_bar_values[i]*128.125)+15);
 		}
 		HAL_Delay(1);
 	}
@@ -242,7 +248,7 @@ void menu(){
 			{"Test DAC", testDAC},
 			{"Test filter output",TestFilterOut},
 			{"Test all DAC",testAllDac},
-			{"Display spectrum",display_bars}
+			{"Spectrum",display_bars}
 	};
 
 	int16_t position = 0;

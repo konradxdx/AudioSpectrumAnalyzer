@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
   29:Core/Src/main.c **** /* USER CODE BEGIN Includes */
   30:Core/Src/main.c **** #include "clean_main.h"
   31:Core/Src/main.c **** /* USER CODE END Includes */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 2
 
 
   32:Core/Src/main.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
   86:Core/Src/main.c **** 
   87:Core/Src/main.c ****   /* USER CODE BEGIN SysInit */
   88:Core/Src/main.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 3
 
 
   89:Core/Src/main.c ****   /* USER CODE END SysInit */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
   46              		.loc 1 122 3 is_stmt 1 view .LVU6
   47              		.loc 1 122 22 is_stmt 0 view .LVU7
   48 000e CDE90333 		strd	r3, r3, [sp, #12]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 4
 
 
   49 0012 CDE90533 		strd	r3, r3, [sp, #20]
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
  131:Core/Src/main.c ****   */
  132:Core/Src/main.c ****   RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
   90              		.loc 1 132 36 is_stmt 0 view .LVU22
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 5
 
 
   91 003c 0120     		movs	r0, #1
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
  140:Core/Src/main.c ****   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
  127              		.loc 1 140 7 view .LVU39
  128 0064 08A8     		add	r0, sp, #32
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 6
 
 
  136:Core/Src/main.c ****   RCC_OscInitStruct.PLL.PLLN = 96;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
  146              		.loc 1 172 3 view .LVU50
  147              	.LBB23:
  148              	.LBI23:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 7
 
 
  149              		.file 2 "Drivers/CMSIS/Include/cmsis_gcc.h"
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
   54:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
   55:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __USED
   56:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __USED                                 __attribute__((used))
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 8
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 8
 
 
   57:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
  111:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __ALIGNED(x)                           __attribute__((aligned(x)))
  112:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  113:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __RESTRICT
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 9
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 9
 
 
  114:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __RESTRICT                             __restrict
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
  169              	.L2:
  170              	.LBE22:
  147:Core/Src/main.c ****                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 10
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 10
 
 
  171              		.loc 1 147 3 view .LVU59
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
  210              	.L5:
  211              	.LBE27:
  212              	.LBE26:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 11
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 11
 
 
  173:Core/Src/main.c ****   {
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
  259              		.loc 1 85 3 is_stmt 1 view .LVU87
  260 0006 FFF7FEFF 		bl	SystemClock_Config
  261              	.LVL3:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 12
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 12
 
 
   92:Core/Src/main.c ****   MX_DMA_Init();
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
  306              		.loc 1 169 1 view -0
  307              		.cfi_startproc
  308              		@ Volatile: function does not return.
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 13
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 13
 
 
  309              		@ args = 0, pretend = 0, frame = 0
@@ -770,18 +770,18 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 1
  350              		.file 14 "Core/Inc/dma.h"
  351              		.file 15 "Core/Inc/gpio.h"
  352              		.file 16 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s 			page 14
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s:19     .text.SystemClock_Config:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s:26     .text.SystemClock_Config:00000000 SystemClock_Config
-C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s:230    .text.SystemClock_Config:00000098 $d
-C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s:236    .text.startup.main:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s:243    .text.startup.main:00000000 main
-C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s:297    .text.Error_Handler:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccetnZLD.s:304    .text.Error_Handler:00000000 Error_Handler
+C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s:19     .text.SystemClock_Config:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s:26     .text.SystemClock_Config:00000000 SystemClock_Config
+C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s:230    .text.SystemClock_Config:00000098 $d
+C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s:236    .text.startup.main:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s:243    .text.startup.main:00000000 main
+C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s:297    .text.Error_Handler:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\cchZ3lVW.s:304    .text.Error_Handler:00000000 Error_Handler
 
 UNDEFINED SYMBOLS
 HAL_RCC_OscConfig

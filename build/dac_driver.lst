@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
   44              		.loc 1 12 60 view .LVU2
   45 000a 83B0     		sub	sp, sp, #12
   46              		.cfi_def_cfa_offset 32
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 2
 
 
   47              		.loc 1 12 60 view .LVU3
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
   34:Core/Src/dac_driver.c **** 		toSend[0]=0b00010000;
   35:Core/Src/dac_driver.c **** 		break;
   36:Core/Src/dac_driver.c **** 		case 2:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 3
 
 
   37:Core/Src/dac_driver.c **** 		toSend[0]=0b00011000;
@@ -134,7 +134,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
   84              		.loc 1 40 12 is_stmt 0 view .LVU12
   85 0038 8DF80420 		strb	r2, [sp, #4]
   42:Core/Src/dac_driver.c **** 		default:
-  43:Core/Src/dac_driver.c **** 		return 0;
+  43:Core/Src/dac_driver.c **** 		return;
   44:Core/Src/dac_driver.c **** 	}
   45:Core/Src/dac_driver.c **** 
   46:Core/Src/dac_driver.c **** 	toSend[1]=value;
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
  111 005a 00F08480 		beq	.L26
  112              	.L24:
   56:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS2_GPIO_Port, CS2_Pin, GPIO_PIN_SET);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 4
 
 
   57:Core/Src/dac_driver.c **** 	else if(dac == 3)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
  154 008e ADF80430 		strh	r3, [sp, #4]	@ movhi
   29:Core/Src/dac_driver.c **** 		case 0:
  155              		.loc 1 29 2 is_stmt 1 view .LVU35
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 5
 
 
  156 0092 032E     		cmp	r6, #3
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
   29:Core/Src/dac_driver.c **** 		case 0:
  203              		.loc 1 29 2 is_stmt 1 view .LVU43
  204 00ea 032E     		cmp	r6, #3
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 6
 
 
  205 00ec C6D8     		bhi	.L1
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
  250              		.loc 1 46 2 view .LVU52
   47:Core/Src/dac_driver.c **** 
  251              		.loc 1 47 2 view .LVU53
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 7
 
 
   49:Core/Src/dac_driver.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
  292 0170 7AE7     		b	.L22
  293              	.L16:
   46:Core/Src/dac_driver.c **** 	toSend[2]=value;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 8
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 8
 
 
  294              		.loc 1 46 2 view .LVU68
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
  334 01a0 00000000 		.word	hspi1
  335 01a4 00000240 		.word	1073872896
  336              		.cfi_endproc
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 9
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 9
 
 
  337              	.LFE216:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
   76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
   77:Core/Src/dac_driver.c **** 	}else{
   78:Core/Src/dac_driver.c **** 		return;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 10
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 10
 
 
   79:Core/Src/dac_driver.c **** 	}
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
  427              		.loc 1 13 2 view .LVU104
  428 002c 0022     		movs	r2, #0
  429 002e 0D46     		mov	r5, r1
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 11
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 11
 
 
  430              	.LBE15:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
   34:Core/Src/dac_driver.c **** 		break;
  471              		.loc 1 34 12 is_stmt 0 view .LVU118
  472 005e 1023     		movs	r3, #16
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 12
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 12
 
 
  473 0060 8DF80430 		strb	r3, [sp, #4]
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
  513 009a 2021     		movs	r1, #32
  514 009c FFF7FEFF 		bl	HAL_GPIO_WritePin
  515              	.LVL37:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 13
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 13
 
 
   65:Core/Src/dac_driver.c **** }
@@ -749,554 +749,557 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 1
  536              		.loc 1 76 3 is_stmt 0 view .LVU138
  537 00a6 0322     		movs	r2, #3
  538 00a8 C0B2     		uxtb	r0, r0
- 539              	.LBE9:
- 540              	.LBE20:
- 541              		.loc 1 80 1 view .LVU139
- 542 00aa 03B0     		add	sp, sp, #12
- 543              		.cfi_remember_state
- 544              		.cfi_def_cfa_offset 12
- 545              		@ sp needed
- 546 00ac BDE83040 		pop	{r4, r5, lr}
- 547              		.cfi_restore 14
- 548              		.cfi_restore 5
- 549              		.cfi_restore 4
- 550              		.cfi_def_cfa_offset 0
- 551              	.LVL40:
- 552              	.LBB21:
- 553              	.LBB10:
+ 539              	.LVL40:
   76:Core/Src/dac_driver.c **** 	}else{
- 554              		.loc 1 76 3 view .LVU140
- 555 00b0 FFF7FEBF 		b	dac_write
- 556              	.LVL41:
- 557              	.L52:
- 558              		.cfi_restore_state
+ 540              		.loc 1 76 3 view .LVU139
+ 541              	.LBE9:
+ 542              	.LBE20:
+ 543              		.loc 1 80 1 view .LVU140
+ 544 00aa 03B0     		add	sp, sp, #12
+ 545              		.cfi_remember_state
+ 546              		.cfi_def_cfa_offset 12
+ 547              		@ sp needed
+ 548 00ac BDE83040 		pop	{r4, r5, lr}
+ 549              		.cfi_restore 14
+ 550              		.cfi_restore 5
+ 551              		.cfi_restore 4
+ 552              		.cfi_def_cfa_offset 0
+ 553              	.LVL41:
+ 554              	.LBB21:
+ 555              	.LBB10:
   76:Core/Src/dac_driver.c **** 	}else{
- 559              		.loc 1 76 3 view .LVU141
- 560              	.LBE10:
- 561              	.LBE21:
- 562              	.LBB22:
- 563              	.LBB17:
+ 556              		.loc 1 76 3 view .LVU141
+ 557 00b0 FFF7FEBF 		b	dac_write
+ 558              	.LVL42:
+ 559              	.L52:
+ 560              		.cfi_restore_state
+  76:Core/Src/dac_driver.c **** 	}else{
+ 561              		.loc 1 76 3 view .LVU142
+ 562              	.LBE10:
+ 563              	.LBE21:
+ 564              	.LBB22:
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 14
+
+
+ 565              	.LBB17:
   40:Core/Src/dac_driver.c **** 		break;
- 564              		.loc 1 40 3 is_stmt 1 view .LVU142
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 14
-
-
+ 566              		.loc 1 40 3 is_stmt 1 view .LVU143
   40:Core/Src/dac_driver.c **** 		break;
- 565              		.loc 1 40 12 is_stmt 0 view .LVU143
- 566 00b4 0823     		movs	r3, #8
- 567 00b6 8DF80430 		strb	r3, [sp, #4]
+ 567              		.loc 1 40 12 is_stmt 0 view .LVU144
+ 568 00b4 0823     		movs	r3, #8
+ 569 00b6 8DF80430 		strb	r3, [sp, #4]
   41:Core/Src/dac_driver.c **** 		default:
- 568              		.loc 1 41 3 is_stmt 1 view .LVU144
- 569 00ba D3E7     		b	.L53
- 570              	.LVL42:
- 571              	.L61:
+ 570              		.loc 1 41 3 is_stmt 1 view .LVU145
+ 571 00ba D3E7     		b	.L53
+ 572              	.LVL43:
+ 573              	.L61:
   41:Core/Src/dac_driver.c **** 		default:
- 572              		.loc 1 41 3 is_stmt 0 view .LVU145
- 573              	.LBE17:
- 574              	.LBE22:
+ 574              		.loc 1 41 3 is_stmt 0 view .LVU146
+ 575              	.LBE17:
+ 576              	.LBE22:
   74:Core/Src/dac_driver.c **** 	}else if(barNumber<16){
- 575              		.loc 1 74 3 is_stmt 1 view .LVU146
- 576 00bc 0838     		subs	r0, r0, #8
- 577              	.LVL43:
+ 577              		.loc 1 74 3 is_stmt 1 view .LVU147
+ 578 00bc 0838     		subs	r0, r0, #8
+ 579              	.LVL44:
   74:Core/Src/dac_driver.c **** 	}else if(barNumber<16){
- 578              		.loc 1 74 3 is_stmt 0 view .LVU147
- 579 00be 0222     		movs	r2, #2
- 580              	.LBB23:
- 581              	.LBB11:
+ 580              		.loc 1 74 3 is_stmt 0 view .LVU148
+ 581 00be 0222     		movs	r2, #2
+ 582              	.LBB23:
+ 583              	.LBB11:
   76:Core/Src/dac_driver.c **** 	}else{
- 582              		.loc 1 76 3 view .LVU148
- 583 00c0 C0B2     		uxtb	r0, r0
- 584              	.LBE11:
- 585              	.LBE23:
- 586              		.loc 1 80 1 view .LVU149
- 587 00c2 03B0     		add	sp, sp, #12
- 588              		.cfi_remember_state
- 589              		.cfi_def_cfa_offset 12
- 590              		@ sp needed
- 591 00c4 BDE83040 		pop	{r4, r5, lr}
- 592              		.cfi_restore 14
- 593              		.cfi_restore 5
- 594              		.cfi_restore 4
- 595              		.cfi_def_cfa_offset 0
- 596              	.LVL44:
- 597              	.LBB24:
- 598              	.LBB12:
+ 584              		.loc 1 76 3 view .LVU149
+ 585 00c0 C0B2     		uxtb	r0, r0
+ 586              	.LBE11:
+ 587              	.LBE23:
+ 588              		.loc 1 80 1 view .LVU150
+ 589 00c2 03B0     		add	sp, sp, #12
+ 590              		.cfi_remember_state
+ 591              		.cfi_def_cfa_offset 12
+ 592              		@ sp needed
+ 593 00c4 BDE83040 		pop	{r4, r5, lr}
+ 594              		.cfi_restore 14
+ 595              		.cfi_restore 5
+ 596              		.cfi_restore 4
+ 597              		.cfi_def_cfa_offset 0
+ 598              	.LVL45:
+ 599              	.LBB24:
+ 600              	.LBB12:
   76:Core/Src/dac_driver.c **** 	}else{
- 599              		.loc 1 76 3 view .LVU150
- 600 00c8 FFF7FEBF 		b	dac_write
- 601              	.LVL45:
- 602              	.L51:
- 603              		.cfi_restore_state
+ 601              		.loc 1 76 3 view .LVU151
+ 602 00c8 FFF7FEBF 		b	dac_write
+ 603              	.LVL46:
+ 604              	.L51:
+ 605              		.cfi_restore_state
   76:Core/Src/dac_driver.c **** 	}else{
- 604              		.loc 1 76 3 view .LVU151
- 605              	.LBE12:
- 606              	.LBE24:
- 607              	.LBB25:
- 608              	.LBB18:
+ 606              		.loc 1 76 3 view .LVU152
+ 607              	.LBE12:
+ 608              	.LBE24:
+ 609              	.LBB25:
+ 610              	.LBB18:
   37:Core/Src/dac_driver.c **** 		break;
- 609              		.loc 1 37 3 is_stmt 1 view .LVU152
-  37:Core/Src/dac_driver.c **** 		break;
- 610              		.loc 1 37 12 is_stmt 0 view .LVU153
- 611 00cc 1823     		movs	r3, #24
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 15
+ 611              		.loc 1 37 3 is_stmt 1 view .LVU153
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 15
 
 
- 612 00ce 8DF80430 		strb	r3, [sp, #4]
+  37:Core/Src/dac_driver.c **** 		break;
+ 612              		.loc 1 37 12 is_stmt 0 view .LVU154
+ 613 00cc 1823     		movs	r3, #24
+ 614 00ce 8DF80430 		strb	r3, [sp, #4]
   38:Core/Src/dac_driver.c **** 		case 3:
- 613              		.loc 1 38 3 is_stmt 1 view .LVU154
- 614 00d2 C7E7     		b	.L53
- 615              	.L64:
- 616              		.align	2
- 617              	.L63:
- 618 00d4 00040240 		.word	1073873920
- 619 00d8 00000000 		.word	hspi1
- 620              	.LBE18:
- 621              	.LBE25:
- 622              		.cfi_endproc
- 623              	.LFE217:
- 625              		.section	.text.setBarInv,"ax",%progbits
- 626              		.align	1
- 627              		.p2align 2,,3
- 628              		.global	setBarInv
- 629              		.syntax unified
- 630              		.thumb
- 631              		.thumb_func
- 633              	setBarInv:
- 634              	.LVL46:
- 635              	.LFB218:
+ 615              		.loc 1 38 3 is_stmt 1 view .LVU155
+ 616 00d2 C7E7     		b	.L53
+ 617              	.L64:
+ 618              		.align	2
+ 619              	.L63:
+ 620 00d4 00040240 		.word	1073873920
+ 621 00d8 00000000 		.word	hspi1
+ 622              	.LBE18:
+ 623              	.LBE25:
+ 624              		.cfi_endproc
+ 625              	.LFE217:
+ 627              		.section	.text.setBarInv,"ax",%progbits
+ 628              		.align	1
+ 629              		.p2align 2,,3
+ 630              		.global	setBarInv
+ 631              		.syntax unified
+ 632              		.thumb
+ 633              		.thumb_func
+ 635              	setBarInv:
+ 636              	.LVL47:
+ 637              	.LFB218:
   81:Core/Src/dac_driver.c **** 
   82:Core/Src/dac_driver.c **** void setBarInv(uint8_t barNumber,uint8_t value){
- 636              		.loc 1 82 48 view -0
- 637              		.cfi_startproc
- 638              		@ args = 0, pretend = 0, frame = 8
- 639              		@ frame_needed = 0, uses_anonymous_args = 0
+ 638              		.loc 1 82 48 view -0
+ 639              		.cfi_startproc
+ 640              		@ args = 0, pretend = 0, frame = 8
+ 641              		@ frame_needed = 0, uses_anonymous_args = 0
   83:Core/Src/dac_driver.c **** 	setBar(11-barNumber,value);
- 640              		.loc 1 83 2 view .LVU156
+ 642              		.loc 1 83 2 view .LVU157
   82:Core/Src/dac_driver.c **** 	setBar(11-barNumber,value);
- 641              		.loc 1 82 48 is_stmt 0 view .LVU157
- 642 0000 30B5     		push	{r4, r5, lr}
- 643              		.cfi_def_cfa_offset 12
- 644              		.cfi_offset 4, -12
- 645              		.cfi_offset 5, -8
- 646              		.cfi_offset 14, -4
- 647              		.loc 1 83 2 view .LVU158
- 648 0002 C0F10B04 		rsb	r4, r0, #11
- 649 0006 E4B2     		uxtb	r4, r4
- 650              	.LVL47:
- 651              	.LBB32:
- 652              	.LBI32:
+ 643              		.loc 1 82 48 is_stmt 0 view .LVU158
+ 644 0000 30B5     		push	{r4, r5, lr}
+ 645              		.cfi_def_cfa_offset 12
+ 646              		.cfi_offset 4, -12
+ 647              		.cfi_offset 5, -8
+ 648              		.cfi_offset 14, -4
+ 649              		.loc 1 83 2 view .LVU159
+ 650 0002 C0F10B04 		rsb	r4, r0, #11
+ 651 0006 E4B2     		uxtb	r4, r4
+ 652              	.LVL48:
+ 653              	.LBB32:
+ 654              	.LBI32:
   68:Core/Src/dac_driver.c **** 	if(barNumber<4){
- 653              		.loc 1 68 6 is_stmt 1 view .LVU159
- 654              	.LBB33:
+ 655              		.loc 1 68 6 is_stmt 1 view .LVU160
+ 656              	.LBB33:
   69:Core/Src/dac_driver.c **** 		dac_write(barNumber,value,0);
- 655              		.loc 1 69 2 view .LVU160
+ 657              		.loc 1 69 2 view .LVU161
   69:Core/Src/dac_driver.c **** 		dac_write(barNumber,value,0);
- 656              		.loc 1 69 4 is_stmt 0 view .LVU161
- 657 0008 032C     		cmp	r4, #3
- 658              	.LBE33:
- 659              	.LBE32:
+ 658              		.loc 1 69 4 is_stmt 0 view .LVU162
+ 659 0008 032C     		cmp	r4, #3
+ 660              	.LBE33:
+ 661              	.LBE32:
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 16
+
+
   82:Core/Src/dac_driver.c **** 	setBar(11-barNumber,value);
- 660              		.loc 1 82 48 view .LVU162
- 661 000a 83B0     		sub	sp, sp, #12
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 16
-
-
- 662              		.cfi_def_cfa_offset 24
- 663              	.LBB60:
- 664              	.LBB54:
+ 662              		.loc 1 82 48 view .LVU163
+ 663 000a 83B0     		sub	sp, sp, #12
+ 664              		.cfi_def_cfa_offset 24
+ 665              	.LBB60:
+ 666              	.LBB54:
   69:Core/Src/dac_driver.c **** 		dac_write(barNumber,value,0);
- 665              		.loc 1 69 4 view .LVU163
- 666 000c 10D9     		bls	.L75
+ 667              		.loc 1 69 4 view .LVU164
+ 668 000c 10D9     		bls	.L75
   71:Core/Src/dac_driver.c **** 		dac_write(barNumber-4,value,1);
- 667              		.loc 1 71 8 is_stmt 1 view .LVU164
+ 669              		.loc 1 71 8 is_stmt 1 view .LVU165
   71:Core/Src/dac_driver.c **** 		dac_write(barNumber-4,value,1);
- 668              		.loc 1 71 10 is_stmt 0 view .LVU165
- 669 000e 072C     		cmp	r4, #7
- 670 0010 05D9     		bls	.L76
+ 670              		.loc 1 71 10 is_stmt 0 view .LVU166
+ 671 000e 072C     		cmp	r4, #7
+ 672 0010 05D9     		bls	.L76
   73:Core/Src/dac_driver.c **** 		dac_write(barNumber-8,value,2);	
- 671              		.loc 1 73 8 is_stmt 1 view .LVU166
+ 673              		.loc 1 73 8 is_stmt 1 view .LVU167
   73:Core/Src/dac_driver.c **** 		dac_write(barNumber-8,value,2);	
- 672              		.loc 1 73 10 is_stmt 0 view .LVU167
- 673 0012 0B2C     		cmp	r4, #11
- 674 0014 55D9     		bls	.L77
+ 674              		.loc 1 73 10 is_stmt 0 view .LVU168
+ 675 0012 0B2C     		cmp	r4, #11
+ 676 0014 55D9     		bls	.L77
   75:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
- 675              		.loc 1 75 8 is_stmt 1 view .LVU168
+ 677              		.loc 1 75 8 is_stmt 1 view .LVU169
   75:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
- 676              		.loc 1 75 10 is_stmt 0 view .LVU169
- 677 0016 0F2C     		cmp	r4, #15
- 678 0018 47D9     		bls	.L78
- 679              	.LBE54:
- 680              	.LBE60:
+ 678              		.loc 1 75 10 is_stmt 0 view .LVU170
+ 679 0016 0F2C     		cmp	r4, #15
+ 680 0018 47D9     		bls	.L78
+ 681              	.LBE54:
+ 682              	.LBE60:
   84:Core/Src/dac_driver.c **** }...
- 681              		.loc 1 84 1 view .LVU170
- 682 001a 03B0     		add	sp, sp, #12
- 683              		.cfi_remember_state
- 684              		.cfi_def_cfa_offset 12
- 685              		@ sp needed
- 686 001c 30BD     		pop	{r4, r5, pc}
- 687              	.LVL48:
- 688              	.L76:
- 689              		.cfi_restore_state
- 690              	.LBB61:
- 691              	.LBB55:
+ 683              		.loc 1 84 1 view .LVU171
+ 684 001a 03B0     		add	sp, sp, #12
+ 685              		.cfi_remember_state
+ 686              		.cfi_def_cfa_offset 12
+ 687              		@ sp needed
+ 688 001c 30BD     		pop	{r4, r5, pc}
+ 689              	.LVL49:
+ 690              	.L76:
+ 691              		.cfi_restore_state
+ 692              	.LBB61:
+ 693              	.LBB55:
   72:Core/Src/dac_driver.c **** 		dac_write(barNumber-4,value,1);
- 692              		.loc 1 72 3 is_stmt 1 view .LVU171
- 693 001e C0F10700 		rsb	r0, r0, #7
- 694              	.LVL49:
+ 694              		.loc 1 72 3 is_stmt 1 view .LVU172
+ 695 001e C0F10700 		rsb	r0, r0, #7
+ 696              	.LVL50:
   72:Core/Src/dac_driver.c **** 		dac_write(barNumber-4,value,1);
- 695              		.loc 1 72 3 is_stmt 0 view .LVU172
- 696 0022 0122     		movs	r2, #1
- 697              	.LBB34:
- 698              	.LBB35:
+ 697              		.loc 1 72 3 is_stmt 0 view .LVU173
+ 698 0022 0122     		movs	r2, #1
+ 699              	.LBB34:
+ 700              	.LBB35:
   76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
- 699              		.loc 1 76 3 view .LVU173
- 700 0024 C0B2     		uxtb	r0, r0
- 701              	.LBE35:
- 702              	.LBE34:
- 703              	.LBE55:
- 704              	.LBE61:
- 705              		.loc 1 84 1 view .LVU174
- 706 0026 03B0     		add	sp, sp, #12
- 707              		.cfi_remember_state
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 17
+ 701              		.loc 1 76 3 view .LVU174
+ 702 0024 C0B2     		uxtb	r0, r0
+ 703              	.LBE35:
+ 704              	.LBE34:
+ 705              	.LBE55:
+ 706              	.LBE61:
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 17
 
 
- 708              		.cfi_def_cfa_offset 12
- 709              		@ sp needed
- 710 0028 BDE83040 		pop	{r4, r5, lr}
- 711              		.cfi_restore 14
- 712              		.cfi_restore 5
- 713              		.cfi_restore 4
- 714              		.cfi_def_cfa_offset 0
- 715              	.LVL50:
- 716              	.LBB62:
- 717              	.LBB56:
- 718              	.LBB41:
- 719              	.LBB36:
+ 707              		.loc 1 84 1 view .LVU175
+ 708 0026 03B0     		add	sp, sp, #12
+ 709              		.cfi_remember_state
+ 710              		.cfi_def_cfa_offset 12
+ 711              		@ sp needed
+ 712 0028 BDE83040 		pop	{r4, r5, lr}
+ 713              		.cfi_restore 14
+ 714              		.cfi_restore 5
+ 715              		.cfi_restore 4
+ 716              		.cfi_def_cfa_offset 0
+ 717              	.LVL51:
+ 718              	.LBB62:
+ 719              	.LBB56:
+ 720              	.LBB41:
+ 721              	.LBB36:
   76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
- 720              		.loc 1 76 3 view .LVU175
- 721 002c FFF7FEBF 		b	dac_write
- 722              	.LVL51:
- 723              	.L75:
- 724              		.cfi_restore_state
+ 722              		.loc 1 76 3 view .LVU176
+ 723 002c FFF7FEBF 		b	dac_write
+ 724              	.LVL52:
+ 725              	.L75:
+ 726              		.cfi_restore_state
   76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
- 725              		.loc 1 76 3 view .LVU176
- 726              	.LBE36:
- 727              	.LBE41:
- 728              	.LBB42:
- 729              	.LBB43:
+ 727              		.loc 1 76 3 view .LVU177
+ 728              	.LBE36:
+ 729              	.LBE41:
+ 730              	.LBB42:
+ 731              	.LBB43:
   13:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_RESET);
- 730              		.loc 1 13 2 view .LVU177
- 731 0030 2A48     		ldr	r0, .L79
- 732              	.LVL52:
+ 732              		.loc 1 13 2 view .LVU178
+ 733 0030 2A48     		ldr	r0, .L79
+ 734              	.LVL53:
   13:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_RESET);
- 733              		.loc 1 13 2 view .LVU178
- 734 0032 0022     		movs	r2, #0
- 735 0034 0D46     		mov	r5, r1
- 736              	.LBE43:
- 737              	.LBE42:
+ 735              		.loc 1 13 2 view .LVU179
+ 736 0032 0022     		movs	r2, #0
+ 737 0034 0D46     		mov	r5, r1
+ 738              	.LBE43:
+ 739              	.LBE42:
   70:Core/Src/dac_driver.c **** 		dac_write(barNumber,value,0);
- 738              		.loc 1 70 3 is_stmt 1 view .LVU179
- 739              	.LVL53:
- 740              	.LBB47:
- 741              	.LBI42:
+ 740              		.loc 1 70 3 is_stmt 1 view .LVU180
+ 741              	.LVL54:
+ 742              	.LBB47:
+ 743              	.LBI42:
   12:Core/Src/dac_driver.c **** void dac_write(uint8_t channel, uint8_t value, uint8_t dac){
- 742              		.loc 1 12 6 view .LVU180
- 743              	.LBB44:
+ 744              		.loc 1 12 6 view .LVU181
+ 745              	.LBB44:
   13:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_RESET);
- 744              		.loc 1 13 2 view .LVU181
- 745 0036 1021     		movs	r1, #16
- 746              	.LVL54:
+ 746              		.loc 1 13 2 view .LVU182
+ 747 0036 1021     		movs	r1, #16
+ 748              	.LVL55:
   13:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_RESET);
- 747              		.loc 1 13 2 is_stmt 0 view .LVU182
- 748 0038 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 749              	.LVL55:
+ 749              		.loc 1 13 2 is_stmt 0 view .LVU183
+ 750 0038 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 751              	.LVL56:
   14:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT1_GPIO_Port, LAT1_Pin, GPIO_PIN_RESET);
- 750              		.loc 1 14 2 is_stmt 1 view .LVU183
- 751 003c 2748     		ldr	r0, .L79
- 752 003e 0022     		movs	r2, #0
- 753 0040 2021     		movs	r1, #32
- 754 0042 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 755              	.LVL56:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 18
+ 752              		.loc 1 14 2 is_stmt 1 view .LVU184
+ 753 003c 2748     		ldr	r0, .L79
+ 754 003e 0022     		movs	r2, #0
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 18
 
 
+ 755 0040 2021     		movs	r1, #32
+ 756 0042 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 757              	.LVL57:
   16:Core/Src/dac_driver.c **** 	if(dac == 0)
- 756              		.loc 1 16 2 view .LVU184
+ 758              		.loc 1 16 2 view .LVU185
   17:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS0_GPIO_Port, CS0_Pin, GPIO_PIN_RESET);
- 757              		.loc 1 17 3 view .LVU185
- 758 0046 2548     		ldr	r0, .L79
- 759 0048 0022     		movs	r2, #0
- 760 004a 4FF48061 		mov	r1, #1024
- 761 004e FFF7FEFF 		bl	HAL_GPIO_WritePin
- 762              	.LVL57:
+ 759              		.loc 1 17 3 view .LVU186
+ 760 0046 2548     		ldr	r0, .L79
+ 761 0048 0022     		movs	r2, #0
+ 762 004a 4FF48061 		mov	r1, #1024
+ 763 004e FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 764              	.LVL58:
   27:Core/Src/dac_driver.c **** 	uint8_t toSend[3] = {0,0,0};
- 763              		.loc 1 27 2 view .LVU186
+ 765              		.loc 1 27 2 view .LVU187
   27:Core/Src/dac_driver.c **** 	uint8_t toSend[3] = {0,0,0};
- 764              		.loc 1 27 10 is_stmt 0 view .LVU187
- 765 0052 0023     		movs	r3, #0
+ 766              		.loc 1 27 10 is_stmt 0 view .LVU188
+ 767 0052 0023     		movs	r3, #0
   29:Core/Src/dac_driver.c **** 	switch(channel){
- 766              		.loc 1 29 2 view .LVU188
- 767 0054 022C     		cmp	r4, #2
+ 768              		.loc 1 29 2 view .LVU189
+ 769 0054 022C     		cmp	r4, #2
   27:Core/Src/dac_driver.c **** 	uint8_t toSend[3] = {0,0,0};
- 768              		.loc 1 27 10 view .LVU189
- 769 0056 ADF80430 		strh	r3, [sp, #4]	@ movhi
+ 770              		.loc 1 27 10 view .LVU190
+ 771 0056 ADF80430 		strh	r3, [sp, #4]	@ movhi
   29:Core/Src/dac_driver.c **** 	switch(channel){
- 770              		.loc 1 29 2 is_stmt 1 view .LVU190
- 771 005a 3BD0     		beq	.L67
- 772 005c 032C     		cmp	r4, #3
- 773 005e 2CD0     		beq	.L68
- 774 0060 012C     		cmp	r4, #1
- 775 0062 02D1     		bne	.L69
+ 772              		.loc 1 29 2 is_stmt 1 view .LVU191
+ 773 005a 3BD0     		beq	.L67
+ 774 005c 032C     		cmp	r4, #3
+ 775 005e 2CD0     		beq	.L68
+ 776 0060 012C     		cmp	r4, #1
+ 777 0062 02D1     		bne	.L69
   34:Core/Src/dac_driver.c **** 		toSend[0]=0b00010000;
- 776              		.loc 1 34 3 view .LVU191
+ 778              		.loc 1 34 3 view .LVU192
   34:Core/Src/dac_driver.c **** 		toSend[0]=0b00010000;
- 777              		.loc 1 34 12 is_stmt 0 view .LVU192
- 778 0064 1023     		movs	r3, #16
- 779 0066 8DF80430 		strb	r3, [sp, #4]
+ 779              		.loc 1 34 12 is_stmt 0 view .LVU193
+ 780 0064 1023     		movs	r3, #16
+ 781 0066 8DF80430 		strb	r3, [sp, #4]
   35:Core/Src/dac_driver.c **** 		break;
- 780              		.loc 1 35 3 is_stmt 1 view .LVU193
- 781              	.L69:
+ 782              		.loc 1 35 3 is_stmt 1 view .LVU194
+ 783              	.L69:
   46:Core/Src/dac_driver.c **** 	toSend[1]=value;
- 782              		.loc 1 46 2 view .LVU194
+ 784              		.loc 1 46 2 view .LVU195
   47:Core/Src/dac_driver.c **** 	toSend[2]=value;
- 783              		.loc 1 47 2 view .LVU195
+ 785              		.loc 1 47 2 view .LVU196
   46:Core/Src/dac_driver.c **** 	toSend[1]=value;
- 784              		.loc 1 46 11 is_stmt 0 view .LVU196
- 785 006a 4FF00004 		mov	r4, #0	@ movhi
- 786              	.LVL58:
+ 786              		.loc 1 46 11 is_stmt 0 view .LVU197
+ 787 006a 4FF00004 		mov	r4, #0	@ movhi
+ 788              	.LVL59:
   46:Core/Src/dac_driver.c **** 	toSend[1]=value;
- 787              		.loc 1 46 11 view .LVU197
- 788 006e 65F30704 		bfi	r4, r5, #0, #8
- 789              	.LVL59:
+ 789              		.loc 1 46 11 view .LVU198
+ 790 006e 65F30704 		bfi	r4, r5, #0, #8
+ 791              	.LVL60:
   49:Core/Src/dac_driver.c **** 	HAL_SPI_Transmit(&hspi1, toSend, 3, 100);
- 790              		.loc 1 49 2 view .LVU198
- 791 0072 6423     		movs	r3, #100
- 792 0074 01A9     		add	r1, sp, #4
+ 792              		.loc 1 49 2 view .LVU199
+ 793 0072 6423     		movs	r3, #100
+ 794 0074 01A9     		add	r1, sp, #4
   46:Core/Src/dac_driver.c **** 	toSend[1]=value;
- 793              		.loc 1 46 11 view .LVU199
- 794 0076 65F30F24 		bfi	r4, r5, #8, #8
-  49:Core/Src/dac_driver.c **** 	HAL_SPI_Transmit(&hspi1, toSend, 3, 100);
- 795              		.loc 1 49 2 view .LVU200
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 19
+ 795              		.loc 1 46 11 view .LVU200
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 19
 
 
- 796 007a 0322     		movs	r2, #3
- 797 007c 1848     		ldr	r0, .L79+4
-  46:Core/Src/dac_driver.c **** 	toSend[1]=value;
- 798              		.loc 1 46 11 view .LVU201
- 799 007e ADF80540 		strh	r4, [sp, #5]	@ unaligned
+ 796 0076 65F30F24 		bfi	r4, r5, #8, #8
   49:Core/Src/dac_driver.c **** 	HAL_SPI_Transmit(&hspi1, toSend, 3, 100);
- 800              		.loc 1 49 2 is_stmt 1 view .LVU202
- 801 0082 FFF7FEFF 		bl	HAL_SPI_Transmit
- 802              	.LVL60:
+ 797              		.loc 1 49 2 view .LVU201
+ 798 007a 0322     		movs	r2, #3
+ 799 007c 1848     		ldr	r0, .L79+4
+  46:Core/Src/dac_driver.c **** 	toSend[1]=value;
+ 800              		.loc 1 46 11 view .LVU202
+ 801 007e ADF80540 		strh	r4, [sp, #5]	@ unaligned
+  49:Core/Src/dac_driver.c **** 	HAL_SPI_Transmit(&hspi1, toSend, 3, 100);
+ 802              		.loc 1 49 2 is_stmt 1 view .LVU203
+ 803 0082 FFF7FEFF 		bl	HAL_SPI_Transmit
+ 804              	.LVL61:
   51:Core/Src/dac_driver.c **** 	if(dac == 0)
- 803              		.loc 1 51 2 view .LVU203
+ 805              		.loc 1 51 2 view .LVU204
   52:Core/Src/dac_driver.c **** 		HAL_GPIO_WritePin(CS0_GPIO_Port, CS0_Pin, GPIO_PIN_SET);
- 804              		.loc 1 52 3 view .LVU204
- 805 0086 1548     		ldr	r0, .L79
- 806 0088 0122     		movs	r2, #1
- 807 008a 4FF48061 		mov	r1, #1024
- 808 008e FFF7FEFF 		bl	HAL_GPIO_WritePin
- 809              	.LVL61:
+ 806              		.loc 1 52 3 view .LVU205
+ 807 0086 1548     		ldr	r0, .L79
+ 808 0088 0122     		movs	r2, #1
+ 809 008a 4FF48061 		mov	r1, #1024
+ 810 008e FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 811              	.LVL62:
   62:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT0_GPIO_Port, LAT0_Pin, GPIO_PIN_SET);
- 810              		.loc 1 62 2 view .LVU205
- 811 0092 1248     		ldr	r0, .L79
- 812 0094 0122     		movs	r2, #1
- 813 0096 1021     		movs	r1, #16
- 814 0098 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 815              	.LVL62:
+ 812              		.loc 1 62 2 view .LVU206
+ 813 0092 1248     		ldr	r0, .L79
+ 814 0094 0122     		movs	r2, #1
+ 815 0096 1021     		movs	r1, #16
+ 816 0098 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 817              	.LVL63:
   63:Core/Src/dac_driver.c **** 	HAL_GPIO_WritePin(LAT1_GPIO_Port, LAT1_Pin, GPIO_PIN_SET);
- 816              		.loc 1 63 2 view .LVU206
- 817 009c 0F48     		ldr	r0, .L79
- 818 009e 0122     		movs	r2, #1
- 819 00a0 2021     		movs	r1, #32
- 820 00a2 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 821              	.LVL63:
+ 818              		.loc 1 63 2 view .LVU207
+ 819 009c 0F48     		ldr	r0, .L79
+ 820 009e 0122     		movs	r2, #1
+ 821 00a0 2021     		movs	r1, #32
+ 822 00a2 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 823              	.LVL64:
   65:Core/Src/dac_driver.c **** 	return;
- 822              		.loc 1 65 2 view .LVU207
+ 824              		.loc 1 65 2 view .LVU208
   65:Core/Src/dac_driver.c **** 	return;
- 823              		.loc 1 65 2 is_stmt 0 view .LVU208
- 824              	.LBE44:
- 825              	.LBE47:
- 826              	.LBE56:
- 827              	.LBE62:
- 828              		.loc 1 84 1 view .LVU209
- 829 00a6 03B0     		add	sp, sp, #12
- 830              		.cfi_remember_state
- 831              		.cfi_def_cfa_offset 12
- 832              		@ sp needed
- 833 00a8 30BD     		pop	{r4, r5, pc}
- 834              	.LVL64:
- 835              	.L78:
- 836              		.cfi_restore_state
- 837              	.LBB63:
- 838              	.LBB57:
- 839              	.LBB48:
- 840              	.LBI34:
+ 825              		.loc 1 65 2 is_stmt 0 view .LVU209
+ 826              	.LBE44:
+ 827              	.LBE47:
+ 828              	.LBE56:
+ 829              	.LBE62:
+ 830              		.loc 1 84 1 view .LVU210
+ 831 00a6 03B0     		add	sp, sp, #12
+ 832              		.cfi_remember_state
+ 833              		.cfi_def_cfa_offset 12
+ 834              		@ sp needed
+ 835 00a8 30BD     		pop	{r4, r5, pc}
+ 836              	.LVL65:
+ 837              	.L78:
+ 838              		.cfi_restore_state
+ 839              	.LBB63:
+ 840              	.LBB57:
+ 841              	.LBB48:
+ 842              	.LBI34:
   68:Core/Src/dac_driver.c **** void setBar(uint8_t barNumber,uint8_t value){
- 841              		.loc 1 68 6 is_stmt 1 view .LVU210
- 842              	.LBB37:
-  76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 20
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 20
 
 
- 843              		.loc 1 76 3 view .LVU211
- 844 00aa C043     		mvns	r0, r0
- 845              	.LVL65:
+ 843              		.loc 1 68 6 is_stmt 1 view .LVU211
+ 844              	.LBB37:
   76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
- 846              		.loc 1 76 3 is_stmt 0 view .LVU212
- 847 00ac 0322     		movs	r2, #3
- 848 00ae C0B2     		uxtb	r0, r0
- 849              	.LBE37:
- 850              	.LBE48:
- 851              	.LBE57:
- 852              	.LBE63:
- 853              		.loc 1 84 1 view .LVU213
- 854 00b0 03B0     		add	sp, sp, #12
- 855              		.cfi_remember_state
- 856              		.cfi_def_cfa_offset 12
- 857              		@ sp needed
- 858 00b2 BDE83040 		pop	{r4, r5, lr}
- 859              		.cfi_restore 14
- 860              		.cfi_restore 5
- 861              		.cfi_restore 4
- 862              		.cfi_def_cfa_offset 0
- 863              	.LVL66:
- 864              	.LBB64:
- 865              	.LBB58:
- 866              	.LBB49:
- 867              	.LBB38:
+ 845              		.loc 1 76 3 view .LVU212
+ 846 00aa C043     		mvns	r0, r0
+ 847              	.LVL66:
   76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
- 868              		.loc 1 76 3 view .LVU214
- 869 00b6 FFF7FEBF 		b	dac_write
- 870              	.LVL67:
- 871              	.L68:
- 872              		.cfi_restore_state
+ 848              		.loc 1 76 3 is_stmt 0 view .LVU213
+ 849 00ac 0322     		movs	r2, #3
+ 850 00ae C0B2     		uxtb	r0, r0
+ 851              	.LBE37:
+ 852              	.LBE48:
+ 853              	.LBE57:
+ 854              	.LBE63:
+ 855              		.loc 1 84 1 view .LVU214
+ 856 00b0 03B0     		add	sp, sp, #12
+ 857              		.cfi_remember_state
+ 858              		.cfi_def_cfa_offset 12
+ 859              		@ sp needed
+ 860 00b2 BDE83040 		pop	{r4, r5, lr}
+ 861              		.cfi_restore 14
+ 862              		.cfi_restore 5
+ 863              		.cfi_restore 4
+ 864              		.cfi_def_cfa_offset 0
+ 865              	.LVL67:
+ 866              	.LBB64:
+ 867              	.LBB58:
+ 868              	.LBB49:
+ 869              	.LBB38:
   76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
- 873              		.loc 1 76 3 view .LVU215
- 874              	.LBE38:
- 875              	.LBE49:
- 876              	.LBB50:
- 877              	.LBB45:
+ 870              		.loc 1 76 3 view .LVU215
+ 871 00b6 FFF7FEBF 		b	dac_write
+ 872              	.LVL68:
+ 873              	.L68:
+ 874              		.cfi_restore_state
+  76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
+ 875              		.loc 1 76 3 view .LVU216
+ 876              	.LBE38:
+ 877              	.LBE49:
+ 878              	.LBB50:
+ 879              	.LBB45:
   40:Core/Src/dac_driver.c **** 		toSend[0]=0b00001000;
- 878              		.loc 1 40 3 is_stmt 1 view .LVU216
+ 880              		.loc 1 40 3 is_stmt 1 view .LVU217
   40:Core/Src/dac_driver.c **** 		toSend[0]=0b00001000;
- 879              		.loc 1 40 12 is_stmt 0 view .LVU217
- 880 00ba 0823     		movs	r3, #8
- 881 00bc 8DF80430 		strb	r3, [sp, #4]
+ 881              		.loc 1 40 12 is_stmt 0 view .LVU218
+ 882 00ba 0823     		movs	r3, #8
+ 883 00bc 8DF80430 		strb	r3, [sp, #4]
   41:Core/Src/dac_driver.c **** 		break;
- 882              		.loc 1 41 3 is_stmt 1 view .LVU218
- 883 00c0 D3E7     		b	.L69
- 884              	.LVL68:
- 885              	.L77:
+ 884              		.loc 1 41 3 is_stmt 1 view .LVU219
+ 885 00c0 D3E7     		b	.L69
+ 886              	.LVL69:
+ 887              	.L77:
   41:Core/Src/dac_driver.c **** 		break;
- 886              		.loc 1 41 3 is_stmt 0 view .LVU219
- 887              	.LBE45:
- 888              	.LBE50:
+ 888              		.loc 1 41 3 is_stmt 0 view .LVU220
+ 889              	.LBE45:
+ 890              	.LBE50:
   74:Core/Src/dac_driver.c **** 		dac_write(barNumber-8,value,2);	
- 889              		.loc 1 74 3 is_stmt 1 view .LVU220
- 890 00c2 C0F10300 		rsb	r0, r0, #3
- 891              	.LVL69:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 21
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 21
 
 
+ 891              		.loc 1 74 3 is_stmt 1 view .LVU221
+ 892 00c2 C0F10300 		rsb	r0, r0, #3
+ 893              	.LVL70:
   74:Core/Src/dac_driver.c **** 		dac_write(barNumber-8,value,2);	
- 892              		.loc 1 74 3 is_stmt 0 view .LVU221
- 893 00c6 0222     		movs	r2, #2
- 894              	.LBB51:
- 895              	.LBB39:
+ 894              		.loc 1 74 3 is_stmt 0 view .LVU222
+ 895 00c6 0222     		movs	r2, #2
+ 896              	.LBB51:
+ 897              	.LBB39:
   76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
- 896              		.loc 1 76 3 view .LVU222
- 897 00c8 C0B2     		uxtb	r0, r0
- 898              	.LBE39:
- 899              	.LBE51:
- 900              	.LBE58:
- 901              	.LBE64:
- 902              		.loc 1 84 1 view .LVU223
- 903 00ca 03B0     		add	sp, sp, #12
- 904              		.cfi_remember_state
- 905              		.cfi_def_cfa_offset 12
- 906              		@ sp needed
- 907 00cc BDE83040 		pop	{r4, r5, lr}
- 908              		.cfi_restore 14
- 909              		.cfi_restore 5
- 910              		.cfi_restore 4
- 911              		.cfi_def_cfa_offset 0
- 912              	.LVL70:
- 913              	.LBB65:
- 914              	.LBB59:
- 915              	.LBB52:
- 916              	.LBB40:
+ 898              		.loc 1 76 3 view .LVU223
+ 899 00c8 C0B2     		uxtb	r0, r0
+ 900              	.LBE39:
+ 901              	.LBE51:
+ 902              	.LBE58:
+ 903              	.LBE64:
+ 904              		.loc 1 84 1 view .LVU224
+ 905 00ca 03B0     		add	sp, sp, #12
+ 906              		.cfi_remember_state
+ 907              		.cfi_def_cfa_offset 12
+ 908              		@ sp needed
+ 909 00cc BDE83040 		pop	{r4, r5, lr}
+ 910              		.cfi_restore 14
+ 911              		.cfi_restore 5
+ 912              		.cfi_restore 4
+ 913              		.cfi_def_cfa_offset 0
+ 914              	.LVL71:
+ 915              	.LBB65:
+ 916              	.LBB59:
+ 917              	.LBB52:
+ 918              	.LBB40:
   76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
- 917              		.loc 1 76 3 view .LVU224
- 918 00d0 FFF7FEBF 		b	dac_write
- 919              	.LVL71:
- 920              	.L67:
- 921              		.cfi_restore_state
+ 919              		.loc 1 76 3 view .LVU225
+ 920 00d0 FFF7FEBF 		b	dac_write
+ 921              	.LVL72:
+ 922              	.L67:
+ 923              		.cfi_restore_state
   76:Core/Src/dac_driver.c **** 		dac_write(barNumber-12,value,3);
- 922              		.loc 1 76 3 view .LVU225
- 923              	.LBE40:
- 924              	.LBE52:
- 925              	.LBB53:
- 926              	.LBB46:
+ 924              		.loc 1 76 3 view .LVU226
+ 925              	.LBE40:
+ 926              	.LBE52:
+ 927              	.LBB53:
+ 928              	.LBB46:
   37:Core/Src/dac_driver.c **** 		toSend[0]=0b00011000;
- 927              		.loc 1 37 3 is_stmt 1 view .LVU226
+ 929              		.loc 1 37 3 is_stmt 1 view .LVU227
   37:Core/Src/dac_driver.c **** 		toSend[0]=0b00011000;
- 928              		.loc 1 37 12 is_stmt 0 view .LVU227
- 929 00d4 1823     		movs	r3, #24
- 930 00d6 8DF80430 		strb	r3, [sp, #4]
+ 930              		.loc 1 37 12 is_stmt 0 view .LVU228
+ 931 00d4 1823     		movs	r3, #24
+ 932 00d6 8DF80430 		strb	r3, [sp, #4]
   38:Core/Src/dac_driver.c **** 		break;
- 931              		.loc 1 38 3 is_stmt 1 view .LVU228
- 932 00da C6E7     		b	.L69
- 933              	.L80:
- 934              		.align	2
- 935              	.L79:
- 936 00dc 00040240 		.word	1073873920
- 937 00e0 00000000 		.word	hspi1
- 938              	.LBE46:
- 939              	.LBE53:
- 940              	.LBE59:
- 941              	.LBE65:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 22
+ 933              		.loc 1 38 3 is_stmt 1 view .LVU229
+ 934 00da C6E7     		b	.L69
+ 935              	.L80:
+ 936              		.align	2
+ 937              	.L79:
+ 938 00dc 00040240 		.word	1073873920
+ 939 00e0 00000000 		.word	hspi1
+ 940              	.LBE46:
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 22
 
 
- 942              		.cfi_endproc
- 943              	.LFE218:
- 945              		.text
- 946              	.Letext0:
- 947              		.file 2 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
- 948              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
- 949              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
- 950              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
- 951              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
- 952              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
- 953              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h"
- 954              		.file 9 "Core/Inc/spi.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s 			page 23
+ 941              	.LBE53:
+ 942              	.LBE59:
+ 943              	.LBE65:
+ 944              		.cfi_endproc
+ 945              	.LFE218:
+ 947              		.text
+ 948              	.Letext0:
+ 949              		.file 2 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
+ 950              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
+ 951              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
+ 952              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
+ 953              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
+ 954              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
+ 955              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h"
+ 956              		.file 9 "Core/Inc/spi.h"
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 dac_driver.c
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:19     .text.dac_write:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:26     .text.dac_write:00000000 dac_write
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:74     .text.dac_write:00000032 $d
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:78     .text.dac_write:00000036 $t
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:162    .text.dac_write:0000009c $d
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:166    .text.dac_write:000000ac $t
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:186    .text.dac_write:000000c8 $d
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:190    .text.dac_write:000000d8 $t
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:210    .text.dac_write:000000f4 $d
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:214    .text.dac_write:00000104 $t
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:234    .text.dac_write:00000124 $d
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:238    .text.dac_write:00000134 $t
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:333    .text.dac_write:0000019c $d
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:340    .text.setBar:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:347    .text.setBar:00000000 setBar
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:618    .text.setBar:000000d4 $d
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:626    .text.setBarInv:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:633    .text.setBarInv:00000000 setBarInv
-C:\Users\Konrad\AppData\Local\Temp\cct9zoqO.s:936    .text.setBarInv:000000dc $d
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:19     .text.dac_write:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:26     .text.dac_write:00000000 dac_write
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:74     .text.dac_write:00000032 $d
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:78     .text.dac_write:00000036 $t
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:162    .text.dac_write:0000009c $d
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:166    .text.dac_write:000000ac $t
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:186    .text.dac_write:000000c8 $d
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:190    .text.dac_write:000000d8 $t
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:210    .text.dac_write:000000f4 $d
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:214    .text.dac_write:00000104 $t
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:234    .text.dac_write:00000124 $d
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:238    .text.dac_write:00000134 $t
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:333    .text.dac_write:0000019c $d
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:340    .text.setBar:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:347    .text.setBar:00000000 setBar
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:620    .text.setBar:000000d4 $d
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:628    .text.setBarInv:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:635    .text.setBarInv:00000000 setBarInv
+C:\Users\Konrad\AppData\Local\Temp\ccoWCKgr.s:938    .text.setBarInv:000000dc $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin

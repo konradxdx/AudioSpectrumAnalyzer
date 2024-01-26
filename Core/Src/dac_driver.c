@@ -40,7 +40,7 @@ void dac_write(uint8_t channel, uint8_t value, uint8_t dac){
 		toSend[0]=0b00001000;
 		break;
 		default:
-		return 0;
+		return;
 	}
 
 	toSend[1]=value;

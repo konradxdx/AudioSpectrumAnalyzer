@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccaPeSKu.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s 			page 1
   29:Core/Src/dma.c **** /* Configure DMA                                                              */
   30:Core/Src/dma.c **** /*----------------------------------------------------------------------------*/
   31:Core/Src/dma.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccaPeSKu.s 			page 2
 
 
   32:Core/Src/dma.c **** /* USER CODE BEGIN 1 */
@@ -90,8 +90,8 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s 			page 1
   41              		.cfi_def_cfa_offset 16
   42              	.LBB3:
   43              		.loc 1 43 3 view .LVU4
-  44 0004 0022     		movs	r2, #0
-  45 0006 0A4B     		ldr	r3, .L4
+  44 0004 0A4B     		ldr	r3, .L4
+  45 0006 0022     		movs	r2, #0
   46 0008 0192     		str	r2, [sp, #4]
   47              		.loc 1 43 3 is_stmt 1 view .LVU5
   48 000a 196B     		ldr	r1, [r3, #48]
@@ -106,9 +106,9 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s 			page 1
   44:Core/Src/dma.c **** 
   45:Core/Src/dma.c ****   /* DMA interrupt init */
   46:Core/Src/dma.c ****   /* DMA2_Stream0_IRQn interrupt configuration */
-  47:Core/Src/dma.c ****   HAL_NVIC_SetPriority(DMA2_Stream0_IRQn, 0, 0);
+  47:Core/Src/dma.c ****   HAL_NVIC_SetPriority(DMA2_Stream0_IRQn, 2, 0);
   57              		.loc 1 47 3 is_stmt 0 view .LVU8
-  58 001a 1146     		mov	r1, r2
+  58 001a 0221     		movs	r1, #2
   59 001c 3820     		movs	r0, #56
   60              	.LBB4:
   43:Core/Src/dma.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s 			page 1
   43:Core/Src/dma.c **** 
   64              		.loc 1 43 3 is_stmt 1 view .LVU10
   65              		.loc 1 47 3 view .LVU11
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccaPeSKu.s 			page 3
 
 
   66 0020 FFF7FEFF 		bl	HAL_NVIC_SetPriority
@@ -151,14 +151,14 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s 			page 1
   90              		.file 3 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
   91              		.file 4 "C:/Users/Konrad/AppData/Roaming/Code/User/globalStorage/bmd.stm32-for-vscode/@xpack-dev-t
   92              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccaPeSKu.s 			page 4
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 dma.c
-C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s:19     .text.MX_DMA_Init:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s:26     .text.MX_DMA_Init:00000000 MX_DMA_Init
-C:\Users\Konrad\AppData\Local\Temp\ccpFxL3R.s:83     .text.MX_DMA_Init:00000030 $d
+C:\Users\Konrad\AppData\Local\Temp\ccaPeSKu.s:19     .text.MX_DMA_Init:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccaPeSKu.s:26     .text.MX_DMA_Init:00000000 MX_DMA_Init
+C:\Users\Konrad\AppData\Local\Temp\ccaPeSKu.s:83     .text.MX_DMA_Init:00000030 $d
 
 UNDEFINED SYMBOLS
 HAL_NVIC_SetPriority

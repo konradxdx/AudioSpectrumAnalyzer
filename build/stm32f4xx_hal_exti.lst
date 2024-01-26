@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
   28:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** 
   29:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****     (+) Exti line can be configured in 3 different modes
   30:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****         (++) Interrupt
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 2
 
 
   31:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****         (++) Event
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
   85:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** /* Includes ------------------------------------------------------------------*/
   86:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** #include "stm32f4xx_hal.h"
   87:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 3
 
 
   88:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** /** @addtogroup STM32F4xx_HAL_Driver
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  142:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** HAL_StatusTypeDef HAL_EXTI_SetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig
  143:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** {
   29              		.loc 1 143 1 view -0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 4
 
 
   30              		.cfi_startproc
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
   59              		.loc 1 166 6 view .LVU14
   60 0014 9C01     		lsls	r4, r3, #6
  159:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 5
 
 
   61              		.loc 1 159 15 view .LVU15
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  184:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****     {
  185:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****       EXTI->FTSR |= maskline;
   91              		.loc 1 185 11 view .LVU32
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 6
 
 
   92 0030 1A4D     		ldr	r5, .L22
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  119              		.loc 1 210 9 view .LVU45
  120 004e 0A68     		ldr	r2, [r1]
  208:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****   {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 7
 
 
  121              		.loc 1 208 6 view .LVU46
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  151              		.loc 1 228 10 view .LVU60
  152 006a 0020     		movs	r0, #0
  153              	.LVL5:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 8
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 8
 
 
  225:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****   }
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  194              		.loc 1 200 40 view .LVU76
  195 008e 06FA03F3 		lsl	r3, r6, r3
  200:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****       regval |= (pExtiConfig->GPIOSel << (SYSCFG_EXTICR1_EXTI1_Pos * (linepos & 0x03u)));
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 9
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 9
 
 
  196              		.loc 1 200 14 view .LVU77
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  233              		.loc 1 244 3 view .LVU86
  234              		.loc 1 244 6 is_stmt 0 view .LVU87
  235 0000 0028     		cmp	r0, #0
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 10
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 10
 
 
  236 0002 43D0     		beq	.L32
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  268 0020 0120     		movne	r0, #1
  269 0022 0020     		moveq	r0, #0
  270 0024 4860     		str	r0, [r1, #4]
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 11
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 11
 
 
  263:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****   {
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  299 0048 8860     		str	r0, [r1, #8]
  287:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****     {
  288:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****       pExtiConfig->Trigger = EXTI_TRIGGER_RISING;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 12
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 12
 
 
  289:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****     }
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  303:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****       pExtiConfig->GPIOSel = ((regval << (SYSCFG_EXTICR1_EXTI1_Pos * (3uL - (linepos & 0x03u)))) >>
  336              		.loc 1 303 14 view .LVU132
  337 0076 1B04     		lsls	r3, r3, #16
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 13
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 13
 
 
  338              	.LVL22:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  315:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****   */
  316:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** HAL_StatusTypeDef HAL_EXTI_ClearConfigLine(EXTI_HandleTypeDef *hexti)
  317:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** {
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 14
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 14
 
 
  383              		.loc 1 317 1 is_stmt 1 view -0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  415 0016 1060     		str	r0, [r2]
  337:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** 
  338:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****   /* 2] Clear event mode */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 15
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 15
 
 
  339:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****   EXTI->EMR = (EXTI->EMR & ~maskline);
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  353:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****       regval &= ~(SYSCFG_EXTICR1_EXTI0 << (SYSCFG_EXTICR1_EXTI1_Pos * (linepos & 0x03u)));
  354:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****       SYSCFG->EXTICR[linepos >> 2u] = regval;
  355:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****     }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 16
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 16
 
 
  356:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****   }
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  492 006a 7047     		bx	lr
  493              	.L53:
  494              		.align	2
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 17
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 17
 
 
  495              	.L52:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  380:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****       status = HAL_ERROR;
  530              		.loc 1 380 14 view .LVU201
  531 0008 0120     		movs	r0, #1
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 18
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 18
 
 
  532              	.LVL42:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  561 0002 0160     		str	r1, [r0]
  408:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** 
  409:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****     return HAL_OK;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 19
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 19
 
 
  562              		.loc 1 409 5 is_stmt 1 view .LVU210
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  591              		@ args = 0, pretend = 0, frame = 0
  592              		@ frame_needed = 0, uses_anonymous_args = 0
  593              		@ link register save eliminated.
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 20
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 20
 
 
  436:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****   uint32_t regval;
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  452:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****       hexti->PendingCallback();
  627              		.loc 1 452 7 is_stmt 1 view .LVU234
  453:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****     }
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 21
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 21
 
 
  454:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****   }
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  468:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****   uint32_t regval;
  669              		.loc 1 468 3 view .LVU240
  469:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ****   uint32_t linepos;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 22
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 22
 
 
  670              		.loc 1 469 3 view .LVU241
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  704 0018 003C0140 		.word	1073822720
  705              		.cfi_endproc
  706              	.LFE222:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 23
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 23
 
 
  708              		.section	.text.HAL_EXTI_ClearPending,"ax",%progbits
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  737 0006 02F01F02 		and	r2, r2, #31
  505:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** 
  738              		.loc 1 505 12 view .LVU268
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 24
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 24
 
 
  739 000a 9340     		lsls	r3, r3, r2
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  775              		.loc 1 528 15 view .LVU278
  776 0002 0349     		ldr	r1, .L77
  525:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 25
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 25
 
 
  777              		.loc 1 525 12 view .LVU279
@@ -1469,35 +1469,35 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 1
  800              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
  801              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
  802              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s 			page 26
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s 			page 26
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f4xx_hal_exti.c
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:19     .text.HAL_EXTI_SetConfigLine:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:26     .text.HAL_EXTI_SetConfigLine:00000000 HAL_EXTI_SetConfigLine
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:210    .text.HAL_EXTI_SetConfigLine:0000009c $d
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:215    .text.HAL_EXTI_GetConfigLine:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:222    .text.HAL_EXTI_GetConfigLine:00000000 HAL_EXTI_GetConfigLine
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:367    .text.HAL_EXTI_GetConfigLine:00000090 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:373    .text.HAL_EXTI_ClearConfigLine:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:380    .text.HAL_EXTI_ClearConfigLine:00000000 HAL_EXTI_ClearConfigLine
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:496    .text.HAL_EXTI_ClearConfigLine:0000006c $d
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:501    .text.HAL_EXTI_RegisterCallback:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:508    .text.HAL_EXTI_RegisterCallback:00000000 HAL_EXTI_RegisterCallback
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:540    .text.HAL_EXTI_GetHandle:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:547    .text.HAL_EXTI_GetHandle:00000000 HAL_EXTI_GetHandle
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:579    .text.HAL_EXTI_IRQHandler:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:586    .text.HAL_EXTI_IRQHandler:00000000 HAL_EXTI_IRQHandler
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:649    .text.HAL_EXTI_IRQHandler:00000028 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:654    .text.HAL_EXTI_GetPending:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:661    .text.HAL_EXTI_GetPending:00000000 HAL_EXTI_GetPending
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:704    .text.HAL_EXTI_GetPending:00000018 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:709    .text.HAL_EXTI_ClearPending:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:716    .text.HAL_EXTI_ClearPending:00000000 HAL_EXTI_ClearPending
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:749    .text.HAL_EXTI_ClearPending:00000010 $d
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:754    .text.HAL_EXTI_GenerateSWI:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:761    .text.HAL_EXTI_GenerateSWI:00000000 HAL_EXTI_GenerateSWI
-C:\Users\Konrad\AppData\Local\Temp\ccuv8qqx.s:792    .text.HAL_EXTI_GenerateSWI:00000010 $d
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:19     .text.HAL_EXTI_SetConfigLine:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:26     .text.HAL_EXTI_SetConfigLine:00000000 HAL_EXTI_SetConfigLine
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:210    .text.HAL_EXTI_SetConfigLine:0000009c $d
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:215    .text.HAL_EXTI_GetConfigLine:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:222    .text.HAL_EXTI_GetConfigLine:00000000 HAL_EXTI_GetConfigLine
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:367    .text.HAL_EXTI_GetConfigLine:00000090 $d
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:373    .text.HAL_EXTI_ClearConfigLine:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:380    .text.HAL_EXTI_ClearConfigLine:00000000 HAL_EXTI_ClearConfigLine
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:496    .text.HAL_EXTI_ClearConfigLine:0000006c $d
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:501    .text.HAL_EXTI_RegisterCallback:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:508    .text.HAL_EXTI_RegisterCallback:00000000 HAL_EXTI_RegisterCallback
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:540    .text.HAL_EXTI_GetHandle:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:547    .text.HAL_EXTI_GetHandle:00000000 HAL_EXTI_GetHandle
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:579    .text.HAL_EXTI_IRQHandler:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:586    .text.HAL_EXTI_IRQHandler:00000000 HAL_EXTI_IRQHandler
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:649    .text.HAL_EXTI_IRQHandler:00000028 $d
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:654    .text.HAL_EXTI_GetPending:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:661    .text.HAL_EXTI_GetPending:00000000 HAL_EXTI_GetPending
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:704    .text.HAL_EXTI_GetPending:00000018 $d
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:709    .text.HAL_EXTI_ClearPending:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:716    .text.HAL_EXTI_ClearPending:00000000 HAL_EXTI_ClearPending
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:749    .text.HAL_EXTI_ClearPending:00000010 $d
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:754    .text.HAL_EXTI_GenerateSWI:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:761    .text.HAL_EXTI_GenerateSWI:00000000 HAL_EXTI_GenerateSWI
+C:\Users\Konrad\AppData\Local\Temp\ccZWtVem.s:792    .text.HAL_EXTI_GenerateSWI:00000010 $d
 
 NO UNDEFINED SYMBOLS

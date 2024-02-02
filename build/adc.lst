@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
   29:Core/Src/adc.c **** 
   30:Core/Src/adc.c **** /* ADC1 init function */
   31:Core/Src/adc.c **** void MX_ADC1_Init(void)
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 2
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 2
 
 
   32:Core/Src/adc.c **** {
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
   57              		.loc 1 49 3 is_stmt 1 view .LVU12
   50:Core/Src/adc.c ****   hadc1.Init.ContinuousConvMode = DISABLE;
   58              		.loc 1 50 33 is_stmt 0 view .LVU13
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 3
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 3
 
 
   59 001e 0376     		strb	r3, [r0, #24]
@@ -178,10 +178,10 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
   62:Core/Src/adc.c **** 
   63:Core/Src/adc.c ****   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and it
   64:Core/Src/adc.c ****   */
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 4
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 4
 
 
-  65:Core/Src/adc.c ****   sConfig.Channel = ADC_CHANNEL_8;
+  65:Core/Src/adc.c ****   sConfig.Channel = ADC_CHANNEL_9;
   93              		.loc 1 65 3 is_stmt 1 view .LVU33
   66:Core/Src/adc.c ****   sConfig.Rank = 1;
   94              		.loc 1 66 3 view .LVU34
@@ -217,13 +217,13 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
   72:Core/Src/adc.c **** 
   73:Core/Src/adc.c ****   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and it
   74:Core/Src/adc.c ****   */
-  75:Core/Src/adc.c ****   sConfig.Channel = ADC_CHANNEL_9;
+  75:Core/Src/adc.c ****   sConfig.Channel = ADC_CHANNEL_8;
  115              		.loc 1 75 3 is_stmt 1 view .LVU45
   76:Core/Src/adc.c ****   sConfig.Rank = 2;
  116              		.loc 1 76 3 view .LVU46
   75:Core/Src/adc.c ****   sConfig.Rank = 2;
  117              		.loc 1 75 19 is_stmt 0 view .LVU47
- 118 005a 0922     		movs	r2, #9
+ 118 005a 0822     		movs	r2, #8
  119 005c 0223     		movs	r3, #2
   77:Core/Src/adc.c ****   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
  120              		.loc 1 77 7 view .LVU48
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
  128              	.LVL2:
  129              		.loc 1 77 6 discriminator 1 view .LVU52
  130 006a 28B9     		cbnz	r0, .L18
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 5
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 5
 
 
   78:Core/Src/adc.c ****   {
@@ -283,7 +283,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
  159              	.L20:
  160              		.align	3
  161              	.L19:
- 162 0088 08000000 		.word	8
+ 162 0088 09000000 		.word	9
  163 008c 01000000 		.word	1
  164 0090 00000000 		.word	hadc1
  165 0094 00200140 		.word	1073815552
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
  175              		.thumb_func
  177              	HAL_ADC_MspInit:
  178              	.LVL6:
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 6
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 6
 
 
  179              	.LFB217:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
  106:Core/Src/adc.c ****     GPIO_InitStruct.Pull = GPIO_NOPULL;
  107:Core/Src/adc.c ****     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
  108:Core/Src/adc.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 7
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 7
 
 
  109:Core/Src/adc.c ****     /* ADC1 DMA Init */
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
  233 002e 02F48072 		and	r2, r2, #256
  234 0032 0092     		str	r2, [sp]
   97:Core/Src/adc.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 8
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 8
 
 
  235              		.loc 1 97 5 view .LVU75
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
  111:Core/Src/adc.c ****     hdma_adc1.Init.Channel = DMA_CHANNEL_0;
  274              		.loc 1 111 5 view .LVU91
  111:Core/Src/adc.c ****     hdma_adc1.Init.Channel = DMA_CHANNEL_0;
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 9
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 9
 
 
  275              		.loc 1 111 24 is_stmt 0 view .LVU92
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
  310              		.loc 1 126 5 view .LVU111
  311 008a AE63     		str	r6, [r5, #56]
  126:Core/Src/adc.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 10
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 10
 
 
  312              		.loc 1 126 5 view .LVU112
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
  138:Core/Src/adc.c ****   {
  139:Core/Src/adc.c ****   /* USER CODE BEGIN ADC1_MspDeInit 0 */
  140:Core/Src/adc.c **** 
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 11
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 11
 
 
  141:Core/Src/adc.c ****   /* USER CODE END ADC1_MspDeInit 0 */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
  395 002c 00200140 		.word	1073815552
  396 0030 00380240 		.word	1073887232
  397 0034 00040240 		.word	1073873920
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 12
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 12
 
 
  398              		.cfi_endproc
@@ -693,24 +693,24 @@ ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 1
  424              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h"
  425              		.file 10 "Core/Inc/adc.h"
  426              		.file 11 "Core/Inc/main.h"
-ARM GAS  C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s 			page 13
+ARM GAS  C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s 			page 13
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 adc.c
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:19     .text.MX_ADC1_Init:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:26     .text.MX_ADC1_Init:00000000 MX_ADC1_Init
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:162    .text.MX_ADC1_Init:00000088 $d
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:413    .bss.hadc1:00000000 hadc1
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:170    .text.HAL_ADC_MspInit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:177    .text.HAL_ADC_MspInit:00000000 HAL_ADC_MspInit
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:331    .text.HAL_ADC_MspInit:00000098 $d
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:406    .bss.hdma_adc1:00000000 hdma_adc1
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:339    .text.HAL_ADC_MspDeInit:00000000 $t
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:346    .text.HAL_ADC_MspDeInit:00000000 HAL_ADC_MspDeInit
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:395    .text.HAL_ADC_MspDeInit:0000002c $d
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:403    .bss.hdma_adc1:00000000 $d
-C:\Users\Konrad\AppData\Local\Temp\cciXqEus.s:410    .bss.hadc1:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:19     .text.MX_ADC1_Init:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:26     .text.MX_ADC1_Init:00000000 MX_ADC1_Init
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:162    .text.MX_ADC1_Init:00000088 $d
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:413    .bss.hadc1:00000000 hadc1
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:170    .text.HAL_ADC_MspInit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:177    .text.HAL_ADC_MspInit:00000000 HAL_ADC_MspInit
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:331    .text.HAL_ADC_MspInit:00000098 $d
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:406    .bss.hdma_adc1:00000000 hdma_adc1
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:339    .text.HAL_ADC_MspDeInit:00000000 $t
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:346    .text.HAL_ADC_MspDeInit:00000000 HAL_ADC_MspDeInit
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:395    .text.HAL_ADC_MspDeInit:0000002c $d
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:403    .bss.hdma_adc1:00000000 $d
+C:\Users\Konrad\AppData\Local\Temp\ccbH7ZXr.s:410    .bss.hadc1:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_ADC_Init

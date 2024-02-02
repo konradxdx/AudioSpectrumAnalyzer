@@ -1,6 +1,6 @@
 #MicroXplorer Configuration settings - do not modify
-ADC1.Channel-12\#ChannelRegularConversion=ADC_CHANNEL_8
-ADC1.Channel-13\#ChannelRegularConversion=ADC_CHANNEL_9
+ADC1.Channel-12\#ChannelRegularConversion=ADC_CHANNEL_9
+ADC1.Channel-13\#ChannelRegularConversion=ADC_CHANNEL_8
 ADC1.ClockPrescaler=ADC_CLOCK_SYNC_PCLK_DIV4
 ADC1.ContinuousConvMode=DISABLE
 ADC1.DMAContinuousRequests=ENABLE
@@ -83,7 +83,7 @@ Mcu.UserName=STM32F411CEUx
 MxCube.Version=6.9.2
 MxDb.Version=DB.6.0.92
 NVIC.BusFault_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:false
-NVIC.DMA2_Stream0_IRQn=true\:2\:0\:true\:false\:true\:false\:true\:true
+NVIC.DMA2_Stream0_IRQn=true\:1\:0\:true\:false\:true\:false\:true\:true
 NVIC.DebugMonitor_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:false
 NVIC.ForceEnableDMAVector=true
 NVIC.HardFault_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:false
@@ -93,7 +93,7 @@ NVIC.PendSV_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:false
 NVIC.PriorityGroup=NVIC_PRIORITYGROUP_4
 NVIC.SVCall_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:false
 NVIC.SysTick_IRQn=true\:0\:0\:true\:false\:true\:false\:true\:false
-NVIC.TIM4_IRQn=true\:1\:0\:true\:false\:true\:true\:true\:true
+NVIC.TIM4_IRQn=true\:2\:0\:true\:false\:true\:true\:true\:true
 NVIC.UsageFault_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:false
 PA0-WKUP.GPIOParameters=GPIO_Label
 PA0-WKUP.GPIO_Label=A

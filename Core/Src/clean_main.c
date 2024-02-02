@@ -4,10 +4,10 @@
  *  Created on: 15 gru 2022
  *      Author: Konrad
  */
-
 #define ARM_MATH_CM4
 #define BLOCK_SIZE 2048
 #define FILTER_NUMBER 12
+
 
 #include "main.h"
 #include "adc.h"
@@ -20,8 +20,6 @@
 #include "arm_math.h"
 #include "enc_disp.h"
 #include "dac_driver.h"
-
-
 
 //global variables 
 int16_t stan_enc = 0;
